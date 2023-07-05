@@ -1,3 +1,12 @@
+
+# Set environment variable for 3D models:
+In the main menu, first select "Preferences" and then "Configure Path".
+Replace the environment variable `MODEL_3D` with the current location of the 3D-models, e.g. `/path/LEA_KiCad_Library/LEA_3D_Models`. This should be the 3D-models for the `LEA_KiCad_Library` repository.
+
+Note: if you are using KiCAD6, and there is a variable `KICAD6_3DMODEL_DIR`, ignore this variable and add `MODEL_3D` as mentioned above.
+![](documentation/figures/3d_model_path_preferences.png)
+
+
 # Type Labels
 
 ## SMD Resistors
