@@ -45,7 +45,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 7c25b9e7-b44f-48d9-bb6a-9189e01f0cc8))
   (pad "A" smd roundrect (at 1.7 0 90) (size 0.75 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 4c6d5865-d3bd-4cc6-b828-eaafab7b08bb))
   (pad "C" smd roundrect (at -1.7 0 90) (size 0.75 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 2322ee3e-f3b1-4205-88f0-4b7cd01b5036))
-  (model "B140HW-7.stp"
+  (model "${MODEL_3D}/B140HW-7.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

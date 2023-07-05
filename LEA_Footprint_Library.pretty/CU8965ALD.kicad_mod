@@ -19,7 +19,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp c3e7ae3d-4871-4b33-a09f-a250353fc6bf))
   (fp_line (start -3.5 -3) (end -3.5 -3)
     (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp c574ed2d-d445-4d44-ad40-57dd1523e95c))
-  (fp_line (start -3.5 -2.5) (end -3.5 2)
+  (fp_line (start -3.5 -2.5) (end -3.4798 2.4638)
     (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp 526a1d99-57aa-4df0-9aed-d2e4a935e93d))
   (fp_line (start -1 2.5) (end 3.5 2.5)
     (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp 79da6a77-bb2a-4925-b9ad-f4d2acfd638c))
@@ -51,7 +51,7 @@
   (pad "2" smd rect (at -2.425 1.85) (size 0.75 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fef357c1-6c06-49bf-9889-00ca54f81f0c))
   (pad "3" smd rect (at 2.425 1.15 90) (size 1.6 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4a4c1067-a517-4bfb-abae-e036afab17f2))
   (pad "4" smd rect (at 2.425 -1.15 90) (size 1.6 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8029ee70-96e7-4470-826d-ade5691557f0))
-  (model "CU8965-ALC.stp"
+  (model "${Model_3D}/CU8965-ALC.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
