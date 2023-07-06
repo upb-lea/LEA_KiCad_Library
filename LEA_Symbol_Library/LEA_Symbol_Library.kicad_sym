@@ -10007,7 +10007,7 @@
     (property "Datasheet" "http://www.ti.com/lit/gpn/UCC21530" (at 26.67 -194.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "moouser#" "595-UCC21530DWKR" (at 26.67 -494.92 0)
+    (property "mouser#" "595-UCC21530DWKR" (at 26.67 -494.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Manufacturer" "Texas Instruments" (at 26.67 -694.92 0)
