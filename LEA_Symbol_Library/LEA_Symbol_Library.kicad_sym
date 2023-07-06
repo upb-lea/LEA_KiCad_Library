@@ -17419,10 +17419,10 @@
     )
   )
   (symbol "OP_1_OPA607QDBVRQ1" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 16.51 0)
+    (property "Reference" "U" (at -6.985 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "OPA607QDBVRQ1" (at 0 12.7 0)
+    (property "Value" "OPA607QDBVRQ1" (at 0.635 6.985 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LEA_FootprintLibrary:SOT-23-5_TI" (at 0 -7.62 0)
@@ -17442,6 +17442,9 @@
     )
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
+    )
+    (property "ki_keywords" "OP" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "OP_1_OPA607QDBVRQ1_1_1"
       (polyline
