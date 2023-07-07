@@ -23647,7 +23647,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "R_0805_2R49_THICK_1P_150V" (extends "R_0805")
+  (symbol "R_0805_2R49_THICK__1P_150V" (extends "R_0805")
     (property "Reference" "R" (at 0.762 0.508 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
