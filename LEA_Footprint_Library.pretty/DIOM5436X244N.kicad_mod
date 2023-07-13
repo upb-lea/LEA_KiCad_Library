@@ -41,7 +41,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 4bff1389-89b1-4563-aded-b0ae2d6b3acf))
   (pad "1" smd rect (at -2.2 0 90) (size 2.15 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 00f088c1-e1dc-4bc3-b54d-a76283679540))
   (pad "2" smd rect (at 2.2 0 90) (size 2.15 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 83dd70eb-f9c3-430c-83b7-f6f1b31ee76f))
-  (model "ES2C-E3_52T.stp"
+  (model "${MODEL_3D}/ES2C-E3_52T.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
