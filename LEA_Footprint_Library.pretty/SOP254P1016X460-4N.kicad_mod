@@ -48,8 +48,8 @@
   (pad "3" smd rect (at 4.55 1.27 90) (size 1.45 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 56763554-4696-4831-aaec-4efe7c423967))
   (pad "4" smd rect (at 4.55 -1.27 90) (size 1.45 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4614c117-ff35-40b3-8d18-7ece5d28a5d5))
   (model "${MODEL_3D}/LTV-817S.stp"
-    (offset (xyz 4.959999964 -4.36999982 -5.800000104))
+    (offset (xyz -4.94 4.3 -5.8))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
+    (rotate (xyz 0 0 90))
   )
 )
