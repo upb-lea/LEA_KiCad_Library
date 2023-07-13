@@ -28260,38 +28260,7 @@
     (property "ki_description" "Adjustable precision shunt regulator" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "TL431BIDBZTG4_0_1"
-      (polyline
-        (pts
-          (xy -0.0762 -3.302)
-          (xy -0.0762 -0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 0)
-          (xy 7.366 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -7.112 0)
-          (xy -1.2446 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
     (symbol "TL431BIDBZTG4_1_1"
-      (rectangle (start -7.112 3.302) (end 7.366 -3.302)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
       (polyline
         (pts
           (xy 1.27 1.27)
@@ -28314,15 +28283,15 @@
         (stroke (width 0.254) (type default))
         (fill (type none))
       )
-      (pin passive line (at -12.1666 0 0) (length 5.08)
+      (pin passive line (at -6.35 0 0) (length 5.08)
         (name "" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -0.1016 -8.4836 90) (length 5.08)
+      (pin passive line (at 0 -5.715 90) (length 5.08)
         (name "" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 12.446 0 180) (length 5.08)
+      (pin passive line (at 6.35 0 180) (length 5.08)
         (name "" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
