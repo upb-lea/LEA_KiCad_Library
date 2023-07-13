@@ -38,7 +38,7 @@
   (pad "1" smd rect (at -2.3 7.85) (size 1.5 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e43fd490-e340-478a-929a-53d59f15103e))
   (pad "2" smd rect (at 2.3 7.85) (size 1.5 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a3180091-30ec-4b9c-bb21-4938a22ed5e4))
   (pad "3" smd rect (at 0 1.6 90) (size 7 7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bbb1d273-7984-4794-9978-d0650ac75a94))
-  (model "BA033CC0FP-E2.stp"
+  (model "${MODEL_3D}/BA033CC0FP-E2.stp"
     (offset (xyz 0 -3.369999835 1.149999959))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
