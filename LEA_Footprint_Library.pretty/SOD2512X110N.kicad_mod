@@ -53,7 +53,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f0ba4128-a9df-4a63-86aa-5dbf20e4e034))
   (pad "A" smd roundrect (at 1.15 0 90) (size 0.5 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp eabb5cec-7fbe-4c92-a9a7-7eb1ad193431))
   (pad "C" smd roundrect (at -1.15 0 90) (size 0.5 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 8dfe4402-75c6-4d46-836c-a791ea58e738))
-  (model "BZX384-A10-QX.stp"
+  (model "${MODEL_3D}/BZX384-A10-QX.stp"
     (offset (xyz -0.7900000096 1.359999994 -0.7200000178))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
