@@ -13,6 +13,8 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c7f5a714-3c8e-4e45-ac30-202d815409ec)
   )
+  (fp_circle (center -0.002 0) (end 3.048 0)
+    (stroke (width 0.12) (type default)) (fill none) (layer "B.CrtYd") (tstamp 4a3b43c6-4610-4753-a0bf-5df87b82b79e))
   (fp_circle (center 0 0) (end 3.05 0)
     (stroke (width 0.12) (type solid)) (fill none) (layer "F.CrtYd") (tstamp c16b6a33-3244-42ec-83b5-adcac189b429))
   (fp_circle (center 0 0) (end 3.05 0)
