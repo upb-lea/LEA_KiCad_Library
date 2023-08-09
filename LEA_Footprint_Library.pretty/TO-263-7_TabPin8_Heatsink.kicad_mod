@@ -97,7 +97,6 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 1cc58551-0f54-4d58-be9f-a4cbc8e90c4d))
   (pad "" smd rect (at 1.01 -2.84) (size 4.55 5.25) (layers "F.Paste") (tstamp 1e059a96-d38e-4951-9034-d05327e00500))
   (pad "" smd rect (at 1.01 2.71) (size 4.55 5.25) (layers "F.Paste") (tstamp d20aa1bc-b0ec-4c32-8bc2-ad878e6f062b))
-  (pad "" np_thru_hole circle (at 3.616 -0.065) (size 13 13) (drill 7.5) (layers "B.Cu" "B.Mask") (tstamp ea6f99c0-3dc8-4bac-a1e1-16b9f51ff729))
   (pad "" smd rect (at 5.86 2.71) (size 4.55 5.25) (layers "F.Paste") (tstamp 6d2002c9-a8ca-4fa3-9369-962046e55406))
   (pad "" smd rect (at 5.939 -2.84) (size 4.392 5.25) (layers "F.Paste") (tstamp 21b8fb4b-8e04-442d-b6c2-36325b98b0e9))
   (pad "1" smd rect (at -5.715 -3.875) (size 4.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 905e28b9-13ef-4e2f-a115-765b4d21b2bc))
@@ -108,6 +107,8 @@
   (pad "3" smd rect (at -5.715 2.475) (size 4.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 176e0e06-d11a-4e0c-9876-21be7ad5fa59))
   (pad "3" smd rect (at -5.715 3.745) (size 4.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e2bd2c6c-5af1-4dea-a9f2-a4ca2c2b570b))
   (pad "4" smd rect (at 3.435 -0.065) (size 9.4 10.8) (layers "F.Cu" "F.Mask") (tstamp a6d55964-a19d-48da-9faa-bc4f03520c6e))
+  (pad "4" thru_hole circle (at 3.616 -0.065) (size 8 8) (drill 7.5) (layers "*.Cu" "*.Mask") (tstamp 22be40b6-e54b-4526-97fa-6d487a47ba7f))
+  (pad "4" thru_hole circle (at 3.616 -0.065) (size 13 13) (drill 7.5) (layers "B.Cu" "B.Mask") (tstamp ea6f99c0-3dc8-4bac-a1e1-16b9f51ff729))
   (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-263-7_TabPin8.wrl"
     (offset (xyz 2 0 0))
     (scale (xyz 1 1 1))
