@@ -6,10 +6,15 @@ Replace the environment variable `MODEL_3D` with the current location of the 3D-
 Note: if you are using KiCAD6, and there is a variable `KICAD6_3DMODEL_DIR`, ignore this variable and add `MODEL_3D` as mentioned above.
 ![](documentation/figures/3d_model_path_preferences.png)
 
+# Adding components
+Add the new components on a separate branch. Each symbol should have the keys `Manufacturer`, `manf#` (manufacturer order number) and `mouser#` (mouser order number). Link the footprint and the 3D model. Create a pull request afterwards.
 
-# Type Labels
+# BOM generation
+The component library is aligned to use the add-on [Kicost](https://github.com/hildogjr/KiCost). Therefore the above mentioned keys `Manufacturer`, `manf#` and `mouser#` are mandatory in the symbol. Install kicost, navigate via terminal to your kicad project folder and enter `kicost` to your terminal. After that, the BOM will be created. To get the prices and stock information from Mouser, create a Mouser API key on the Mouser homepage and enter it into the [config file](https://hildogjr.github.io/KiCost/docs/_build/singlehtml/index.html#configuration-file). 
 
-## SMD Resistors
+# Type labels
+For a better findability and sorting of the many components, it is necessary to use a type code. Some examples are given here.
+## SMD resistors
 Differences:
  * Type: `SMD` / `THT`
  * Values: `_100R` / `__4R7` / `0R001`
@@ -25,7 +30,7 @@ Examples:
  * `R_0403__4R7_THICK_10P__50V`
 
 
-## THT Resistors
+## THT resistors
  Differences:
  * Values: `_100R` / `__4R7` / `0R001`
  * Size: `0603` / `0704` / `0403`
@@ -38,10 +43,10 @@ Examples:
  * `R_THT_0704_RM10__1P_0R001_SHUNT`
 
 ## Capacitors
-* Type: `SMD` / `THT`
-* Values: `100u` / `4u7` / `10n`
-* Size: `0603` / `0704` / `0403`
-* Voltage: `25V` / `100V` / `600V`
+ * Type: `SMD` / `THT`
+ * Values: `100u` / `4u7` / `10n`
+ * Size: `0603` / `0704` / `0403`
+ * Voltage: `25V` / `100V` / `600V`
 
 Examples:
  * `C_SMD_0603_100V__1u0`
@@ -49,9 +54,13 @@ Examples:
  * `C_SMD_1206__16V__4u7`
 
 ## Diodes
-* Type: `SMD` / `THT`
-* Size: `0603` / `0704` / `0403`
-* Type technology: Schottky, PN, SiC, ...
+ * Start with `D_`
+ * Housing: `0603` / `0704` / `0403` / `SOD` / `DFN` / `SMB` / ...
+ * Current capability: `1A0` / `0A125` / ...
+ * last key: exact type, e.g. `B140HW-7` / `TS4448_RGG` / ...
+Examples:
+ * `D_0603_0A125_TS4448_RGG`
+ * `D_SOD_1A0_B140HW-7`
 
 ## Drivers
 Hard to find general rules.
@@ -70,7 +79,7 @@ Examples:
 ## Logic ICs
 
 
-## Schmitt-Trigger
+## Schmitt-trigger
 Examples:
  * `ST_6CH_CMOS_SOIC14_MC74HC14ADG`
 
