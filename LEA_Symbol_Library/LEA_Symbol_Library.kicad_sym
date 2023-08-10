@@ -7306,12 +7306,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn_LCB_0_0"
-      (text "" (at -8.255 -81.915 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (text "" (at -6.35 -91.44 0)
-        (effects (font (size 1.27 1.27)))
-      )
       (text "" (at 9.525 60.325 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -7323,66 +7317,6 @@
       )
       (text "Connector to \nLEA Control Board" (at 3.81 1.905 0)
         (effects (font (size 2.54 2.54)))
-      )
-      (pin power_in line (at -92.075 -105.41 180) (length 2.54) hide
-        (name "+3V3" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -155.575 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "100" (effects (font (size 1.27 1.27))))
-      )
-      (pin free line (at -10.795 -114.935 180) (length 2.54) hide
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "101" (effects (font (size 1.27 1.27))))
-      )
-      (pin free line (at -10.795 -117.475 180) (length 2.54) hide
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "102" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -158.115 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "103" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -160.655 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "104" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -163.195 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "105" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -165.735 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "106" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at -10.795 -81.915 180) (length 2.54) hide
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "107" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at -10.795 -84.455 180) (length 2.54) hide
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "108" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at -10.795 -86.995 180) (length 2.54) hide
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "109" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at -10.795 -89.535 180) (length 2.54) hide
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "110" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at -10.795 -92.075 180) (length 2.54) hide
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "111" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at -10.795 -94.615 180) (length 2.54) hide
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "112" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -30.48 -86.36 180) (length 2.54) hide
-        (name "AGND" (effects (font (size 1.27 1.27))))
-        (number "114" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -67.31 -57.15 90) (length 2.54)
         (name "ADCIN15/CMPIN4N" (effects (font (size 1.27 1.27))))
@@ -7400,18 +7334,6 @@
         (name "ADCINA0/DACOUTA/internal_50k_pull_down" (effects (font (size 1.27 1.27))))
         (number "118" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -30.48 -88.9 180) (length 2.54) hide
-        (name "AGND" (effects (font (size 1.27 1.27))))
-        (number "119" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -84.455 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -30.48 -91.44 180) (length 2.54) hide
-        (name "AGND" (effects (font (size 1.27 1.27))))
-        (number "120" (effects (font (size 1.27 1.27))))
-      )
       (pin input line (at -52.07 -57.15 90) (length 2.54)
         (name "ADCINA3/CMPIN1N" (effects (font (size 1.27 1.27))))
         (number "121" (effects (font (size 1.27 1.27))))
@@ -7428,14 +7350,6 @@
         (name "ADCINA4/CMPIN2P" (effects (font (size 1.27 1.27))))
         (number "124" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -30.48 -93.98 180) (length 2.54) hide
-        (name "AGND" (effects (font (size 1.27 1.27))))
-        (number "125" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -30.48 -96.52 180) (length 2.54) hide
-        (name "AGND" (effects (font (size 1.27 1.27))))
-        (number "126" (effects (font (size 1.27 1.27))))
-      )
       (pin input line (at -36.83 -57.15 90) (length 2.54)
         (name "ADCINB1/DACOUTC/internal_50k_pull_down" (effects (font (size 1.27 1.27))))
         (number "127" (effects (font (size 1.27 1.27))))
@@ -7448,21 +7362,9 @@
         (name "ADCINB0/VDAC/internal_100pF_to_Vss" (effects (font (size 1.27 1.27))))
         (number "129" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -86.995 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
       (pin input line (at -34.29 -57.15 90) (length 2.54)
         (name "ADCINB2/CMPIN3P/LATCHIN1" (effects (font (size 1.27 1.27))))
         (number "130" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -30.48 -99.06 180) (length 2.54) hide
-        (name "AGND" (effects (font (size 1.27 1.27))))
-        (number "131" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -30.48 -101.6 180) (length 2.54) hide
-        (name "AGND" (effects (font (size 1.27 1.27))))
-        (number "132" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -26.67 -57.15 90) (length 2.54)
         (name "ADCINB5" (effects (font (size 1.27 1.27))))
@@ -7480,21 +7382,9 @@
         (name "ADCINC2/CMPIN6P" (effects (font (size 1.27 1.27))))
         (number "136" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -30.48 -104.14 180) (length 2.54) hide
-        (name "AGND" (effects (font (size 1.27 1.27))))
-        (number "137" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -30.48 -106.68 180) (length 2.54) hide
-        (name "AGND" (effects (font (size 1.27 1.27))))
-        (number "138" (effects (font (size 1.27 1.27))))
-      )
       (pin input line (at -13.97 -57.15 90) (length 2.54)
         (name "ADCINC5/CMPIN5N" (effects (font (size 1.27 1.27))))
         (number "139" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -89.535 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -5.08 -57.15 90) (length 2.54)
         (name "ADCIND1/CMPIN7N" (effects (font (size 1.27 1.27))))
@@ -7507,14 +7397,6 @@
       (pin input line (at -7.62 -57.15 90) (length 2.54)
         (name "ADCIND0/CMPIN7P/LATCHIN2" (effects (font (size 1.27 1.27))))
         (number "142" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -30.48 -109.22 180) (length 2.54) hide
-        (name "AGND" (effects (font (size 1.27 1.27))))
-        (number "143" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -30.48 -111.76 180) (length 2.54) hide
-        (name "AGND" (effects (font (size 1.27 1.27))))
-        (number "144" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at 0 -57.15 90) (length 2.54)
         (name "ADCIND3/CMPIN8N" (effects (font (size 1.27 1.27))))
@@ -7532,26 +7414,6 @@
         (name "ADCIND4" (effects (font (size 1.27 1.27))))
         (number "148" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -30.48 -114.3 180) (length 2.54) hide
-        (name "AGND" (effects (font (size 1.27 1.27))))
-        (number "149" (effects (font (size 1.27 1.27))))
-      )
-      (pin free line (at -10.795 -99.695 180) (length 2.54) hide
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -30.48 -116.84 180) (length 2.54) hide
-        (name "AGND" (effects (font (size 1.27 1.27))))
-        (number "150" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -168.275 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "151" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -170.815 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "152" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at -96.52 22.86 0) (length 2.54)
         (name "GPIO145/EPWM1A" (effects (font (size 1.27 1.27))))
         (number "153" (effects (font (size 1.27 1.27))))
@@ -7568,21 +7430,9 @@
         (name "GPIO148/EPWM2B" (effects (font (size 1.27 1.27))))
         (number "156" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -173.355 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "157" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -175.895 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "158" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at -96.52 12.7 0) (length 2.54)
         (name "GPIO149/EPWM3A" (effects (font (size 1.27 1.27))))
         (number "159" (effects (font (size 1.27 1.27))))
-      )
-      (pin free line (at -10.795 -102.235 180) (length 2.54) hide
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -96.52 10.16 0) (length 2.54)
         (name "GPIO150/EPWM3B" (effects (font (size 1.27 1.27))))
@@ -7595,14 +7445,6 @@
       (pin bidirectional line (at -96.52 5.08 0) (length 2.54)
         (name "GPIO152/EPWM4B" (effects (font (size 1.27 1.27))))
         (number "162" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -178.435 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "163" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -180.975 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "164" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at 26.67 -57.15 90) (length 2.54)
         (name "GPIO8/EPWM5A" (effects (font (size 1.27 1.27))))
@@ -7620,17 +7462,9 @@
         (name "GPIO156/EPWM6B" (effects (font (size 1.27 1.27))))
         (number "168" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -183.515 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "169" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at 78.74 57.15 270) (length 2.54)
         (name "GPIO70" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -186.055 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "170" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -96.52 -7.62 0) (length 2.54)
         (name "GPIO157/EPWM7A" (effects (font (size 1.27 1.27))))
@@ -7647,14 +7481,6 @@
       (pin bidirectional line (at -96.52 -15.24 0) (length 2.54)
         (name "GPIO160/EPWM8B" (effects (font (size 1.27 1.27))))
         (number "174" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -188.595 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "175" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -191.135 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "176" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -96.52 -17.78 0) (length 2.54)
         (name "GPIO161/EPWM9A" (effects (font (size 1.27 1.27))))
@@ -7676,14 +7502,6 @@
         (name "GPIO164/EPWM10B" (effects (font (size 1.27 1.27))))
         (number "180" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -193.675 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "181" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -196.215 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "182" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at -96.52 -27.94 0) (length 2.54)
         (name "GPIO165" (effects (font (size 1.27 1.27))))
         (number "183" (effects (font (size 1.27 1.27))))
@@ -7700,21 +7518,9 @@
         (name "GPIO168" (effects (font (size 1.27 1.27))))
         (number "186" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -198.755 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "187" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -201.295 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "188" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at -96.52 43.18 0) (length 2.54)
         (name "GPIO137/EPWM13A" (effects (font (size 1.27 1.27))))
         (number "189" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -92.075 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "19" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -96.52 40.64 0) (length 2.54)
         (name "GPIO138/EPWM13B" (effects (font (size 1.27 1.27))))
@@ -7727,14 +7533,6 @@
       (pin bidirectional line (at -96.52 35.56 0) (length 2.54)
         (name "GPIO140/EPWM14B" (effects (font (size 1.27 1.27))))
         (number "192" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -203.835 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "193" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -206.375 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "194" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -96.52 33.02 0) (length 2.54)
         (name "GPIO141/EPWM15A" (effects (font (size 1.27 1.27))))
@@ -7752,22 +7550,6 @@
         (name "GPIO144/EPWM16B" (effects (font (size 1.27 1.27))))
         (number "198" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -208.915 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "199" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -92.075 -85.09 180) (length 2.54) hide
-        (name "+3V3" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -94.615 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "20" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -211.455 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "200" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at 96.52 -8.89 180) (length 2.54)
         (name "GPIO42" (effects (font (size 1.27 1.27))))
         (number "201" (effects (font (size 1.27 1.27))))
@@ -7783,14 +7565,6 @@
       (pin bidirectional line (at 34.29 57.15 270) (length 2.54)
         (name "GPIO88" (effects (font (size 1.27 1.27))))
         (number "204" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -213.995 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "205" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -216.535 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "206" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 29.21 57.15 270) (length 2.54)
         (name "GPIO90" (effects (font (size 1.27 1.27))))
@@ -7812,14 +7586,6 @@
         (name "GPIO84" (effects (font (size 1.27 1.27))))
         (number "210" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -219.075 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "211" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -221.615 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "212" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at 54.61 57.15 270) (length 2.54)
         (name "GPIO80" (effects (font (size 1.27 1.27))))
         (number "213" (effects (font (size 1.27 1.27))))
@@ -7835,14 +7601,6 @@
       (pin bidirectional line (at 46.99 57.15 270) (length 2.54)
         (name "GPIO83" (effects (font (size 1.27 1.27))))
         (number "216" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -224.155 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "217" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -226.695 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "218" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 39.37 57.15 270) (length 2.54)
         (name "GPIO86" (effects (font (size 1.27 1.27))))
@@ -7864,14 +7622,6 @@
         (name "GPIO77" (effects (font (size 1.27 1.27))))
         (number "222" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -229.235 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "223" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -231.775 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "224" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at 76.2 57.15 270) (length 2.54)
         (name "GPIO71" (effects (font (size 1.27 1.27))))
         (number "225" (effects (font (size 1.27 1.27))))
@@ -7888,17 +7638,9 @@
         (name "GPIO85" (effects (font (size 1.27 1.27))))
         (number "228" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -234.315 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "229" (effects (font (size 1.27 1.27))))
-      )
       (pin input line (at 40.64 -57.15 90) (length 2.54)
         (name "GPIO12/EPWM7A" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -236.855 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "230" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 59.69 57.15 270) (length 2.54)
         (name "GPIO78" (effects (font (size 1.27 1.27))))
@@ -7915,14 +7657,6 @@
       (pin bidirectional line (at 64.77 57.15 270) (length 2.54)
         (name "GPIO76" (effects (font (size 1.27 1.27))))
         (number "234" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -239.395 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "235" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -241.935 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "236" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 96.52 44.45 180) (length 2.54)
         (name "GPIO63" (effects (font (size 1.27 1.27))))
@@ -7944,14 +7678,6 @@
         (name "GPIO61" (effects (font (size 1.27 1.27))))
         (number "240" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -244.475 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "241" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -247.015 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "242" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at 96.52 46.99 180) (length 2.54)
         (name "GPIO64" (effects (font (size 1.27 1.27))))
         (number "243" (effects (font (size 1.27 1.27))))
@@ -7968,21 +7694,9 @@
         (name "GPIO59" (effects (font (size 1.27 1.27))))
         (number "246" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -249.555 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "247" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -252.095 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "248" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at -96.52 45.72 0) (length 2.54)
         (name "GPIO136" (effects (font (size 1.27 1.27))))
         (number "249" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -97.155 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "25" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 96.52 31.75 180) (length 2.54)
         (name "GPIO58" (effects (font (size 1.27 1.27))))
@@ -7995,14 +7709,6 @@
       (pin bidirectional line (at -77.47 57.15 270) (length 2.54)
         (name "GPIO134" (effects (font (size 1.27 1.27))))
         (number "252" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -254.635 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "253" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -257.175 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "254" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -68.58 57.15 270) (length 2.54)
         (name "GPIO131" (effects (font (size 1.27 1.27))))
@@ -8020,18 +7726,6 @@
         (name "GPIO29/EPWM15B" (effects (font (size 1.27 1.27))))
         (number "258" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -259.715 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "259" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -99.695 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "26" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -262.255 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "260" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at -55.88 57.15 270) (length 2.54)
         (name "GPIO126" (effects (font (size 1.27 1.27))))
         (number "261" (effects (font (size 1.27 1.27))))
@@ -8047,14 +7741,6 @@
       (pin bidirectional line (at -63.5 57.15 270) (length 2.54)
         (name "GPIO129" (effects (font (size 1.27 1.27))))
         (number "264" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -264.795 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "265" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -267.335 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "266" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -66.04 57.15 270) (length 2.54)
         (name "GPIO130" (effects (font (size 1.27 1.27))))
@@ -8076,14 +7762,6 @@
         (name "GPIO41" (effects (font (size 1.27 1.27))))
         (number "270" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -269.875 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "271" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -272.415 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "272" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at 96.52 29.21 180) (length 2.54)
         (name "GPIO57" (effects (font (size 1.27 1.27))))
         (number "273" (effects (font (size 1.27 1.27))))
@@ -8099,14 +7777,6 @@
       (pin bidirectional line (at 96.52 21.59 180) (length 2.54)
         (name "GPIO54" (effects (font (size 1.27 1.27))))
         (number "276" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -274.955 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "277" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -277.495 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "278" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 96.52 16.51 180) (length 2.54)
         (name "GPIO52" (effects (font (size 1.27 1.27))))
@@ -8128,14 +7798,6 @@
         (name "GPIO40" (effects (font (size 1.27 1.27))))
         (number "282" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -280.035 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "283" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -282.575 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "284" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at 96.52 8.89 180) (length 2.54)
         (name "GPIO49" (effects (font (size 1.27 1.27))))
         (number "285" (effects (font (size 1.27 1.27))))
@@ -8152,17 +7814,9 @@
         (name "GPIO38" (effects (font (size 1.27 1.27))))
         (number "288" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -285.115 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "289" (effects (font (size 1.27 1.27))))
-      )
       (pin input line (at 58.42 -57.15 90) (length 2.54)
         (name "GPIO19/EPWM10B" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -287.655 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "290" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 96.52 -24.13 180) (length 2.54)
         (name "GPIO36" (effects (font (size 1.27 1.27))))
@@ -8180,14 +7834,6 @@
         (name "GPIO32" (effects (font (size 1.27 1.27))))
         (number "294" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -290.195 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "295" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -292.735 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "296" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at -96.52 -39.37 0) (length 2.54)
         (name "25MHz_CLK_Q2" (effects (font (size 1.27 1.27))))
         (number "297" (effects (font (size 1.27 1.27))))
@@ -8196,29 +7842,9 @@
         (name "25MHz_CLK_Q3" (effects (font (size 1.27 1.27))))
         (number "298" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -295.275 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "299" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -92.075 -87.63 180) (length 2.54) hide
-        (name "+3V3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
       (pin input line (at 55.88 -57.15 90) (length 2.54)
         (name "GPIO18/EPWM10A" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -297.815 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "300" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -102.235 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "31" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -104.775 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "32" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 10.16 57.15 270) (length 2.54)
         (name "GPIO100" (effects (font (size 1.27 1.27))))
@@ -8236,21 +7862,9 @@
         (name "GPIO102" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -107.315 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "37" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -109.855 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "38" (effects (font (size 1.27 1.27))))
-      )
       (pin input line (at 71.12 -57.15 90) (length 2.54)
         (name "GPIO24/EPWM13A" (effects (font (size 1.27 1.27))))
         (number "39" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -92.075 -90.17 180) (length 2.54) hide
-        (name "+3V3" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at 73.66 -57.15 90) (length 2.54)
         (name "GPIO25/EPWM13B" (effects (font (size 1.27 1.27))))
@@ -8263,14 +7877,6 @@
       (pin input line (at 76.2 -57.15 90) (length 2.54)
         (name "GPIO26/EPWM14A" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -112.395 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "43" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -114.935 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "44" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at 66.04 -57.15 90) (length 2.54)
         (name "GPIO22/EPWM12A" (effects (font (size 1.27 1.27))))
@@ -8292,10 +7898,6 @@
         (name "GPIO21/EPWM11B/nLATCHOUT2" (effects (font (size 1.27 1.27))))
         (number "49" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -92.075 -92.71 180) (length 2.54) hide
-        (name "+3V3" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at 21.59 57.15 270) (length 2.54)
         (name "LATCHOUT2/GPIO95" (effects (font (size 1.27 1.27))))
         (number "50" (effects (font (size 1.27 1.27))))
@@ -8307,14 +7909,6 @@
       (pin bidirectional line (at 12.7 57.15 270) (length 2.54)
         (name "LATCHOUT3/GPIO99" (effects (font (size 1.27 1.27))))
         (number "52" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -117.475 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "53" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -120.015 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "54" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at 45.72 -57.15 90) (length 2.54)
         (name "GPIO14/EPWM8A/nLATCHOUT4" (effects (font (size 1.27 1.27))))
@@ -8332,18 +7926,6 @@
         (name "GPIO34" (effects (font (size 1.27 1.27))))
         (number "58" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -122.555 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "59" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -92.075 -95.25 180) (length 2.54) hide
-        (name "+3V3" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -125.095 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "60" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at -2.54 57.15 270) (length 2.54)
         (name "GPIO105" (effects (font (size 1.27 1.27))))
         (number "61" (effects (font (size 1.27 1.27))))
@@ -8360,14 +7942,6 @@
         (name "GPIO47" (effects (font (size 1.27 1.27))))
         (number "64" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -127.635 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "65" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -130.175 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "66" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at -5.08 57.15 270) (length 2.54)
         (name "GPIO106" (effects (font (size 1.27 1.27))))
         (number "67" (effects (font (size 1.27 1.27))))
@@ -8380,21 +7954,9 @@
         (name "GPIO110" (effects (font (size 1.27 1.27))))
         (number "69" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -92.075 -97.79 180) (length 2.54) hide
-        (name "+3V3" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at -20.32 57.15 270) (length 2.54)
         (name "GPIO112" (effects (font (size 1.27 1.27))))
         (number "70" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -132.715 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "71" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -135.255 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "72" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -12.7 57.15 270) (length 2.54)
         (name "GPIO109" (effects (font (size 1.27 1.27))))
@@ -8412,21 +7974,9 @@
         (name "GPIO114" (effects (font (size 1.27 1.27))))
         (number "76" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -56.515 -137.795 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "77" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -140.335 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "78" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at -22.86 57.15 270) (length 2.54)
         (name "GPIO113" (effects (font (size 1.27 1.27))))
         (number "79" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -92.075 -100.33 180) (length 2.54) hide
-        (name "+3V3" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -45.72 57.15 270) (length 2.54)
         (name "GPIO122" (effects (font (size 1.27 1.27))))
@@ -8439,14 +7989,6 @@
       (pin bidirectional line (at -38.1 57.15 270) (length 2.54)
         (name "GPIO119" (effects (font (size 1.27 1.27))))
         (number "82" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -142.875 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "83" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -145.415 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "84" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at -48.26 57.15 270) (length 2.54)
         (name "GPIO123" (effects (font (size 1.27 1.27))))
@@ -8468,10 +8010,6 @@
         (name "GPIO124" (effects (font (size 1.27 1.27))))
         (number "89" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -92.075 -102.87 180) (length 2.54) hide
-        (name "+3V3" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
       (pin bidirectional line (at -43.18 57.15 270) (length 2.54)
         (name "GPIO121" (effects (font (size 1.27 1.27))))
         (number "90" (effects (font (size 1.27 1.27))))
@@ -8483,34 +8021,6 @@
       (pin bidirectional line (at -30.48 57.15 270) (length 2.54)
         (name "GPIO116" (effects (font (size 1.27 1.27))))
         (number "92" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -147.955 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "93" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -150.495 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "94" (effects (font (size 1.27 1.27))))
-      )
-      (pin free line (at -10.795 -104.775 180) (length 2.54) hide
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "95" (effects (font (size 1.27 1.27))))
-      )
-      (pin free line (at -10.795 -107.315 180) (length 2.54) hide
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "96" (effects (font (size 1.27 1.27))))
-      )
-      (pin free line (at -10.795 -109.855 180) (length 2.54) hide
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "97" (effects (font (size 1.27 1.27))))
-      )
-      (pin free line (at -10.795 -112.395 180) (length 2.54) hide
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "98" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -56.515 -153.035 180) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "99" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "Conn_LCB_2_1"
