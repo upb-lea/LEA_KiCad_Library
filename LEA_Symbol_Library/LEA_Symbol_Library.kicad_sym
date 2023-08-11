@@ -4061,7 +4061,7 @@
       )
     )
   )
-  (symbol "C__Film__15n_PP__20P_300V" (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "C__Film__15n_PP__20P_300V_Y2" (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "C" (at 8.89 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
@@ -4083,13 +4083,16 @@
     (property "manf#" "MKY22W21504B00MS" (at 8.89 -796.19 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
+    (property "Sim.Enable" "0" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (property "ki_keywords" "Y2 capacitor" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "EMI Suppression Capacitors " (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "C__Film__15n_PP__20P_300V_0_1"
+    (symbol "C__Film__15n_PP__20P_300V_Y2_0_1"
       (polyline
         (pts
           (xy -1.524 -0.508)
@@ -4107,7 +4110,7 @@
         (fill (type none))
       )
     )
-    (symbol "C__Film__15n_PP__20P_300V_1_1"
+    (symbol "C__Film__15n_PP__20P_300V_Y2_1_1"
       (pin passive line (at 0 2.54 270) (length 2.032)
         (name "1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -4118,7 +4121,7 @@
       )
     )
   )
-  (symbol "C__Film__4n7_PP__20P_1000V" (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "C__Film__4n7_PP__20P_1000V_Y2" (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "C" (at 8.89 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
@@ -4146,7 +4149,7 @@
     (property "ki_description" "EMI Suppression Capacitors (MKP) 4.7nF +/-20% 350Vrms 600V/us 110 C 5.0  10.5  18.0" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "C__Film__4n7_PP__20P_1000V_0_1"
+    (symbol "C__Film__4n7_PP__20P_1000V_Y2_0_1"
       (polyline
         (pts
           (xy -1.524 -0.508)
@@ -4164,7 +4167,7 @@
         (fill (type none))
       )
     )
-    (symbol "C__Film__4n7_PP__20P_1000V_1_1"
+    (symbol "C__Film__4n7_PP__20P_1000V_Y2_1_1"
       (pin passive line (at 0 2.54 270) (length 2.032)
         (name "1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -30607,7 +30610,7 @@
       )
     )
   )
-  (symbol "SYM_LEA_Logo" (in_bom yes) (on_board yes)
+  (symbol "SYM_LEA_Logo" (in_bom no) (on_board yes)
     (property "Reference" "O1" (at -3.81 1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -30618,6 +30621,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SYM_LEA_Logo_0_0"
