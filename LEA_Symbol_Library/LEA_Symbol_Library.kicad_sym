@@ -7456,6 +7456,12 @@
     (property "Sim.Enable" "0" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Manufacturer" "Phoenix Contact" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "pcb header" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "Conn_Fan_1_1"
       (rectangle (start -2.54 3.81) (end 2.54 -3.81)
         (stroke (width 0) (type default))
