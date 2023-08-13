@@ -1264,7 +1264,7 @@
       )
     )
   )
-  (symbol "ACCESSORY_Conn_Fan_plug" (in_bom yes) (on_board no)
+  (symbol "ACCESSORY_Conn_plug_3.5mm_8A_160V" (in_bom yes) (on_board no)
     (property "Reference" "Accessory" (at 0 3.81 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1292,13 +1292,13 @@
     (property "ki_keywords" "pcb connector" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "ACCESSORY_Conn_Fan_plug_0_1"
+    (symbol "ACCESSORY_Conn_plug_3.5mm_8A_160V_0_1"
       (rectangle (start -5.08 2.54) (end 5.08 -2.54)
         (stroke (width 0) (type default))
         (fill (type background))
       )
     )
-    (symbol "ACCESSORY_Conn_Fan_plug_1_0"
+    (symbol "ACCESSORY_Conn_plug_3.5mm_8A_160V_1_0"
       (text "Conn_Fan" (at -5.08 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -7434,7 +7434,7 @@
       )
     )
   )
-  (symbol "Conn_Fan" (in_bom yes) (on_board yes)
+  (symbol "Conn_Header_3.5mm_8A_160V" (in_bom yes) (on_board yes)
     (property "Reference" "X" (at -2.54 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -7462,7 +7462,7 @@
     (property "ki_keywords" "pcb header" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "Conn_Fan_1_1"
+    (symbol "Conn_Header_3.5mm_8A_160V_1_1"
       (rectangle (start -2.54 3.81) (end 2.54 -3.81)
         (stroke (width 0) (type default))
         (fill (type background))
