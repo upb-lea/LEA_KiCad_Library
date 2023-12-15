@@ -1,6 +1,6 @@
 (footprint "TestPoint_KeystoneElectronics5019" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -2.6) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp bdac0391-bfb3-41fc-9543-59ac474fe8cf)
