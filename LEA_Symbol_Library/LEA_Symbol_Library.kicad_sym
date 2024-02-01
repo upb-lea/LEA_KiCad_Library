@@ -33831,7 +33831,7 @@
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint_Probe" (at 1.651 4.064 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "LEA_FootprintLibrary:TestPoint_Pad_D1.0mm" (at 5.08 0 0)
       (effects (font (size 1.27 1.27)) hide)
