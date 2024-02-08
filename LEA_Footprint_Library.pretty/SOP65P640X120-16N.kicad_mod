@@ -59,7 +59,7 @@
   (pad "14" smd rect (at 2.938 -0.975 90) (size 0.45 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bc37a438-5b1f-4a2f-895c-df3276c21425))
   (pad "15" smd rect (at 2.938 -1.625 90) (size 0.45 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c54b79a9-44d3-4fe3-bb92-a29a382034cc))
   (pad "16" smd rect (at 2.938 -2.275 90) (size 0.45 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 89a41705-3efe-4646-bc7d-ec76a3bd57c0))
-  (model "C:/Users/vijay/Desktop/LEA WHB/LCB/LEA_KiCad_Library/LEA_3D_Models/ADG708BRUZ.stp"
+  (model "${MODEL_3D}/ADG708BRUZ.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -7,11 +7,11 @@
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp 37708615-eddf-4a77-80e7-b1e7ae9a6de1)
   )
-  (fp_text value "HDRV3W66P0X254_1X3_762X254X855P" (at -2.54 0) (layer "F.SilkS") hide
+  (fp_text value "HDRV3W66P0X254_1X3_762X254X855P" (at 0.127 2.794) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp 1760c57f-9783-4194-8381-12fe2e2ef204)
   )
-  (fp_text user "${REFERENCE}" (at -2.54 0) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 5.08) (layer "F.Fab")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp 72e82e40-359a-4903-bb4c-9bf20851e319)
   )
@@ -36,7 +36,7 @@
   (pad "1" thru_hole rect (at -2.54 0) (size 1.725 1.725) (drill 1.15) (layers "*.Cu" "*.Mask") (tstamp ab330f92-325a-4c3b-ad71-b1a6a93b5f0f))
   (pad "2" thru_hole circle (at 0 0) (size 1.725 1.725) (drill 1.15) (layers "*.Cu" "*.Mask") (tstamp 1fc94c8e-2b3d-4c3a-823b-c71d2f04c664))
   (pad "3" thru_hole circle (at 2.54 0) (size 1.725 1.725) (drill 1.15) (layers "*.Cu" "*.Mask") (tstamp 287d081a-a70d-4273-9c61-4d94486178eb))
-  (model "C:/Users/vijay/Desktop/LEA WHB/LCB/LEA_KiCad_Library/LEA_3D_Models/M20-9770342.stp"
+  (model "${MODEL_3D}/M20-9770342.stp"
     (offset (xyz -2.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
