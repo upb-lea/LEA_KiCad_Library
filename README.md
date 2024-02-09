@@ -7,7 +7,17 @@ Note: if you are using KiCAD6, and there is a variable `KICAD6_3DMODEL_DIR`, ign
 ![](documentation/figures/3d_model_path_preferences.png)
 
 # Adding components
-Add the new components on a separate branch. Each symbol should have the keys `Manufacturer`, `manf#` (manufacturer order number) and `mouser#` (mouser order number). Link the footprint and the 3D model. Create a pull request afterwards.
+The main branch ist protected. To add new components, open a new separate branch
+```
+git branch my-new-branch
+```
+Open Kicad, add your new symbols and footprints to the library. Each symbol should have the keys `Manufacturer`, `manf#` (manufacturer order number) and `mouser#` (mouser order number). Link the footprint and the 3D model. The 3D-model filepath needs to be a relative path with the above mentioned enwironment variable. The 3D-Filepath is e.g. `${MODEL_3D}/my3dmodel.stp`. Run `git status` to see your changed files. Add the example files `symbolfile` and `my3dmodel.stp` to the staging area and commit the changes. Afterwards, use `git push` to publish the changes to the new branch. 
+```
+git add symbolfile my3dmodel.stp
+git commit -m "add new component xyz and 3D-model"
+git push
+```
+Open the github page, choose your branch and create a `pull request`.
 
 # BOM generation
 The component library is aligned to use the add-on [Kicost](https://github.com/hildogjr/KiCost). Therefore the above mentioned keys `Manufacturer`, `manf#` and `mouser#` are mandatory in the symbol. In the schematic, navigate `Tools` -> `create BOM` and run a random one, e.g. `bom_csv_grouped_by_value`. Install kicost, navigate via terminal to your kicad project folder and enter `kicost` to your terminal. As input file, choose the `.xml` file what was created by the BOM command. After that, the KiCost BOM will be created. To get the prices and stock information from Mouser, create a Mouser API key on the Mouser homepage and enter it into the [config file](https://hildogjr.github.io/KiCost/docs/_build/singlehtml/index.html#configuration-file). 
