@@ -4706,7 +4706,7 @@
     (property "mouser#" "200-TSW10207GT" (at 16.51 -494.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Manufacturer_Name" "SAMTEC" (at 16.51 -694.92 0)
+    (property "Manufacturer" "SAMTEC" (at 16.51 -694.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "manf#" "TSW-102-07-G-T" (at 16.51 -794.92 0)
@@ -4762,7 +4762,7 @@
     (property "mouser#" "649-1012938191002BLF" (at 19.05 -494.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Manufacturer_Name" "Amphenol" (at 19.05 -694.92 0)
+    (property "Manufacturer" "Amphenol" (at 19.05 -694.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "manf#" "10129381-910002BLF" (at 19.05 -794.92 0)
@@ -4933,7 +4933,7 @@
     (property "mouser#" "855-M20-9980946" (at 19.05 -494.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Manufacturer_Name" "Harwin" (at 19.05 -694.92 0)
+    (property "Manufacturer" "Harwin" (at 19.05 -694.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "manf#" "M20-9980946" (at 19.05 -794.92 0)
@@ -19911,11 +19911,11 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "LED_0603_BLUE" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "LED_0603_B_2mA_APHD1608LVBC/D" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (at 0 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LED_0603_BLUE" (at 0 2.54 0)
+    (property "Value" "Blue_2mA" (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LEA_FootprintLibrary:LED_0603" (at 0 -2.54 0)
@@ -19936,12 +19936,12 @@
     (property "ki_description" "LED 0603" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "LED_0603_BLUE_0_0"
+    (symbol "LED_0603_B_2mA_APHD1608LVBC/D_0_0"
       (text "0603" (at -1.905 0.635 0)
         (effects (font (size 0.5 0.5)))
       )
     )
-    (symbol "LED_0603_BLUE_1_1"
+    (symbol "LED_0603_B_2mA_APHD1608LVBC/D_1_1"
       (polyline
         (pts
           (xy -0.6604 -1.0414)
@@ -19992,11 +19992,11 @@
       )
     )
   )
-  (symbol "LED_0603_RED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "LED_0603_R_2mA_APHD1608LSURCK" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (at 0 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LED_0603_RED" (at 0 2.54 0)
+    (property "Value" "Red_2mA" (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LEA_FootprintLibrary:LED_0603" (at 0 -2.54 0)
@@ -20017,12 +20017,12 @@
     (property "ki_description" "LED 0603" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "LED_0603_RED_0_0"
+    (symbol "LED_0603_R_2mA_APHD1608LSURCK_0_0"
       (text "0603" (at -1.905 0.635 0)
         (effects (font (size 0.5 0.5)))
       )
     )
-    (symbol "LED_0603_RED_1_1"
+    (symbol "LED_0603_R_2mA_APHD1608LSURCK_1_1"
       (polyline
         (pts
           (xy -0.6604 -1.0414)
