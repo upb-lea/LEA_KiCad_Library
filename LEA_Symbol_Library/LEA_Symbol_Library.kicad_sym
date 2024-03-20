@@ -19885,11 +19885,11 @@
       )
     )
   )
-  (symbol "LED_0603_B" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "LED_0603_B_2mA_APHD1608LVBC/D" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (at 0 2.794 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Blue_2mA" (at 0.127 -6.35 0)
+    (property "Value" "2mA" (at 0.127 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "LEA_FootprintLibrary:LED_0603_B" (at 0 -2.54 0)
@@ -19910,17 +19910,17 @@
     (property "ki_description" "LED 0603, Blue, If 2mA, Vf 2.65V" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "LED_0603_B_0_0"
+    (symbol "LED_0603_B_2mA_APHD1608LVBC/D_0_0"
       (text "0603" (at -1.905 0.635 0)
         (effects (font (size 0.5 0.5)))
       )
     )
-    (symbol "LED_0603_B_1_0"
+    (symbol "LED_0603_B_2mA_APHD1608LVBC/D_1_0"
       (text "B" (at 1.524 0.635 0)
         (effects (font (size 0.5 0.5)))
       )
     )
-    (symbol "LED_0603_B_1_1"
+    (symbol "LED_0603_B_2mA_APHD1608LVBC/D_1_1"
       (polyline
         (pts
           (xy -0.6604 -1.0414)
@@ -19971,11 +19971,11 @@
       )
     )
   )
-  (symbol "LED_0603_G" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "LED_0603_G_2mA_APTD1608LCGCK " (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (at 0 2.921 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LED_0603_G" (at 0 -6.477 0)
+    (property "Value" "2mA" (at 0 -6.477 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "LEA_FootprintLibrary:LED_0603_G" (at 0 -2.54 0)
@@ -19996,17 +19996,17 @@
     (property "ki_description" "LED 0603, Green, If 2mA, Vf 1.9V" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "LED_0603_G_0_0"
+    (symbol "LED_0603_G_2mA_APTD1608LCGCK _0_0"
       (text "0603" (at -1.905 0.635 0)
         (effects (font (size 0.5 0.5)))
       )
     )
-    (symbol "LED_0603_G_1_0"
+    (symbol "LED_0603_G_2mA_APTD1608LCGCK _1_0"
       (text "G" (at 1.524 0.635 0)
         (effects (font (size 0.5 0.5)))
       )
     )
-    (symbol "LED_0603_G_1_1"
+    (symbol "LED_0603_G_2mA_APTD1608LCGCK _1_1"
       (polyline
         (pts
           (xy -0.6604 -1.0414)
@@ -20057,11 +20057,11 @@
       )
     )
   )
-  (symbol "LED_0603_R" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "LED_0603_R_2mA_APHD1608LSURCK" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (at 0 2.667 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Red_2mA" (at 0 -6.604 0)
+    (property "Value" "2mA" (at 0 -6.604 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "LEA_FootprintLibrary:LED_0603_R" (at 0 -2.54 0)
@@ -20082,17 +20082,17 @@
     (property "ki_description" "LED 0603, Red, If 2mA, Vf 1.75V" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "LED_0603_R_0_0"
+    (symbol "LED_0603_R_2mA_APHD1608LSURCK_0_0"
       (text "0603" (at -1.905 0.635 0)
         (effects (font (size 0.5 0.5)))
       )
     )
-    (symbol "LED_0603_R_1_0"
+    (symbol "LED_0603_R_2mA_APHD1608LSURCK_1_0"
       (text "R" (at 1.524 0.635 0)
         (effects (font (size 0.5 0.5)))
       )
     )
-    (symbol "LED_0603_R_1_1"
+    (symbol "LED_0603_R_2mA_APHD1608LSURCK_1_1"
       (polyline
         (pts
           (xy -0.6604 -1.0414)
