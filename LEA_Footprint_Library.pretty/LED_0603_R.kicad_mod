@@ -1,4 +1,4 @@
-(footprint "LED_0603" (version 20221018) (generator pcbnew)
+(footprint "LED_0603_R" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "LED 0603")
   (attr smd)
@@ -6,7 +6,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3a48ad4f-7fd7-4290-9e2b-14f5898b883f)
   )
-  (fp_text value "LED_0603" (at -0.01 -1.48) (layer "F.Fab") hide
+  (fp_text value "LED_0603_R" (at -0.01 -1.48) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp abe3ae11-3c08-40db-aa83-d134e3120c21)
   )
@@ -42,7 +42,7 @@
     (stroke (width 0.12) (type solid)) (layer "F.Fab") (tstamp 5c8ef563-78a9-4d82-ab02-f537016f1215))
   (pad "A" smd roundrect (at 0.75 0) (size 0.8 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 377a14b2-2bd6-49e3-82b1-7abd6141afe4))
   (pad "C" smd roundrect (at -0.75 0) (size 0.8 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 76f53cfe-a474-4d06-a4ee-4118e1446cad))
-  (model "${MODEL_3D}/LED_Green_0603.STEP"
+  (model "${MODEL_3D}/LED_Red_0603.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

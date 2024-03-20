@@ -1,4 +1,4 @@
-(footprint "LED_0603" (version 20221018) (generator pcbnew)
+(footprint "LED_0603_G" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "LED 0603")
   (attr smd)
@@ -6,7 +6,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3a48ad4f-7fd7-4290-9e2b-14f5898b883f)
   )
-  (fp_text value "LED_0603" (at -0.01 -1.48) (layer "F.Fab") hide
+  (fp_text value "LED_0603_G" (at -0.01 -1.48) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp abe3ae11-3c08-40db-aa83-d134e3120c21)
   )
