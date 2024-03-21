@@ -19725,12 +19725,10 @@
     (property "ki_description" "LED 0402,Blue, If 2mA, Vf 2.65V" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "LED_0402_B_2mA_APHHS1005LQBC/D-V_0_0"
-      (text "0603" (at -1.905 0.635 0)
+    (symbol "LED_0402_B_2mA_APHHS1005LQBC/D-V_1_0"
+      (text "0402" (at -1.905 0.635 0)
         (effects (font (size 0.5 0.5)))
       )
-    )
-    (symbol "LED_0402_B_2mA_APHHS1005LQBC/D-V_1_0"
       (text "B" (at 1.524 0.635 0)
         (effects (font (size 0.5 0.5)))
       )
@@ -19811,12 +19809,10 @@
     (property "ki_description" "LED 0402,Green, If 1mA, Vf 1.9V" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "LED_0402_G_1mA_SML-P11MTT86R_0_0"
-      (text "0603" (at -1.905 0.635 0)
+    (symbol "LED_0402_G_1mA_SML-P11MTT86R_1_0"
+      (text "0402" (at -1.905 0.635 0)
         (effects (font (size 0.5 0.5)))
       )
-    )
-    (symbol "LED_0402_G_1mA_SML-P11MTT86R_1_0"
       (text "G" (at 1.524 0.635 0)
         (effects (font (size 0.5 0.5)))
       )
@@ -19897,12 +19893,10 @@
     (property "ki_description" "LED 0402, Red, If 1mA, Vf 1.8V" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "LED_0402_R_1mA_SML-P11UTT86R_0_0"
-      (text "0603" (at -1.905 0.635 0)
+    (symbol "LED_0402_R_1mA_SML-P11UTT86R_1_0"
+      (text "0402" (at -1.905 0.635 0)
         (effects (font (size 0.5 0.5)))
       )
-    )
-    (symbol "LED_0402_R_1mA_SML-P11UTT86R_1_0"
       (text "R" (at 1.524 0.635 0)
         (effects (font (size 0.5 0.5)))
       )
@@ -19983,12 +19977,10 @@
     (property "ki_description" "LED 0402, Yellow, If 1mA, Vf 1.9V" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "LED_0402_Y_1mA_SML-P11YTT86R_0_0"
-      (text "0603" (at -1.905 0.635 0)
+    (symbol "LED_0402_Y_1mA_SML-P11YTT86R_1_0"
+      (text "0402" (at -1.905 0.635 0)
         (effects (font (size 0.5 0.5)))
       )
-    )
-    (symbol "LED_0402_Y_1mA_SML-P11YTT86R_1_0"
       (text "Y" (at 1.524 0.635 0)
         (effects (font (size 0.5 0.5)))
       )
