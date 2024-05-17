@@ -1,0 +1,141 @@
+(footprint "CAPPRD350W65D800H2200"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "8*20")
+	(tags "Capacitor Polarised")
+	(property "Reference" "C**"
+		(at 0.02 -5.06 0)
+		(layer "F.SilkS")
+		(uuid "91626322-072a-4c0d-84a4-2847f72f00b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAPPRD350W65D800H2200"
+		(at 0.02 5.86 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "42941bc3-72ab-464a-b7b9-458cda29ff6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "CAPPRD350W65D800H2200"
+		(at 0.02 5.86 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "512e2973-e9eb-4f0c-96dd-f275d97c9bbd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -1.73 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5428f586-24ef-40c2-9c36-7f17028b1aa7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -1.73 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6ff3d2a-b086-43f0-8e49-10b341f972b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0.02 0)
+		(end 0.02 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c194ff6b-d7fc-48c3-a092-48dae4ae3a0d")
+	)
+	(fp_circle
+		(center 0.02 0)
+		(end 0.02 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "42c24e22-5ee7-4e52-befd-373a0c3bb5b8")
+	)
+	(fp_text user "+"
+		(at -5.54 0.52 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5510b89a-3d5e-498f-819d-6ba79c3662d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.07 7.98 0)
+		(layer "F.Fab")
+		(uuid "9e98fa46-7d7a-4915-86eb-232df0c7cf10")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.73 0)
+		(size 1.275 1.275)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0a15b8b7-107d-4fdc-89ef-7c5a0f2f40fd")
+	)
+	(pad "2" thru_hole circle
+		(at 1.77 0)
+		(size 1.275 1.275)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aeaba2aa-62af-4c0d-8e08-97045b0bca1d")
+	)
+	(model "${MODEL_3D}/EEU-FS2A560L.stp"
+		(offset
+			(xyz -1.75 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
