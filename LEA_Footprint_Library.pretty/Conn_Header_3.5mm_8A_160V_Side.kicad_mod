@@ -6,7 +6,7 @@
 	(descr "1844210")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at -6.12 -0.04 0)
+		(at -6.36 2.89 0)
 		(layer "F.SilkS")
 		(uuid "a84ac674-fada-4d0b-9648-3b6cec5d5b40")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Conn_Header_3.5mm_8A_160V_Side"
-		(at 0.03 2.53 0)
+		(at -0.02 5.48 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "64c2b74c-3432-4607-8f97-53af47d04015")
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Footprint" "Conn_Header_3.5mm_8A_160V_Side"
-		(at -0.14 4.23 0)
+		(at -0.02 7.22 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 2.04 -6.93 180)
+		(at 1.8 -4 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -53,7 +53,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 2.04 -6.93 180)
+		(at 1.8 -4 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -66,8 +66,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -3.91 -8.13)
-		(end 4.49 1.07)
+		(start -4.15 -5.2)
+		(end 4.25 4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -77,8 +77,8 @@
 		(uuid "39e5fcde-e225-492f-863d-ba6746a4cff3")
 	)
 	(fp_line
-		(start -4.16 -8.38)
-		(end -4.16 1.32)
+		(start -4.4 -5.45)
+		(end -4.4 4.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -87,8 +87,8 @@
 		(uuid "4093fc9a-f106-45f0-96e3-ff64396a3274")
 	)
 	(fp_line
-		(start -4.16 1.32)
-		(end 4.74 1.32)
+		(start -4.4 4.25)
+		(end 4.5 4.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -97,8 +97,8 @@
 		(uuid "ff1833e2-b8a1-471d-b45e-53a9f3a4067b")
 	)
 	(fp_line
-		(start 4.74 -8.38)
-		(end -4.16 -8.38)
+		(start 4.5 -5.45)
+		(end -4.4 -5.45)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -107,8 +107,8 @@
 		(uuid "dcd14758-25cc-4e10-abd9-77b58e9fd23b")
 	)
 	(fp_line
-		(start 4.74 1.32)
-		(end 4.74 -8.38)
+		(start 4.5 4.25)
+		(end 4.5 -5.45)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -117,8 +117,8 @@
 		(uuid "615618ab-b350-4c3a-b5d6-8c092e1e346f")
 	)
 	(fp_line
-		(start -3.91 -8.13)
-		(end 4.49 -8.13)
+		(start -4.15 -5.2)
+		(end 4.25 -5.2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -127,8 +127,8 @@
 		(uuid "c66d5bbc-b1e6-49ae-8c1c-bc26462eb3d3")
 	)
 	(fp_line
-		(start -3.91 1.07)
-		(end -3.91 -8.13)
+		(start -4.15 4)
+		(end -4.15 -5.2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -137,8 +137,8 @@
 		(uuid "5aaa4a80-d4d2-48d4-bf5b-335c3f0f0835")
 	)
 	(fp_line
-		(start 4.49 -8.13)
-		(end 4.49 1.07)
+		(start 4.25 -5.2)
+		(end 4.25 4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -147,8 +147,8 @@
 		(uuid "57060fa5-874d-43de-9097-921820097372")
 	)
 	(fp_line
-		(start 4.49 1.07)
-		(end -3.91 1.07)
+		(start 4.25 4)
+		(end -4.15 4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -157,7 +157,7 @@
 		(uuid "487c51a9-ea90-4208-ae95-0890e75a4523")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.3 6.07 0)
+		(at 0 8.99 0)
 		(layer "F.Fab")
 		(uuid "d677eff8-86d3-401a-83c2-b06bf98c93ef")
 		(effects
@@ -168,7 +168,7 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at 2.04 -6.93 180)
+		(at 1.8 -4 180)
 		(size 2.025 2.025)
 		(drill 1.35)
 		(layers "*.Cu" "*.Mask")
@@ -176,7 +176,7 @@
 		(uuid "97a97218-b82f-413d-bfc2-0754723f2ca8")
 	)
 	(pad "2" thru_hole circle
-		(at -1.46 -6.93 180)
+		(at -1.7 -4 180)
 		(size 2.025 2.025)
 		(drill 1.35)
 		(layers "*.Cu" "*.Mask")
