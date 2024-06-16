@@ -1,12 +1,19 @@
+# Welcome to the LEA KiCad library
 
-# Set environment variable for 3D models:
-In the main menu, first select "Preferences" and then "Configure Path".
+This repository contains a KiCad library for symbols, footprints and 3D-models including mouser material numbers to auto-generate BOMs (bill of materials) by using [KiCost](https://github.com/hildogjr/KiCost).
+
+Features:
+ * reviewed symbols and footprints trough pull-requests
+ * symbols containing mouser material numbers to auto-generate a BOM using KiCost
+
+## Set environment variable for 3D models:
+In the KiCad main menu, first select `Preferences` and then `Configure Path`.
 Replace the environment variable `MODEL_3D` with the current location of the 3D-models, e.g. `/path/LEA_KiCad_Library/LEA_3D_Models`. This should be the 3D-models for the `LEA_KiCad_Library` repository.
 
-Note: if you are using KiCAD6, and there is a variable `KICAD6_3DMODEL_DIR`, ignore this variable and add `MODEL_3D` as mentioned above.
+Note: if there is a variable `KICADx_3DMODEL_DIR`, ignore this variable and add `MODEL_3D` as mentioned above.
 ![](documentation/figures/3d_model_path_preferences.png)
 
-# Adding components
+## Adding components
 The main branch ist protected. To add new components, open a new separate branch
 ```
 git branch my-new-branch
@@ -19,12 +26,12 @@ git push
 ```
 Open the github page, choose your branch and create a `pull request`.
 
-# BOM generation
-The component library is aligned to use the add-on [Kicost](https://github.com/hildogjr/KiCost). Therefore the above mentioned keys `Manufacturer`, `manf#` and `mouser#` are mandatory in the symbol. In the schematic, navigate `Tools` -> `create BOM` and run a random one, e.g. `bom_csv_grouped_by_value`. Install kicost, navigate via terminal to your kicad project folder and enter `kicost` to your terminal. As input file, choose the `.xml` file what was created by the BOM command. After that, the KiCost BOM will be created. To get the prices and stock information from Mouser, create a Mouser API key on the Mouser homepage and enter it into the [config file](https://hildogjr.github.io/KiCost/docs/_build/singlehtml/index.html#configuration-file). 
+## BOM generation
+The component library is aligned to use the add-on [KiCost](https://github.com/hildogjr/KiCost). Therefore the above mentioned keys `Manufacturer`, `manf#` and `mouser#` are mandatory in the symbol. In the schematic, navigate `Tools` -> `create BOM` and run a random one, e.g. `bom_csv_grouped_by_value`. Install KiCost, navigate via terminal to your kicad project folder and enter `kicost` to your terminal. As input file, choose the `.xml` file what was created by the BOM command. After that, the KiCost BOM will be created. To get the prices and stock information from Mouser, create a Mouser API key on the Mouser homepage and enter it into the [config file](https://hildogjr.github.io/KiCost/docs/_build/singlehtml/index.html#configuration-file). 
 
-# Type labels
+## Library type labels
 For a better findability and sorting of the many components, it is necessary to use a type code. Some examples are given here.
-## SMD resistors
+### SMD resistors
 Differences:
  * Type: `SMD` / `THT`
  * Values: `_100R` / `__4R7` / `0R001`
@@ -40,7 +47,7 @@ Examples:
  * `R_0403__4R7_THICK_10P__50V`
 
 
-## THT resistors
+### THT resistors
  Differences:
  * Values: `_100R` / `__4R7` / `0R001`
  * Size: `0603` / `0704` / `0403`
@@ -52,7 +59,7 @@ Examples:
  * `R_THT_0704__RM5_10P____1k`
  * `R_THT_0704_RM10__1P_0R001_SHUNT`
 
-## Capacitors
+### Capacitors
  * Type: `SMD` / `THT`
  * Values: `100u` / `4u7` / `10n`
  * Size: `0603` / `0704` / `0403`
@@ -63,33 +70,34 @@ Examples:
  * `C_SMD_0805__25V__10u`
  * `C_SMD_1206__16V__4u7`
 
-## Diodes
+### Diodes
  * Start with `D_`
  * Housing: `0603` / `0704` / `0403` / `SOD` / `DFN` / `SMB` / ...
  * Current capability: `1A0` / `0A125` / ...
- * last key: exact type, e.g. `B140HW-7` / `TS4448_RGG` / ...
+ * last key: exact type, e.g. `B140HW-7` / `TS4448_RGG` / ...     
+
 Examples:
  * `D_0603_0A125_TS4448_RGG`
  * `D_SOD_1A0_B140HW-7`
 
-## Drivers
+### Drivers
 Hard to find general rules.
-* Channels: `Single`/ `Dual`
+ * Channels: `Single`/ `Dual`    
 
 Examples:
  * Driver_Dual_TI_value
  * Driver_Single_TI_value
  * Driver_Single_TI_value
 
-## Microcontrollers
+### Microcontrollers
 Examples:
  * `uC_FPGA_`
  
  
-## Logic ICs
+### Logic ICs
 
 
-## Schmitt-trigger
+### Schmitt-trigger
 Examples:
  * `ST_6CH_CMOS_SOIC14_MC74HC14ADG`
 
