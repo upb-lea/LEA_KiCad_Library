@@ -25378,17 +25378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "8.25"
-			(at 16.51 -394.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "651-1844210"
+		(property "mouser#" "651-1844210"
 			(at 16.51 -494.92 0)
 			(effects
 				(font
@@ -25398,17 +25388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1844210?qs=8BCRtFWWXORb3OQRdxIGVQ%3D%3D"
-			(at 16.51 -594.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Phoenix Contact"
+		(property "Manufacturer" "Phoenix Contact"
 			(at 16.51 -694.92 0)
 			(effects
 				(font
@@ -25418,7 +25398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1844210"
+		(property "manf#" "1844210"
 			(at 16.51 -794.92 0)
 			(effects
 				(font
