@@ -6,6 +6,15 @@ Features:
  * reviewed symbols and footprints trough pull-requests
  * symbols containing mouser material numbers to auto-generate a BOM using KiCost
 
+## Set library file path
+Add this library to your project. Make sure that you use **exactly** the same `Nicknames` as shown here:
+ * `Preferences` -> `Manage Symbol Libraries` -> Project Specific Libraries: Nickname: `LEA_SymbolLibrary`, Library Path: `your/path/LEA_KiCad_Library/LEA_Symbol_Library/LEA_Symbol_Library.kicad_sym`
+ * `Preferences` -> `Manage Footprint Libraries` -> Project Specific Libraries: Nickname: `LEA_FootprintLibrary`, Library Path: `your/path/LEA_KiCad_Library/LEA_Footprint_Library.pretty`
+
+It is also possible to add both libraries to the `Global Libraries`.
+
+
+
 ## Set environment variable for 3D models:
 In the KiCad main menu, first select `Preferences` and then `Configure Path`.
 Replace the environment variable `MODEL_3D` with the current location of the 3D-models, e.g. `/path/LEA_KiCad_Library/LEA_3D_Models`. This should be the 3D-models for the `LEA_KiCad_Library` repository.
