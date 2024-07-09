@@ -63915,11 +63915,11 @@
 		)
 	)
 	(symbol "LTC7800HUDC#PBF"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 36.83 20.32 0)
+			(at 16.51 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63928,7 +63928,7 @@
 			)
 		)
 		(property "Value" "LTC7800HUDC#PBF"
-			(at 36.83 17.78 0)
+			(at 16.51 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63937,7 +63937,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibary:QFN50P300X400X80-21N-D"
-			(at 36.83 -82.22 0)
+			(at -39.878 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63947,7 +63947,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/609/7800f-2955641.pdf"
-			(at 36.83 -182.22 0)
+			(at -39.878 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63957,7 +63957,7 @@
 			)
 		)
 		(property "Description" "Switching Controllers L IQ , 60V, Hi Freq Sync Buck Cntr"
-			(at 0 0 0)
+			(at -11.684 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63966,7 +63966,7 @@
 			)
 		)
 		(property "mouser#" "584-LTC7800HUDCPBF"
-			(at 36.83 -482.22 0)
+			(at 8.382 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63976,7 +63976,7 @@
 			)
 		)
 		(property "Manufacturer" "Analog Devices"
-			(at 36.83 -682.22 0)
+			(at -39.878 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63986,7 +63986,7 @@
 			)
 		)
 		(property "manf#" "LTC7800HUDC#PBF"
-			(at 36.83 -782.22 0)
+			(at -21.59 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63997,8 +63997,8 @@
 		)
 		(symbol "LTC7800HUDC#PBF_1_1"
 			(rectangle
-				(start 5.08 15.24)
-				(end 35.56 -25.4)
+				(start -15.24 20.32)
+				(end 15.24 -20.32)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -64007,8 +64007,16 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(text "LTC7800"
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin passive line
+				(at -20.32 13.97 0)
 				(length 5.08)
 				(name "PLLIN/MODE"
 					(effects
@@ -64026,7 +64034,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 -30.48 90)
+				(at 20.32 6.35 180)
 				(length 5.08)
 				(name "TG"
 					(effects
@@ -64044,7 +64052,7 @@
 				)
 			)
 			(pin passive line
-				(at 40.64 -12.7 180)
+				(at 20.32 -1.27 180)
 				(length 5.08)
 				(name "SW"
 					(effects
@@ -64062,7 +64070,7 @@
 				)
 			)
 			(pin passive line
-				(at 40.64 -10.16 180)
+				(at 20.32 2.54 180)
 				(length 5.08)
 				(name "BOOST"
 					(effects
@@ -64080,7 +64088,7 @@
 				)
 			)
 			(pin output line
-				(at 40.64 -7.62 180)
+				(at 20.32 -5.08 180)
 				(length 5.08)
 				(name "BG"
 					(effects
@@ -64098,7 +64106,7 @@
 				)
 			)
 			(pin passive line
-				(at 40.64 -5.08 180)
+				(at 20.32 16.51 180)
 				(length 5.08)
 				(name "INTVCC"
 					(effects
@@ -64115,8 +64123,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 40.64 -2.54 180)
+			(pin power_in line
+				(at -20.32 1.27 0)
 				(length 5.08)
 				(name "EXTVCC"
 					(effects
@@ -64133,8 +64141,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 40.64 0 180)
+			(pin power_in line
+				(at 20.32 12.7 180)
 				(length 5.08)
 				(name "PGND"
 					(effects
@@ -64151,8 +64159,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 25.4 20.32 270)
+			(pin power_in line
+				(at -20.32 16.51 0)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -64170,7 +64178,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 20.32 270)
+				(at -20.32 8.89 0)
 				(length 5.08)
 				(name "ILIM"
 					(effects
@@ -64188,7 +64196,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 20.32 270)
+				(at -20.32 -10.16 0)
 				(length 5.08)
 				(name "TRACK/SS"
 					(effects
@@ -64205,8 +64213,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -2.54 0)
+			(pin power_in line
+				(at -20.32 -13.97 0)
 				(length 5.08)
 				(name "SGND_1"
 					(effects
@@ -64224,7 +64232,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 20.32 270)
+				(at -20.32 -2.54 0)
 				(length 5.08)
 				(name "FREQ"
 					(effects
@@ -64241,8 +64249,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 15.24 20.32 270)
+			(pin power_in line
+				(at -20.32 -19.05 0)
 				(length 5.08)
 				(name "SGND_3"
 					(effects
@@ -64259,8 +64267,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -5.08 0)
+			(pin power_in line
+				(at -20.32 -16.51 0)
 				(length 5.08)
 				(name "SGND_2"
 					(effects
@@ -64278,7 +64286,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -7.62 0)
+				(at -20.32 11.43 0)
 				(length 5.08)
 				(name "RUN"
 					(effects
@@ -64296,7 +64304,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -10.16 0)
+				(at 20.32 -13.97 180)
 				(length 5.08)
 				(name "SENSE-"
 					(effects
@@ -64314,7 +64322,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -12.7 0)
+				(at 20.32 -10.16 180)
 				(length 5.08)
 				(name "SENSE+"
 					(effects
@@ -64331,8 +64339,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 15.24 -30.48 90)
+			(pin input line
+				(at 20.32 -16.51 180)
 				(length 5.08)
 				(name "VFB"
 					(effects
@@ -64350,7 +64358,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -30.48 90)
+				(at -20.32 -6.35 0)
 				(length 5.08)
 				(name "ITH"
 					(effects
@@ -64368,7 +64376,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -30.48 90)
+				(at -20.32 5.08 0)
 				(length 5.08)
 				(name "PGOOD"
 					(effects

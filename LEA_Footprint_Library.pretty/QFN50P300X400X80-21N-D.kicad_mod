@@ -6,7 +6,7 @@
 	(descr "LTC7800HUDC#PBF")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0 0 0)
+		(at 4.5 -3 0)
 		(layer "F.SilkS")
 		(uuid "4aade8f8-66e9-48a5-8434-747f0d5f28c0")
 		(effects
@@ -83,7 +83,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.CrtYd")
 		(uuid "3ce0f40b-4c56-4b84-b4ed-1c2b2574b8cc")
 	)
 	(fp_line
@@ -93,7 +93,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.CrtYd")
 		(uuid "d6d6b030-9e10-412f-838e-67daaea9d1a2")
 	)
 	(fp_line
@@ -103,7 +103,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.CrtYd")
 		(uuid "2ec4b121-baf7-4414-be67-72932e4bfc98")
 	)
 	(fp_line
@@ -113,7 +113,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.CrtYd")
 		(uuid "189acb59-3640-4e57-8f30-22b1cea72188")
 	)
 	(fp_line
@@ -123,7 +123,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.CrtYd")
 		(uuid "30f6d7c0-4e4d-4150-b079-e7f8f17c5117")
 	)
 	(fp_line
@@ -133,7 +133,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.CrtYd")
 		(uuid "d4284050-262d-41ff-86a2-9733585088c8")
 	)
 	(fp_line
@@ -143,7 +143,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.CrtYd")
 		(uuid "2d9d2f11-9c2c-4fff-86a6-97cc5eb3de8d")
 	)
 	(fp_line
@@ -153,7 +153,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.CrtYd")
 		(uuid "5da9175e-03e4-4da9-b3d8-8b5f18e745f8")
 	)
 	(fp_line
@@ -163,7 +163,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.CrtYd")
 		(uuid "7df7ad0e-9e51-4a0a-8bfe-121e58c356e3")
 	)
 	(pad "1" smd rect
