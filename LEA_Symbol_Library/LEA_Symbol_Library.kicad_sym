@@ -83830,7 +83830,7 @@
 			)
 		)
 	)
-	(symbol "T_GaN_GS61008T-TR"
+	(symbol "T_GaN_100V_GS61008T-TR"
 		(pin_names
 			(offset 0.762)
 		)
@@ -83838,7 +83838,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
-			(at 10.668 2.032 0)
+			(at 8.128 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83847,7 +83847,7 @@
 			)
 		)
 		(property "Value" "GS61008T-TR"
-			(at 10.668 -0.508 0)
+			(at 8.128 -0.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83856,7 +83856,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibary:GS61008TTR"
-			(at -38.862 23.114 0)
+			(at -41.402 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83866,7 +83866,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/196/GS61008T_DS_Rev_200402-3440263.pdf"
-			(at -38.862 18.288 0)
+			(at -41.402 18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83876,7 +83876,7 @@
 			)
 		)
 		(property "Description" "100V, 90A, Enhancement mode GaN Transistor, GaNPX package, Top-side cooled"
-			(at 0.762 20.574 0)
+			(at -1.778 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83885,7 +83885,7 @@
 			)
 		)
 		(property "mouser#" "499-GS61008T-TR"
-			(at -39.116 14.732 0)
+			(at -41.656 14.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83895,7 +83895,7 @@
 			)
 		)
 		(property "Manufacturer" "GaN Systems"
-			(at -39.116 12.446 0)
+			(at -41.656 12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83905,7 +83905,7 @@
 			)
 		)
 		(property "manf#" "GS61008T-TR"
-			(at -39.116 9.906 0)
+			(at -41.656 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83914,9 +83914,9 @@
 				(hide yes)
 			)
 		)
-		(symbol "T_GaN_GS61008T-TR_0_0"
+		(symbol "T_GaN_100V_GS61008T-TR_0_0"
 			(pin passive line
-				(at 7.62 8.89 270)
+				(at 5.08 7.62 270)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -83934,7 +83934,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 1.27 0)
+				(at -5.08 1.27 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -83952,7 +83952,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -8.89 90)
+				(at 5.08 -7.62 90)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -83970,7 +83970,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -3.81 0)
+				(at -5.08 -3.81 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -83988,10 +83988,10 @@
 				)
 			)
 		)
-		(symbol "T_GaN_GS61008T-TR_0_1"
+		(symbol "T_GaN_100V_GS61008T-TR_0_1"
 			(polyline
 				(pts
-					(xy -5.08 -1.27) (xy -5.08 -3.81)
+					(xy -2.54 -1.27) (xy -2.54 -3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -84003,7 +84003,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 -1.27) (xy -5.08 1.27)
+					(xy -2.54 -1.27) (xy -2.54 1.27)
 				)
 				(stroke
 					(width 0.1524)
@@ -84015,7 +84015,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 -1.27) (xy 3.302 -1.27)
+					(xy -2.54 -1.27) (xy 0.762 -1.27)
 				)
 				(stroke
 					(width 0.1524)
@@ -84027,7 +84027,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.302 -4.572) (xy 3.302 -3.048)
+					(xy 0.762 -4.572) (xy 0.762 -3.048)
 				)
 				(stroke
 					(width 0.1524)
@@ -84039,7 +84039,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.302 -3.81) (xy 7.62 -3.81)
+					(xy 0.762 -3.81) (xy 5.08 -3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -84051,7 +84051,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.302 -1.778) (xy 3.302 -0.762)
+					(xy 0.762 -1.778) (xy 0.762 -0.762)
 				)
 				(stroke
 					(width 0.1524)
@@ -84063,7 +84063,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.302 4.318) (xy 3.302 0.762)
+					(xy 0.762 4.318) (xy 0.762 0.762)
 				)
 				(stroke
 					(width 0.1524)
@@ -84075,7 +84075,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -3.81) (xy 7.62 -6.35)
+					(xy 5.08 -3.81) (xy 5.08 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -84087,7 +84087,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 3.81) (xy 3.302 3.81)
+					(xy 5.08 3.81) (xy 0.762 3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -84099,7 +84099,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 3.81) (xy 7.62 6.35)
+					(xy 5.08 3.81) (xy 5.08 5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -84111,7 +84111,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.048 -1.27) (xy 2.032 -1.778) (xy 2.032 -0.762) (xy 3.048 -1.27)
+					(xy 0.508 -1.27) (xy -0.508 -1.778) (xy -0.508 -0.762) (xy 0.508 -1.27)
 				)
 				(stroke
 					(width 0.254)

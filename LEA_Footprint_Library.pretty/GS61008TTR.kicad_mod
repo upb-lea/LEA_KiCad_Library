@@ -6,7 +6,7 @@
 	(descr "GS61008T-TR")
 	(tags "Transistor E-mode GaN (4-Pin)")
 	(property "Reference" "Q**"
-		(at 7 -4.5 0)
+		(at 0 -4.5 0)
 		(layer "F.SilkS")
 		(uuid "d191b15d-ffa0-453b-b6f9-10530b5e31c7")
 		(effects
@@ -148,8 +148,8 @@
 		(uuid "15795253-8ba7-4884-be32-a75437f2b881")
 	)
 	(fp_line
-		(start -4.5 -3)
-		(end 4.5 -3)
+		(start -4 -2.5)
+		(end 4 -2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -158,8 +158,8 @@
 		(uuid "2052b907-fb12-4341-8f4b-3b0eacd82a42")
 	)
 	(fp_line
-		(start -4.5 3)
-		(end -4.5 -3)
+		(start -4 2.5)
+		(end -4 -2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -168,8 +168,8 @@
 		(uuid "5f6991ec-bd58-48bf-86a3-328534128cc6")
 	)
 	(fp_line
-		(start 4.5 -3)
-		(end 4.5 3)
+		(start 4 -2.5)
+		(end 4 2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -178,8 +178,8 @@
 		(uuid "03615201-79b2-4343-985d-7b50357962c9")
 	)
 	(fp_line
-		(start 4.5 3)
-		(end -4.5 3)
+		(start 4 2.5)
+		(end -4 2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
