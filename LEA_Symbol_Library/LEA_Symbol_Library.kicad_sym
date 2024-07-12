@@ -60190,6 +60190,98 @@
 			)
 		)
 	)
+	(symbol "LCB_M3_Spacer+Scew"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "H"
+			(at -3.048 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LCB_M3_Spacer+Scew"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:LCB_M3_Spacer+Screw"
+			(at 0 -3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "144-MTS-10S|534-29341"
+			(at 0.762 -6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MTS-10S|29341"
+			(at 0.762 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Essentra|Keystone Electronics"
+			(at 8.128 -11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LCB_M3_Spacer+Scew_1_1"
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 1.27)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
 	(symbol "LDO_BA033CC0FP-E2"
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -65090,71 +65182,6 @@
 			)
 		)
 	)
-	(symbol "M3_MountingHole_Plastic_Scew"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(property "Reference" "H"
-			(at -3.048 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M3_MountingHole_Plastic_Screw"
-			(at 0 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LEA_FootprintLibrary:MountingHole_M3_Plastic_Screw"
-			(at 0 -3.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "M3"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "M3_MountingHole_Plastic_Scew_1_1"
-			(circle
-				(center 0 0)
-				(radius 1.27)
-				(stroke
-					(width 1.27)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-	)
 	(symbol "M3_MountingHole_conn"
 		(pin_names
 			(offset 1.016)
@@ -65243,6 +65270,89 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+	)
+	(symbol "M3_Spacer"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "H"
+			(at -3.048 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M3_MountingHole_Plastic_Screw"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:MountingHole_M3_Spacer+Screw"
+			(at 0 -3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "144-MTS-10S|534-29341"
+			(at -0.254 -5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MTS-10S|29341"
+			(at -0.254 -8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "M3_Spacer_1_1"
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 1.27)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
