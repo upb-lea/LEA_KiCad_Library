@@ -59713,8 +59713,8 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
-		(in_bom no)
+		(exclude_from_sim yes)
+		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "H"
 			(at -3.048 0 0)
@@ -59771,6 +59771,15 @@
 		)
 		(property "manf#" "MTS-10S|29341"
 			(at 0.762 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Essentra|Keystone Electronics"
+			(at 8.128 -11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)

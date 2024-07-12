@@ -156,7 +156,7 @@
 	)
 	(model "${MODEL_3D}/29341.stp"
 		(offset
-			(xyz 0 0 2.5)
+			(xyz 0 0 4.5)
 		)
 		(scale
 			(xyz 1 1 1)
