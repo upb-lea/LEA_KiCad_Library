@@ -8,7 +8,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -118,7 +118,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -228,7 +228,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -338,7 +338,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -448,7 +448,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -558,7 +558,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -668,7 +668,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -778,7 +778,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -888,7 +888,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -998,7 +998,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -1108,7 +1108,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -1218,7 +1218,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -1328,7 +1328,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -1438,7 +1438,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -1548,7 +1548,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -1658,7 +1658,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -1768,7 +1768,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -1878,7 +1878,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -1988,7 +1988,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -2098,7 +2098,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -2208,7 +2208,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -2318,7 +2318,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -2423,7 +2423,7 @@
 		)
 	)
 	(symbol "74HC74BQ,115"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -2800,7 +2800,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
@@ -2957,7 +2957,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Y"
@@ -4238,7 +4238,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -4508,7 +4508,7 @@
 		)
 	)
 	(symbol "ADAPTER_OP_SOIC_16"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "U"
@@ -4866,7 +4866,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -4947,7 +4947,7 @@
 		)
 	)
 	(symbol "AND_Gate_SN74LVC1G08DCKR"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -5158,7 +5158,7 @@
 		)
 	)
 	(symbol "AND_Gate_SN74LVC2G08DCUR"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -5425,7 +5425,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -5661,7 +5661,7 @@
 	)
 	(symbol "CAS-120TA"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "S"
@@ -5853,7 +5853,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "S"
@@ -6162,7 +6162,7 @@
 	)
 	(symbol "CLM-107-02-L-D-K-TR"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -6657,7 +6657,7 @@
 		)
 	)
 	(symbol "CT_B82801C1265A150"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "T"
@@ -7130,7 +7130,7 @@
 		)
 	)
 	(symbol "CT_CU8965-ALC"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "T"
@@ -7462,7 +7462,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0.254) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
@@ -7510,7 +7510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
+		(property "manf#" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -7528,7 +7528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" ""
+		(property "mouser#" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -7634,7 +7634,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0.254) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
@@ -7806,7 +7806,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0.254) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
@@ -7968,7 +7968,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0.254) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
@@ -8016,7 +8016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
+		(property "manf#" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -8034,7 +8034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" ""
+		(property "mouser#" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -8140,7 +8140,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0.254) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
@@ -8188,7 +8188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
+		(property "manf#" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -8206,7 +8206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" ""
+		(property "mouser#" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -8312,7 +8312,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0.254) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
@@ -8457,7 +8457,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0.254) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
@@ -8628,7 +8628,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0.254) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
@@ -8797,7 +8797,7 @@
 	)
 	(symbol "C_Electrolytic_22u_Radial_20P_450V"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
@@ -8998,7 +8998,7 @@
 	)
 	(symbol "C_Electrolytic_27u_Radial_20P_50V"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
@@ -9199,7 +9199,7 @@
 	)
 	(symbol "C_Electrolytic_56u_Radial_20P_100V"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
@@ -9391,7 +9391,7 @@
 	)
 	(symbol "C_Electrolytic_680u_Radial_20P_35V"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
@@ -9593,7 +9593,7 @@
 	(symbol "C_Film__3u0_MKP__5P__800V"
 		(pin_numbers hide)
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
@@ -9760,7 +9760,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
@@ -9918,7 +9918,7 @@
 	)
 	(symbol "C__Film__15n_PP__20P_300V_Y2"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
@@ -10083,7 +10083,7 @@
 	)
 	(symbol "C__Film__4n7_PP__20P_1000V_Y2"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
@@ -10240,7 +10240,7 @@
 	(symbol "Conn_01x01"
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -10350,7 +10350,7 @@
 	(symbol "Conn_01x01_Male"
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -10634,7 +10634,7 @@
 		)
 	)
 	(symbol "Conn_01x03_Male"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -10792,7 +10792,7 @@
 		)
 	)
 	(symbol "Conn_01x08_Male"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -11040,7 +11040,7 @@
 		)
 	)
 	(symbol "Conn_02x03_Male"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -11244,7 +11244,7 @@
 		)
 	)
 	(symbol "Conn_02x05_Male"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -11520,7 +11520,7 @@
 		)
 	)
 	(symbol "Conn_02x08_Male"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -11912,7 +11912,7 @@
 		)
 	)
 	(symbol "Conn_02x09_Male"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -14191,7 +14191,7 @@
 	(symbol "Conn_BNC_PCB"
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -15008,7 +15008,7 @@
 	(symbol "Conn_ERF5-060-05.0-L-DV-K-TR"
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -17278,7 +17278,7 @@
 	)
 	(symbol "Conn_ERF5-075-05.0-L-DV-TR"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -20089,7 +20089,7 @@
 	(symbol "Conn_ERM5-060-05.0-L-DV-K-TR"
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -22368,7 +22368,7 @@
 	)
 	(symbol "Conn_ERM5-075-05.0-L-DV-K-TR"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -25186,7 +25186,7 @@
 		)
 	)
 	(symbol "Conn_Header_3.5mm_8A_160V"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "X"
@@ -25289,7 +25289,7 @@
 					(type background)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at 5.08 2.54 180)
 				(length 2.54)
 				(name "1"
@@ -25307,7 +25307,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at 5.08 -2.54 180)
 				(length 2.54)
 				(name "2"
@@ -25328,7 +25328,7 @@
 		)
 	)
 	(symbol "Conn_Header_3.5mm_8A_160V_Side"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -25429,7 +25429,7 @@
 					(type background)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 5.08 2.54 180)
 				(length 2.54)
 				(name "1"
@@ -25447,7 +25447,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 5.08 -2.54 180)
 				(length 2.54)
 				(name "2"
@@ -36686,7 +36686,7 @@
 	(symbol "Conn_M4"
 		(pin_numbers hide)
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -36819,7 +36819,7 @@
 	(symbol "Conn_Molex_532617006"
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -37081,7 +37081,7 @@
 		)
 	)
 	(symbol "Conn_Molex_533980671"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -37287,7 +37287,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -37461,7 +37461,7 @@
 	(symbol "Conn_SMA_PCB"
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -38672,7 +38672,7 @@
 		)
 	)
 	(symbol "Conn_molex_533980871"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -38911,7 +38911,7 @@
 		)
 	)
 	(symbol "Conn_sub-D_09551156612741"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
@@ -39686,7 +39686,7 @@
 		)
 	)
 	(symbol "Controller_UCC28740QDRQ1"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -39928,7 +39928,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -40203,7 +40203,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -40313,7 +40313,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -40394,7 +40394,7 @@
 		)
 	)
 	(symbol "DCDC_24V_20V_-5V"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -40577,7 +40577,7 @@
 		)
 	)
 	(symbol "DCDC_24V_24V_PEM2-S24-S24-S"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "PS"
@@ -40776,7 +40776,7 @@
 		)
 	)
 	(symbol "DCDC_24V_5V0_VXO7805-1000"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -40818,7 +40818,7 @@
 			)
 		)
 		(property "Description" "Non-Isolated DC/DC Converters 8-36Vin 5Vout 1A 5W SIP non-Iso"
-			(at 0 0 0)
+			(at -1.778 11.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40877,7 +40877,7 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -12.7 0 0)
 				(length 5.08)
 				(name "+VIN"
@@ -40913,7 +40913,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 12.7 0 180)
 				(length 5.08)
 				(name "+VOUT"
@@ -40937,7 +40937,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -41210,7 +41210,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -41481,7 +41481,7 @@
 	)
 	(symbol "D_0603_0A125_TS4448_RGG"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
@@ -41645,7 +41645,7 @@
 	(symbol "D_DFN_5A0_SE20ND"
 		(pin_names
 			(offset 0.254) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
@@ -41812,7 +41812,7 @@
 	)
 	(symbol "D_SMB_2A0_ES2C-E3_52T"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
@@ -42850,7 +42850,7 @@
 		)
 	)
 	(symbol "D_SOT_0A2_BAT54S-7-F"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
@@ -43200,7 +43200,7 @@
 	)
 	(symbol "D_TVS_2A0_P6SMB160A-Q"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
@@ -43669,7 +43669,7 @@
 	(symbol "D_Z"
 		(pin_numbers hide)
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
@@ -44000,7 +44000,7 @@
 		(pin_names
 			(offset 0.254)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
@@ -44304,7 +44304,7 @@
 	(symbol "D_Z_3V9_BZV55B2V4"
 		(pin_numbers hide)
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
@@ -44467,7 +44467,7 @@
 		(pin_names
 			(offset 0.254)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
@@ -44769,7 +44769,7 @@
 		)
 	)
 	(symbol "Driver_Infineon_1EDI60N12AF"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -44994,7 +44994,7 @@
 		)
 	)
 	(symbol "Driver_TI_UCC21530DWKR"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -45360,7 +45360,7 @@
 	)
 	(symbol "ECS-120-20-30B-TR"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Y"
@@ -45532,7 +45532,7 @@
 		)
 	)
 	(symbol "ECS-2033-120-AU"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Y"
@@ -45697,7 +45697,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Y"
@@ -45862,7 +45862,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -46063,7 +46063,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -47308,7 +47308,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
@@ -47468,7 +47468,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
@@ -47628,7 +47628,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
@@ -48230,7 +48230,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -48316,7 +48316,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -48402,7 +48402,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -48488,7 +48488,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -48574,7 +48574,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -48669,7 +48669,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -48755,7 +48755,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -48850,7 +48850,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -48936,7 +48936,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -49022,7 +49022,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -49108,7 +49108,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
@@ -49192,7 +49192,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -50680,7 +50680,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -52165,7 +52165,7 @@
 		)
 	)
 	(symbol "ISO_AMC22C11QDRQ1"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -52422,7 +52422,7 @@
 		)
 	)
 	(symbol "ISO_ISO1042QDWVRQ1"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -52688,7 +52688,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -54439,7 +54439,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -56154,7 +56154,7 @@
 		)
 	)
 	(symbol "ISO_ISO7741FQDWQ1"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -57900,7 +57900,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -59648,7 +59648,7 @@
 		)
 	)
 	(symbol "ISO_MAX22530AWE+"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -60040,7 +60040,7 @@
 		)
 	)
 	(symbol "ISP752TFUMA1"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -60279,7 +60279,7 @@
 		)
 	)
 	(symbol "Jumper_bridge"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "J"
@@ -60403,6 +60403,98 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+	)
+	(symbol "LCB_M3_Spacer+Scew"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "H"
+			(at -3.048 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LCB_M3_Spacer+Scew"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:LCB_M3_Spacer+Screw"
+			(at 0 -3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "144-MTS-10S|534-29341"
+			(at 0.762 -6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MTS-10S|29341"
+			(at 0.762 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Essentra|Keystone Electronics"
+			(at 8.128 -11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LCB_M3_Spacer+Scew_1_1"
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 1.27)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
@@ -63827,7 +63919,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -64008,7 +64100,7 @@
 	)
 	(symbol "LM431"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
@@ -64238,7 +64330,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -64642,7 +64734,7 @@
 		)
 	)
 	(symbol "LTV-817S"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -64928,7 +65020,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
@@ -65082,7 +65174,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
@@ -65246,7 +65338,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "H"
@@ -65307,76 +65399,11 @@
 			)
 		)
 	)
-	(symbol "M3_MountingHole_Plastic_Scew"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(property "Reference" "H"
-			(at -3.048 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M3_MountingHole_Plastic_Screw"
-			(at 0 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LEA_FootprintLibrary:MountingHole_M3_Plastic_Screw"
-			(at 0 -3.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "M3"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "M3_MountingHole_Plastic_Scew_1_1"
-			(circle
-				(center 0 0)
-				(radius 1.27)
-				(stroke
-					(width 1.27)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-	)
 	(symbol "M3_MountingHole_conn"
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "H"
@@ -65464,11 +65491,94 @@
 			)
 		)
 	)
+	(symbol "M3_Spacer"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "H"
+			(at -3.048 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M3_MountingHole_Plastic_Screw"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:MountingHole_M3_Spacer+Screw"
+			(at 0 -3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "144-MTS-10S|534-29341"
+			(at -0.254 -5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MTS-10S|29341"
+			(at -0.254 -8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "M3_Spacer_1_1"
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 1.27)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
 	(symbol "MAX6037AAUK30+T"
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -65649,7 +65759,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC801"
@@ -66092,7 +66202,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC801"
@@ -66535,7 +66645,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -66725,7 +66835,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -66903,7 +67013,7 @@
 		)
 	)
 	(symbol "MUX_ADG708BRUZ"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -67306,7 +67416,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -67578,7 +67688,7 @@
 		)
 	)
 	(symbol "OP_1_INA181A1IDBVR"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -68029,7 +68139,7 @@
 		)
 	)
 	(symbol "OP_1_INA181A2IDBVR"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -68480,7 +68590,7 @@
 		)
 	)
 	(symbol "OP_1_OPA365AQDBVRQ1"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -68677,7 +68787,7 @@
 		)
 	)
 	(symbol "OP_1_OPA607QDBVRQ1"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -68886,7 +68996,7 @@
 		)
 	)
 	(symbol "OP_1_TVL313_SOT-23"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -69056,7 +69166,7 @@
 		)
 	)
 	(symbol "OP_2_TLV7012_WSON8"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -69324,7 +69434,7 @@
 		)
 	)
 	(symbol "OP_4_LMV339_TSSOP14"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -69731,7 +69841,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -70135,7 +70245,7 @@
 		)
 	)
 	(symbol "OR_Gate_SN74AUP1T32DCKR"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -70346,7 +70456,7 @@
 		)
 	)
 	(symbol "OR_Gate_SN74LVC2G32DCUR"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -70614,7 +70724,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
@@ -70825,7 +70935,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
@@ -71036,7 +71146,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -71274,7 +71384,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#FLG"
@@ -71369,7 +71479,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0.254) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
@@ -71417,7 +71527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
+		(property "manf#" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -71426,7 +71536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" ""
+		(property "mouser#" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -71528,7 +71638,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0.254) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
@@ -71687,7 +71797,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0.254) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
@@ -71735,7 +71845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
+		(property "manf#" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -71753,7 +71863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" ""
+		(property "mouser#" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -71846,7 +71956,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0.254) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
@@ -72005,7 +72115,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0.254) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
@@ -72053,7 +72163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
+		(property "manf#" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -72071,7 +72181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" ""
+		(property "mouser#" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -72164,7 +72274,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0.254) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
@@ -72212,7 +72322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
+		(property "manf#" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -72230,7 +72340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" ""
+		(property "mouser#" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -72332,7 +72442,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0.254) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
@@ -72473,7 +72583,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
@@ -72519,7 +72629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
+		(property "manf#" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -72799,7 +72909,7 @@
 	(symbol "R_shunt_CRM2512-FX-33R0ELF"
 		(pin_numbers hide)
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R_shunt"
@@ -72962,7 +73072,7 @@
 	(symbol "R_shunt_CRM2512FX20R0ELF"
 		(pin_numbers hide)
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R_shunt"
@@ -73123,7 +73233,7 @@
 		)
 	)
 	(symbol "R_shunt_Coax"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
@@ -73353,7 +73463,7 @@
 	(symbol "R_shunt_ERJ-8RQF1R3V"
 		(pin_numbers hide)
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R_1206"
@@ -73516,7 +73626,7 @@
 	(symbol "R_shunt_PA2512FKE7W1U5E"
 		(pin_numbers hide)
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R_shunt"
@@ -73679,7 +73789,7 @@
 	(symbol "R_shunt_PCS2512FR0050ET"
 		(pin_numbers hide)
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R_shunt"
@@ -73840,7 +73950,7 @@
 		)
 	)
 	(symbol "R_shunt_SMD"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
@@ -74153,7 +74263,7 @@
 	(symbol "R_shunt_TLR3APDTEL820F75"
 		(pin_numbers hide)
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R_shunt"
@@ -75695,7 +75805,7 @@
 		)
 	)
 	(symbol "TL431BIDBZTG4"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -75737,7 +75847,7 @@
 			)
 		)
 		(property "Description" "Adjustable precision shunt regulator"
-			(at 0 0 0)
+			(at 1.524 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -75827,9 +75937,9 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -5.715 90)
-				(length 5.08)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 4.4)
 				(name ""
 					(effects
 						(font
@@ -75869,7 +75979,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
@@ -76077,7 +76187,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -82907,7 +83017,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "TP"
@@ -83033,7 +83143,7 @@
 	(symbol "T_CREE_C3M0060065J"
 		(pin_names
 			(offset 0) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "S"
@@ -83372,7 +83482,7 @@
 	(symbol "T_CREE_C3M0065100J"
 		(pin_names
 			(offset 0) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "S"
@@ -83711,7 +83821,7 @@
 	(symbol "T_CREE_C3M0120065J"
 		(pin_names
 			(offset 0) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "S"
@@ -84343,7 +84453,7 @@
 	(symbol "T_NPN_BCW66"
 		(pin_names
 			(offset 0) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
@@ -84562,7 +84672,7 @@
 	)
 	(symbol "T_NPN_DNBT8105-7"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
@@ -84783,7 +84893,7 @@
 	)
 	(symbol "T_PNP_DPBT8105-7"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
@@ -85004,7 +85114,7 @@
 	)
 	(symbol "T_STD13N60M2"
 		(pin_names hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "S"
@@ -85306,7 +85416,7 @@
 		(pin_numbers hide)
 		(pin_names
 			(offset 0.762) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "TP"
@@ -85421,7 +85531,7 @@
 	(symbol "Transformer_1P_1A_2S"
 		(pin_names
 			(offset 1.016) hide)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "T"
@@ -86170,7 +86280,7 @@
 		)
 	)
 	(symbol "Transformer_1P_1A_6S"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "T"
@@ -87269,7 +87379,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "#PWR"
