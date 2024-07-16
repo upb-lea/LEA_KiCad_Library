@@ -38,6 +38,11 @@ Open the github page, choose your branch and create a `pull request`.
 ## BOM generation
 The component library is aligned to use the add-on [KiCost](https://github.com/hildogjr/KiCost). Therefore the above mentioned keys `Manufacturer`, `manf#` and `mouser#` are mandatory in the symbol. In the schematic, navigate `Tools` -> `create BOM` and run a random one, e.g. `bom_csv_grouped_by_value`. Install KiCost, navigate via terminal to your kicad project folder and enter `kicost` to your terminal. As input file, choose the `.xml` file what was created by the BOM command. After that, the KiCost BOM will be created. To get the prices and stock information from Mouser, create a Mouser API key on the Mouser homepage and enter it into the [config file](https://hildogjr.github.io/KiCost/docs/_build/singlehtml/index.html#configuration-file). 
 
+## Pin labels
+### Connectors
+ * All pins should be `passive` (no `power` or `bidirectional`, as the usage changes from schematic to schematic)
+ 
+
 ## Library type labels
 For a better findability and sorting of the many components, it is necessary to use a type code. Some examples are given here.
 ### SMD resistors
