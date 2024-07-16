@@ -42717,7 +42717,7 @@
 		(symbol "D_SOD_SD101AW-HE3_A-08_1_1"
 			(polyline
 				(pts
-					(xy -5.08 0) (xy -2.54 0)
+					(xy -2.54 0) (xy -3.81 0)
 				)
 				(stroke
 					(width 0.254)
@@ -42729,7 +42729,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.556 -1.524) (xy -3.556 -2.54)
+					(xy 1.524 -1.524) (xy 1.524 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -42741,7 +42741,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -2.54) (xy -3.556 -2.54)
+					(xy 2.54 -2.54) (xy 1.524 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -42753,7 +42753,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 2.54) (xy -2.54 -2.54)
+					(xy 2.54 -2.54) (xy 2.54 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -42765,7 +42765,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 2.54) (xy -1.524 2.54)
+					(xy 2.54 2.54) (xy 3.556 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -42777,7 +42777,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 1.524) (xy -1.524 2.54)
+					(xy 3.556 1.524) (xy 3.556 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -42789,7 +42789,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 5.08 0)
+					(xy 3.81 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0.254)
@@ -42801,7 +42801,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 0) (xy 2.54 2.54) (xy 2.54 -2.54) (xy -2.54 0)
+					(xy 2.54 0) (xy -2.54 -2.54) (xy -2.54 2.54) (xy 2.54 0)
 				)
 				(stroke
 					(width 0.254)
@@ -42812,7 +42812,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 0 0)
+				(at -6.35 0 0)
 				(length 2.54)
 				(name "K"
 					(effects
@@ -42830,7 +42830,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 0 180)
+				(at 6.35 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
