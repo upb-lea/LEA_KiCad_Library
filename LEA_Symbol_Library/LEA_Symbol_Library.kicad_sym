@@ -84722,7 +84722,7 @@
 				(hide yes)
 			)
 		)
-		(property "#mouser" "621-DNBT8105-7"
+		(property "mouser#" "621-DNBT8105-7"
 			(at 15.24 -487.3 0)
 			(effects
 				(font
@@ -84742,7 +84742,7 @@
 				(hide yes)
 			)
 		)
-		(property "#manf" "DNBT8105-7"
+		(property "manf#" "DNBT8105-7"
 			(at 15.24 -787.3 0)
 			(effects
 				(font
@@ -84943,7 +84943,7 @@
 				(hide yes)
 			)
 		)
-		(property "#mouser" "621-DPBT8105-7"
+		(property "mouser#" "621-DPBT8105-7"
 			(at 3.81 -501.27 0)
 			(effects
 				(font
@@ -84963,7 +84963,7 @@
 				(hide yes)
 			)
 		)
-		(property "#manf" "DPBT8105-7"
+		(property "manf#" "DPBT8105-7"
 			(at 3.81 -801.27 0)
 			(effects
 				(font
