@@ -65339,7 +65339,7 @@
 			(offset 1.016)
 		)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "H"
 			(at -3.048 0 0)
@@ -65404,7 +65404,7 @@
 			(offset 1.016)
 		)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "H"
 			(at -3.048 0 0)
