@@ -6,6 +6,15 @@ Features:
  * reviewed symbols and footprints trough pull-requests
  * symbols containing mouser material numbers to auto-generate a BOM using KiCost
 
+## Set library file path
+Add this library to your project. Make sure that you use **exactly** the same `Nicknames` as shown here:
+ * `Preferences` -> `Manage Symbol Libraries` -> Project Specific Libraries: Nickname: `LEA_SymbolLibrary`, Library Path: `your/path/LEA_KiCad_Library/LEA_Symbol_Library/LEA_Symbol_Library.kicad_sym`
+ * `Preferences` -> `Manage Footprint Libraries` -> Project Specific Libraries: Nickname: `LEA_FootprintLibrary`, Library Path: `your/path/LEA_KiCad_Library/LEA_Footprint_Library.pretty`
+
+It is also possible to add both libraries to the `Global Libraries`.
+
+
+
 ## Set environment variable for 3D models:
 In the KiCad main menu, first select `Preferences` and then `Configure Path`.
 Replace the environment variable `MODEL_3D` with the current location of the 3D-models, e.g. `/path/LEA_KiCad_Library/LEA_3D_Models`. This should be the 3D-models for the `LEA_KiCad_Library` repository.
@@ -14,20 +23,25 @@ Note: if there is a variable `KICADx_3DMODEL_DIR`, ignore this variable and add 
 ![](documentation/figures/3d_model_path_preferences.png)
 
 ## Adding components
-The main branch ist protected. To add new components, open a new separate branch
+The main branch is protected. To add new components, open a new separate branch
 ```
 git branch my-new-branch
 ```
-Open Kicad, add your new symbols and footprints to the library. Each symbol should have the keys `Manufacturer`, `manf#` (manufacturer order number) and `mouser#` (mouser order number). Link the footprint and the 3D model. The 3D-model filepath needs to be a relative path with the above mentioned enwironment variable. The 3D-Filepath is e.g. `${MODEL_3D}/my3dmodel.stp`. Run `git status` to see your changed files. Add the example files `symbolfile` and `my3dmodel.stp` to the staging area and commit the changes. Afterwards, use `git push` to publish the changes to the new branch. 
+Open KiCad, add your new symbols and footprints to the library. Each symbol should have the keys `Manufacturer`, `manf#` (manufacturer order number) and `mouser#` (mouser order number). Link the footprint and the 3D model. The 3D-model file path needs to be a relative path with the above mentioned environment variable. The 3D file path is e.g. `${MODEL_3D}/my3dmodel.stp`. Run `git status` to see your changed files. Add the example files `symbolfile` and `my3dmodel.stp` to the staging area and commit the changes. Afterwards, use `git push` to publish the changes to the new branch. 
 ```
 git add symbolfile my3dmodel.stp
 git commit -m "add new component xyz and 3D-model"
 git push
 ```
-Open the github page, choose your branch and create a `pull request`.
+Open the GitHub page, choose your branch and create a `pull request`.
 
 ## BOM generation
-The component library is aligned to use the add-on [KiCost](https://github.com/hildogjr/KiCost). Therefore the above mentioned keys `Manufacturer`, `manf#` and `mouser#` are mandatory in the symbol. In the schematic, navigate `Tools` -> `create BOM` and run a random one, e.g. `bom_csv_grouped_by_value`. Install KiCost, navigate via terminal to your kicad project folder and enter `kicost` to your terminal. As input file, choose the `.xml` file what was created by the BOM command. After that, the KiCost BOM will be created. To get the prices and stock information from Mouser, create a Mouser API key on the Mouser homepage and enter it into the [config file](https://hildogjr.github.io/KiCost/docs/_build/singlehtml/index.html#configuration-file). 
+The component library is aligned to use the add-on [KiCost](https://github.com/hildogjr/KiCost). Therefore the above mentioned keys `Manufacturer`, `manf#` and `mouser#` are mandatory in the symbol. In the schematic, navigate `Tools` -> `create BOM` and run a random one, e.g. `bom_csv_grouped_by_value`. Install KiCost, navigate via terminal to your KiCad project folder and enter `kicost` to your terminal. As input file, choose the `.xml` file what was created by the BOM command. After that, the KiCost BOM will be created. To get the prices and stock information from Mouser, create a Mouser API key on the Mouser homepage and enter it into the [configuration file](https://hildogjr.github.io/KiCost/docs/_build/singlehtml/index.html#configuration-file). 
+
+## Pin labels
+### Connectors
+ * All pins should be `passive` (no `power` or `bidirectional`, as the usage changes from schematic to schematic)
+ 
 
 ## Library type labels
 For a better findability and sorting of the many components, it is necessary to use a type code. Some examples are given here.
@@ -36,10 +50,10 @@ Differences:
  * Type: `SMD` / `THT`
  * Values: `_100R` / `__4R7` / `0R001`
  * Size: `0603` / `0704` / `0403`
- * Technology: Thinfilm `_THIN` / Thickfilm `THICK`
+ * Technology: Thin film `_THIN` / Thick film `THICK`
  * `HINT`: e.g. `SHUNT`
  * Derivation in percent: `_1P` / `_5P` / `10P` / `20P`
- * Voltag: `75V` / `100V`
+ * Voltage: `75V` / `100V`
 
 Examples:
  * `R_0805_100R__THIN_20P_150V`
