@@ -14405,7 +14405,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "1548376"
+		(property "Footprint" "LEA_FootprintLibrary:Conn_1548376"
 			(at 16.51 -94.92 0)
 			(effects
 				(font
