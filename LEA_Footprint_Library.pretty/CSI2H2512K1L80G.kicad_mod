@@ -1,0 +1,244 @@
+(footprint "CSI2H2512K1L80G"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CSI2H-2512K-1L80G-2")
+	(tags "Resistor")
+	(property "Reference" "R**"
+		(at 0 -2.9 0)
+		(layer "F.SilkS")
+		(uuid "66aab7bb-5036-4ade-a36d-c7c31fe612d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CSI2H2512K1L80G"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d78b5105-acbe-4cfe-a797-956e9bd96c22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3466033-d49f-42e7-a9ac-efee026f6a95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "648c905c-6f1f-4eff-98a5-c8a06dee8bd9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b1e6c53-5e6b-4d4c-97b2-566125ecbaef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.05 0)
+		(end -4.05 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e75e3083-46a1-41de-9af0-3dc7b310733d")
+	)
+	(fp_line
+		(start -3.95 0)
+		(end -3.95 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2bc53e06-1329-4434-a40a-069714709f07")
+	)
+	(fp_line
+		(start -1.4 -1.525)
+		(end 1.4 -1.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e9f0224-debb-4f43-b383-c68f5eb1df63")
+	)
+	(fp_line
+		(start -1.4 1.525)
+		(end 1.4 1.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "641f530e-f288-43e5-b379-d36c9caf5b7b")
+	)
+	(fp_arc
+		(start -4.05 0)
+		(mid -4 -0.05)
+		(end -3.95 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98f40349-d327-40e0-b9b5-e9d24b91097a")
+	)
+	(fp_arc
+		(start -3.95 0)
+		(mid -4 0.05)
+		(end -4.05 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "006ee6bf-e268-4e92-a023-4723caaa4e9b")
+	)
+	(fp_line
+		(start -3.6 -1.8)
+		(end 3.6 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bce41858-6127-439c-a5eb-4ae6007ee87f")
+	)
+	(fp_line
+		(start -3.6 1.8)
+		(end -3.6 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f032bb1-7d45-404a-b0f2-e62b69a47d83")
+	)
+	(fp_line
+		(start 3.6 -1.8)
+		(end 3.6 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ea90c676-1a8b-4fd4-931e-3742d652101e")
+	)
+	(fp_line
+		(start 3.6 1.8)
+		(end -3.6 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2acb39ef-4484-4386-a5d3-62c198149018")
+	)
+	(fp_line
+		(start -3.175 -1.525)
+		(end -3.175 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9773ca4-5350-4581-9763-dc8fbc52ffe9")
+	)
+	(fp_line
+		(start -3.175 1.525)
+		(end 3.175 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8276b705-3365-4f9a-9e56-1bdc88c5df14")
+	)
+	(fp_line
+		(start 3.175 -1.525)
+		(end -3.175 -1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ccf411b0-c687-4bdf-a689-7a34991e755b")
+	)
+	(fp_line
+		(start 3.175 1.525)
+		(end 3.175 -1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da811be2-9247-4b00-9285-60e62eb313b9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "94e6bc32-4492-4c79-8cee-eab6f05fddde")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.6 0)
+		(size 1.8 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "93a4d74e-5802-429f-8e57-9ed890a0567f")
+	)
+	(pad "2" smd rect
+		(at 2.6 0)
+		(size 1.8 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c966730d-7b1c-4fcf-8df9-fad24702c13e")
+	)
+	(model "${MODEL_3D}/CSI2H-2512K-1L80G.stp"
+		(offset
+			(xyz -3.180000019 -1.519999958 0.3099999977)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
