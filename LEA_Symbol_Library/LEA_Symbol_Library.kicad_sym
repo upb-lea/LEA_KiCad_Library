@@ -9461,7 +9461,7 @@
 				(hide yes)
 			)
 		)
-		(property "#manf" "EEU-FC1V681B"
+		(property "manf#" "EEU-FC1V681B"
 			(at 8.89 -796.19 0)
 			(effects
 				(font
@@ -41216,7 +41216,7 @@
 				(hide yes)
 			)
 		)
-		(property "#manf" "VXO7805-1000"
+		(property "manf#" "VXO7805-1000"
 			(at 8.89 -792.38 0)
 			(effects
 				(font
