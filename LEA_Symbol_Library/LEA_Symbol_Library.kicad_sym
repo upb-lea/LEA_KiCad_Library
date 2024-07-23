@@ -73242,13 +73242,14 @@
 			)
 		)
 	)
-	(symbol "R_Shunt_1.8m_5W_CSI2H-2512K-1L80G"
+	(symbol "R_shunt_1m8_5W_CSI2H-2512K-1L80G"
+		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at -4.064 5.842 0)
+			(at -2.286 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73256,8 +73257,8 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CSI2H-2512K-1L80G"
-			(at -4.064 3.302 0)
+		(property "Value" "1m8"
+			(at -2.286 2.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73275,7 +73276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/Bourns_11152023_CSI2H_2512_Datasheet-3368513.pdfhttps://www.mouser.de/datasheet/2/54/Bourns_11152023_CSI2H_2512_Datasheet-3368513.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/Bourns_11152023_CSI2H_2512_Datasheet-3368513.pdf"
 			(at 5.08 -196.19 0)
 			(effects
 				(font
@@ -73324,22 +73325,30 @@
 				(hide yes)
 			)
 		)
-		(symbol "R_Shunt_1.8m_5W_CSI2H-2512K-1L80G_1_1"
+		(symbol "R_shunt_1m8_5W_CSI2H-2512K-1L80G_1_1"
 			(rectangle
-				(start -3.81 1.27)
-				(end 3.81 -1.27)
+				(start -1.778 0.762)
+				(end 1.778 -0.762)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
+				)
+			)
+			(text "2512"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
 				)
 			)
 			(pin passive line
-				(at -8.89 0 0)
-				(length 5.08)
-				(name "1"
+				(at -2.54 0 0)
+				(length 0.762)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -73355,9 +73364,9 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 0 180)
-				(length 5.08)
-				(name "2"
+				(at 2.54 0 180)
+				(length 0.762)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
