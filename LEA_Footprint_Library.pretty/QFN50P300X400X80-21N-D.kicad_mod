@@ -66,8 +66,8 @@
 	)
 	(attr smd)
 	(fp_circle
-		(center -1.9 -2)
-		(end -1.775 -2)
+		(center -1.8 -2.3)
+		(end -1.675 -2.3)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -105,16 +105,6 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "2ec4b121-baf7-4414-be67-72932e4bfc98")
-	)
-	(fp_line
-		(start -1.5 -1.5)
-		(end -1 -2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "189acb59-3640-4e57-8f30-22b1cea72188")
 	)
 	(fp_line
 		(start -1.5 2)
