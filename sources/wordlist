@@ -46,4 +46,8 @@ THT
 Microcontrollers
 ICs
 Schmitt
-
+NetClass
+ERC
+fiducials
+KiClearance
+DRC

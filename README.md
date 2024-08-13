@@ -116,3 +116,10 @@ Examples:
  * `ST_6CH_CMOS_SOIC14_MC74HC14ADG`
 
 
+## Checklist Layout order
+ * Schematic: generate BOM, check if all components are available using [KiCost](https://github.com/hildogjr/KiCost)
+ * Schematic: all potentials have a NetClass 
+ * Schematic: free of failures and warnings using Electrical Rules Checker (ERC)
+ * PCB: fiducials (2 on top layer, 2 on bottom layer)
+ * PCB: spacing rules generation using [KiClearance](https://github.com/upb-lea/KiClearance)
+ * PCB: free of failures and warnings in Design Rules Checker (DRC)
