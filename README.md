@@ -117,9 +117,18 @@ Examples:
 
 
 ## Checklist Layout order
- * Schematic: generate BOM, check if all components are available using [KiCost](https://github.com/hildogjr/KiCost)
- * Schematic: all potentials have a NetClass 
- * Schematic: free of failures and warnings using Electrical Rules Checker (ERC)
- * PCB: fiducials (2 on top layer, 2 on bottom layer)
- * PCB: spacing rules generation using [KiClearance](https://github.com/upb-lea/KiClearance)
- * PCB: free of failures and warnings in Design Rules Checker (DRC)
+### Schematic
+ * generate BOM, check if all components are available using [KiCost](https://github.com/hildogjr/KiCost)
+ * all potentials have a NetClass 
+ * free of failures and warnings using Electrical Rules Checker (ERC)
+### PCB
+ * fiducials (2 on top layer, 2 on bottom layer)
+ * spacing rules generation using [KiClearance](https://github.com/upb-lea/KiClearance)
+ * free of failures and warnings in Design Rules Checker (DRC)
+ * For double-sided SMD assembly: Two edges should each have `2 mm` space so that the PCB can be placed in the corresponding holder during the vapor phase.
+### Ordering process
+ * Stencil: Pad reduction of `10 %`
+ * Stencil: The edge of the stencil must be 30 mm on both sides to ensure that it can be clamped in the stencil printer.
+ 
+ 
+ 
