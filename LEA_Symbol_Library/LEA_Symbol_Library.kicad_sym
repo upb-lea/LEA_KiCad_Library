@@ -72813,6 +72813,17 @@
 			)
 		)
 		(symbol "R_POT_Bourns_PTV09A-1_0_1"
+			(rectangle
+				(start -1.016 2.54)
+				(end 1.016 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 2.54 0) (xy 1.524 0)
@@ -72835,17 +72846,6 @@
 				)
 				(fill
 					(type outline)
-				)
-			)
-			(rectangle
-				(start 1.016 2.54)
-				(end -1.016 -2.54)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
 				)
 			)
 		)
@@ -85551,7 +85551,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:B65878E1012D001"
-			(at 0 0 0)
+			(at 1.27 -26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85569,7 +85569,7 @@
 			)
 		)
 		(property "Description" "Transformer, single primary, dual secondary, single auxilliary"
-			(at 0 0 0)
+			(at 1.524 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85579,6 +85579,24 @@
 		)
 		(property "Sim.Enable" "0"
 			(at 0 -0.1778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "871-B65877A0000R095|871-B65877A0000R095|871-B65878E1012D001"
+			(at 3.556 -18.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "B65877A0000R095|B65877A0000R095|B65878E1012D001"
+			(at 0.762 -16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
