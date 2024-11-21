@@ -4,7 +4,7 @@ This repository contains a KiCad library for symbols, footprints and 3D-models i
 
 Features:
  * Reviewed symbols and footprints trough pull-requests,
- * all symbols are hard linked to a footprint, this avoids missmatching symbol and footprint,
+ * all symbols are hard linked to a footprint, this avoids miss matching symbol and footprint,
  * symbol names follow a type code, for improved searchability,
  * symbols containing mouser material numbers to auto-generate a BOM using [KiCost](https://github.com/hildogjr/KiCost),
  * using KiCost together with this library can make requests to [mouser](https://eu.mouser.com/), to see if all PCB components are on stock.
