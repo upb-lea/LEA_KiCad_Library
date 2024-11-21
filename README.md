@@ -3,8 +3,19 @@
 This repository contains a KiCad library for symbols, footprints and 3D-models including mouser material numbers to auto-generate BOMs (bill of materials) by using [KiCost](https://github.com/hildogjr/KiCost).
 
 Features:
- * reviewed symbols and footprints trough pull-requests
- * symbols containing mouser material numbers to auto-generate a BOM using KiCost
+ * Reviewed symbols and footprints trough pull-requests,
+ * all symbols are hard linked to a footprint, this avoids miss matching symbol and footprint,
+ * symbol names follow a type code, for improved searchability,
+ * symbols containing mouser material numbers to auto-generate a BOM using [KiCost](https://github.com/hildogjr/KiCost),
+ * using KiCost together with this library can make requests to [mouser](https://eu.mouser.com/), to see if all PCB components are on stock.
+
+![](documentation/figures/symbol_linking.png)
+
+![](documentation/figures/library_examples.png)
+
+![](documentation/figures/kicost_example.png)
+
+# Install the library
 
 ## Set library file path
 Add this library to your project. Make sure that you use **exactly** the same `Nicknames` as shown here:
@@ -21,6 +32,8 @@ Replace the environment variable `MODEL_3D` with the current location of the 3D-
 
 Note: if there is a variable `KICADx_3DMODEL_DIR`, ignore this variable and add `MODEL_3D` as mentioned above.
 ![](documentation/figures/3d_model_path_preferences.png)
+
+# Using the library
 
 ## Adding components
 The main branch is protected. To add new components, open a new separate branch
