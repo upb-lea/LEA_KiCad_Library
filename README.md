@@ -55,6 +55,8 @@ The component library is aligned to use the add-on [KiCost](https://github.com/h
 ### Connectors
  * All pins should be `passive` (no `power` or `bidirectional`, as the usage changes from schematic to schematic)
  
+## Footprints
+ * How to generate custom pad shapes, see [this tutorial](https://forum.kicad.info/t/tutorial-creating-custom-annular-ring-shaped-smd-pads/52574)
 
 ## Library type labels
 For a better findability and sorting of the many components, it is necessary to use a type code. Some examples are given here.
