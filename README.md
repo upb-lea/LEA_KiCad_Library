@@ -51,6 +51,8 @@ Open the GitHub page, choose your branch and create a `pull request`.
 ## BOM generation
 The component library is aligned to use the add-on [KiCost](https://github.com/hildogjr/KiCost). Therefore the above mentioned keys `Manufacturer`, `manf#` and `mouser#` are mandatory in the symbol. In the schematic, navigate `Tools` -> `create BOM` and run a random one, e.g. `bom_csv_grouped_by_value`. Install KiCost, navigate via terminal to your KiCad project folder and enter `kicost` to your terminal. As input file, choose the `.xml` file what was created by the BOM command. After that, the KiCost BOM will be created. To get the prices and stock information from Mouser, create a Mouser API key on the Mouser homepage and enter it into the [configuration file](https://hildogjr.github.io/KiCost/docs/_build/singlehtml/index.html#configuration-file). 
 
+Note for Linux users: `kicost` uses `wxPython` as dependency, which is build during pip installation. Install with `pip install kicost -v` to see terminal messages about the installation and build status. Installation can take up to one hour. For some Linux distributions, binary files are available to skip the build process, check out [wxPyhton wiki](https://wiki.wxpython.org/How%20to%20install%20wxPython).
+
 ## Pin labels
 ### Connectors
  * All pins should be `passive` (no `power` or `bidirectional`, as the usage changes from schematic to schematic)
