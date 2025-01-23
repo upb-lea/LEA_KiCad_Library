@@ -79092,7 +79092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TMS320F2838x Real-Time Microcontrollers With Connectivity Manager"
+		(property "Description" "MCU C2000 32-bit, Dual-core C28x architecture"
 			(at 0 0 0)
 			(effects
 				(font
