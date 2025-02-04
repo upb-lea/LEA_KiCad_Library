@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "RM-10(MSOP)")
 	(tags "Integrated Circuit")
-	(property "Reference" "IC**"
+	(property "Reference" "U**"
 		(at -0.01 -2.68 0)
 		(layer "F.SilkS")
 		(uuid "352c2191-7e95-4753-b33f-4c7fd44032db")

@@ -5612,7 +5612,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IC"
+		(property "Reference" "U"
 			(at -6.096 13.716 0)
 			(effects
 				(font
