@@ -5609,7 +5609,7 @@
 		)
 	)
 	(symbol "ADG736BRMZ"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -33139,24 +33139,6 @@
 					)
 				)
 				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin free line
-				(at 11.43 12.7 180)
-				(length 2.54)
-				(name "FreePin2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -89555,7 +89537,7 @@
 				)
 			)
 			(circle
-				(center -3.556 7.112)
+				(center -3.556 10.668)
 				(radius 0.254)
 				(stroke
 					(width 0)
