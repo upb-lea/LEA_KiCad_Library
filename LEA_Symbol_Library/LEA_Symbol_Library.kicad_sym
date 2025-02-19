@@ -66432,6 +66432,191 @@
 			)
 		)
 	)
+	(symbol "LED_0603_Y_2mA_APTD1608LSYCK"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.667 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2mA"
+			(at 0 -6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:LED_0603_Y"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/216/APHD1608LSURCK-1100899.pdf"
+			(at 0 11.9888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED 0603, Yellow, If 2mA, Vf 1.85V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 0 -4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "604-APTD1608LSYCK"
+			(at 0 6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "APTD1608LSYCK"
+			(at 0 14.6812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LED_0603_Y_2mA_APTD1608LSYCK_0_0"
+			(text "0603"
+				(at -1.905 0.635 0)
+				(effects
+					(font
+						(size 0.5 0.5)
+					)
+				)
+			)
+		)
+		(symbol "LED_0603_Y_2mA_APTD1608LSYCK_1_0"
+			(text "Y"
+				(at 1.524 0.635 0)
+				(effects
+					(font
+						(size 0.5 0.5)
+					)
+				)
+			)
+		)
+		(symbol "LED_0603_Y_2mA_APTD1608LSYCK_1_1"
+			(polyline
+				(pts
+					(xy -0.6604 -1.0414) (xy -0.6604 0.9906)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.8636 -1.0414) (xy -0.6604 -0.0254) (xy 0.8636 0.9906) (xy 0.8636 -1.0414)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.1016 0.7366) (xy -0.4064 1.2446) (xy -0.1524 1.2446) (xy -0.4064 1.2446) (xy -0.4064 0.9906)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.6096 1.2446) (xy 0.1016 1.7526) (xy 0.3556 1.7526) (xy 0.1016 1.7526) (xy 0.1016 1.4986)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.6002)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.778)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "LM4128AMF-3.0_NOPB"
 		(pin_names
 			(offset 1.016)
