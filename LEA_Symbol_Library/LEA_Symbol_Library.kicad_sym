@@ -47405,7 +47405,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf# " "PLZ4V3A-G3/H"
+		(property "manf#" "PLZ4V3A-G3/H"
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -110032,7 +110032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Maanufacturer" "Panasonic"
+		(property "Manufacturer" "Panasonic"
 			(at 0 0 0)
 			(effects
 				(font
