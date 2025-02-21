@@ -28665,7 +28665,7 @@
 			(pin output line
 				(at -73.66 -57.15 90)
 				(length 2.54)
-				(name "EDC_OR_OUTPUT"
+				(name "EDC_n_AND_OUTPUT"
 					(effects
 						(font
 							(size 1.27 1.27)
