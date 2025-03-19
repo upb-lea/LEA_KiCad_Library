@@ -33,6 +33,9 @@ Replace the environment variable `MODEL_3D` with the current location of the 3D-
 Note: if there is a variable `KICADx_3DMODEL_DIR`, ignore this variable and add `MODEL_3D` as mentioned above.
 ![](documentation/figures/3d_model_path_preferences.png)
 
+## Disable missing simulation model view in KiCad 9
+`Preferences` -> `Preferences` -> `Schematic Editor` -> `Display Options` -> Uncheck `Mark items which are excluded from simulation`
+
 # Using the library
 
 ## Adding components
