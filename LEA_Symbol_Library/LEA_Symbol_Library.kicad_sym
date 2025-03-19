@@ -51286,6 +51286,26 @@
 				)
 			)
 		)
+		(symbol "Fiducial_medium_1_1"
+			(pin input line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "NetLabel"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 	)
 	(symbol "Fiducial_small"
 		(pin_numbers hide)
@@ -95098,7 +95118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "murata"
+		(property "Manufacturer" "Murata"
 			(at 0 0 0)
 			(effects
 				(font
