@@ -34,7 +34,7 @@ Note: if there is a variable `KICADx_3DMODEL_DIR`, ignore this variable and add 
 ![](documentation/figures/3d_model_path_preferences.png)
 
 ## Disable missing simulation model view in KiCad 9
-`Preferences` -> `Preferences` -> `Schematic Editor` -> `Display Options` -> Uncheck `Mark items which are excluded from simulation`
+`Preferences` -> `Preferences` -> `Schematic Editor` -> `Display Options` -> Deselect `Mark items which are excluded from simulation`
 
 # Using the library
 
