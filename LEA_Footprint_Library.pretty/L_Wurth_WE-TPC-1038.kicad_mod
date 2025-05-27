@@ -1,0 +1,304 @@
+(footprint "L_Wurth_WE-TPC-1038"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tiny Power Inductor, body 10x10mm, https://www.we-online.com/catalog/en/WE-TPC#/articles/WE-TPC-1038")
+	(tags "SMT Shielded")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "72f04c79-3482-4b2f-9c2e-55d56c0ad165")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Wurth_WE-TPC-1038"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e08f566d-cff8-45c7-9079-1320768f6f16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f03d267d-f451-4840-93e1-01fde9a9457d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bda17da-8975-424b-9cdb-80bd68a8e2d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.15 -5.11)
+		(end -3.35 -3.905)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f4327354-84cf-4874-a58e-43b34c76671f")
+	)
+	(fp_line
+		(start -2.15 -5.11)
+		(end 2.15 -5.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "686b8726-58ac-4da8-a4ec-945a42140070")
+	)
+	(fp_line
+		(start -2.15 5.11)
+		(end -3.35 3.905)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd8eec50-2c3a-45f4-bde2-157eb05de583")
+	)
+	(fp_line
+		(start -2.15 5.11)
+		(end 2.15 5.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41f31ef2-db84-41d1-8b9f-cddac94201b9")
+	)
+	(fp_line
+		(start 2.15 -5.1)
+		(end 4.69 -2.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5f55f32-5f0d-4b65-9d38-505c3194f4bc")
+	)
+	(fp_line
+		(start 4.69 2.56)
+		(end 2.15 5.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e030fc3-8833-4efc-bbd5-cfd4733cec5b")
+	)
+	(fp_line
+		(start 4.69 2.56)
+		(end 5.66 2.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce171694-0007-4288-8747-66c03fd03cb2")
+	)
+	(fp_line
+		(start 5.66 -2.56)
+		(end 4.69 -2.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8ce5633-34b7-489e-9453-3efbd74d7369")
+	)
+	(fp_line
+		(start 5.66 -2.56)
+		(end 5.66 2.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f8a7b0c-e855-4b65-808a-c476b6a66537")
+	)
+	(fp_rect
+		(start -5.65 -5.25)
+		(end 5.65 5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "85ceaeab-f03f-4567-824e-68c989111bb7")
+	)
+	(fp_line
+		(start -5 -2.1)
+		(end -2.1 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85e79b1f-ff87-4a7f-9b01-116626526056")
+	)
+	(fp_line
+		(start -5 0)
+		(end -4 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6f72c29-67e8-4dd8-91d5-2c96c0aef12e")
+	)
+	(fp_line
+		(start -5 2.1)
+		(end -5 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0bb0d8f-70a7-47f5-8aac-0fda9ca4dd54")
+	)
+	(fp_line
+		(start -5 2.1)
+		(end -2.1 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83f93b1d-664b-4fa8-b2b8-3dd3e4e85a84")
+	)
+	(fp_line
+		(start -4 -0.5)
+		(end -4 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "293dbd4f-f24f-40ff-81f6-52e81799e913")
+	)
+	(fp_line
+		(start -4 0.5)
+		(end -5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "14ff2e97-636b-4683-bc45-93286474c529")
+	)
+	(fp_line
+		(start -2.1 5)
+		(end 2.1 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c4261e8-c754-4b4d-aa90-bea42d58036d")
+	)
+	(fp_line
+		(start 2.1 -5)
+		(end -2.1 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59b14258-31b5-4079-85d3-47f58163dcbe")
+	)
+	(fp_line
+		(start 2.1 5)
+		(end 5 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a451c9a-1b9a-4e06-b353-d131f6a474f3")
+	)
+	(fp_line
+		(start 5 -2.1)
+		(end 2.1 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04076e7c-2dc6-4560-85cd-5a47ba3b5def")
+	)
+	(fp_line
+		(start 5 2.1)
+		(end 5 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98d9016d-1c99-4bc4-b71b-1eafcd481d98")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1b0584c7-33fa-4426-8b5f-687217ccbef4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.5 0)
+		(size 1.8 4.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a7afa255-5613-46aa-b132-059e18c0c7ec")
+	)
+	(pad "2" smd rect
+		(at 4.5 0)
+		(size 1.8 4.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0853cbef-a9af-4e08-b116-f430ac9bb69a")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Kimure/Downloads/KiCad_WE-TPC (rev25a)/3dmodels/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-TPC-1038.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
