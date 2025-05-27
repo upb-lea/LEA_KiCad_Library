@@ -290,7 +290,7 @@
 		(uuid "0853cbef-a9af-4e08-b116-f430ac9bb69a")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Kimure/Downloads/KiCad_WE-TPC (rev25a)/3dmodels/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-TPC-1038.step"
+	(model "D:/Study/Paderborn university/ESE program/SS 25/Project PE/48_12V/DC_DC/LEA_KiCad_Library/LEA_3D_Models/L_Wurth_WE-TPC-1038.step"
 		(offset
 			(xyz 0 0 0)
 		)
