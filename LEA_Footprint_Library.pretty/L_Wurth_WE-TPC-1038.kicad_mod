@@ -290,7 +290,7 @@
 		(uuid "0853cbef-a9af-4e08-b116-f430ac9bb69a")
 	)
 	(embedded_fonts no)
-	(model "D:/Study/Paderborn university/ESE program/SS 25/Project PE/48_12V/DC_DC/LEA_KiCad_Library/LEA_3D_Models/L_Wurth_WE-TPC-1038.step"
+	(model "${MODEL_3D}/L_Wurth_WE-TPC-1038.step"
 		(offset
 			(xyz 0 0 0)
 		)
