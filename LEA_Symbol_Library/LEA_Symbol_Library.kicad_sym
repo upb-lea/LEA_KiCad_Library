@@ -49182,7 +49182,7 @@
 				(hide yes)
 			)
 		)
-		(property "manuf" "SMAF4735A-TP"
+		(property "manf#" "SMAF4735A-TP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49191,7 +49191,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "833-SMAF4735A-TP"
+		(property "mouser#" "833-SMAF4735A-TP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49267,7 +49267,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49285,7 +49285,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
