@@ -1,4 +1,4 @@
-(footprint "D_SMA"
+(footprint "DO-221AC"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -55,17 +55,17 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -3.51 -1.65)
-		(end -3.51 1.65)
+		(start -3.7 -1.65)
+		(end -3.7 1.65)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "da16a37e-07f2-4567-a6c8-ff0f60acb412")
+		(uuid "3edea154-3ea6-403f-b49e-bb27b156cd6a")
 	)
 	(fp_line
-		(start -3.51 -1.65)
+		(start -3.7 -1.65)
 		(end 2 -1.65)
 		(stroke
 			(width 0.12)
@@ -75,7 +75,7 @@
 		(uuid "53fd5ede-59c7-4c1a-a238-96e9dddba307")
 	)
 	(fp_line
-		(start -3.51 1.65)
+		(start -3.7 1.65)
 		(end 2 1.65)
 		(stroke
 			(width 0.12)
@@ -83,6 +83,26 @@
 		)
 		(layer "F.SilkS")
 		(uuid "dff34e10-67ca-4b77-95c8-838244782165")
+	)
+	(fp_line
+		(start -3.6 -1.65)
+		(end -3.6 1.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ea30ab7-7299-4b61-b36b-6b9704a68876")
+	)
+	(fp_line
+		(start -3.51 -1.65)
+		(end -3.51 1.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da16a37e-07f2-4567-a6c8-ff0f60acb412")
 	)
 	(fp_line
 		(start -3.5 -1.75)
