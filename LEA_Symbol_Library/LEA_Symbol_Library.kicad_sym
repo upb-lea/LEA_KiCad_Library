@@ -49136,6 +49136,12 @@
 		(embedded_fonts no)
 	)
 	(symbol "D_Z_6V2_DO-221AC-2_146m_SMAF4735A-TP"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -49147,7 +49153,7 @@
 				)
 			)
 		)
-		(property "Value" "6.2V"
+		(property "Value" "6V2"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -49308,7 +49314,7 @@
 				)
 			)
 		)
-		(property "Value" "100V 8A"
+		(property "Value" "MP1923"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -49379,20 +49385,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "Driver_Dual_MPS_MP1923GS-P_0_1"
+		(symbol "Driver_Dual_MPS_MP1923GS-P_1_1"
 			(rectangle
 				(start -6.35 6.35)
 				(end 6.35 -6.35)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "Driver_Dual_MPS_MP1923GS-P_1_1"
 			(pin passive line
 				(at -8.89 3.81 0)
 				(length 2.54)
