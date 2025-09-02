@@ -10978,7 +10978,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C2220C244KDRLAUTO "
+		(property "manf#" "C2220C244KDRLAUTO"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10987,7 +10987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10996,7 +10996,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C2220C244KDRLAUTO "
+		(property "mouser#" "80-C2220C244KDRLAUTO"
 			(at 1.27 15.24 0)
 			(effects
 				(font
@@ -11154,7 +11154,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C5750X7T2W684KKA "
+		(property "manf#" "C5750X7T2W684KKA"
 			(at 23.1902 6.1214 0)
 			(effects
 				(font
@@ -11163,7 +11163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11172,7 +11172,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C5750X7T2W684KKA "
+		(property "mouser#" "810-C5750X7T2W684KKA"
 			(at 1.27 15.24 0)
 			(effects
 				(font
@@ -28791,7 +28791,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "651-1731471 "
+		(property "mouser#" "651-1731471"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -69407,7 +69407,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "LED_0603_G_2mA_APTD1608LCGCK "
+	(symbol "LED_0603_G_2mA_APTD1608LCGCK"
 		(pin_numbers
 			(hide yes)
 		)
@@ -69489,7 +69489,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LED_0603_G_2mA_APTD1608LCGCK _0_0"
+		(symbol "LED_0603_G_2mA_APTD1608LCGCK_0_0"
 			(text "0603"
 				(at -1.905 0.635 0)
 				(effects
@@ -69499,7 +69499,7 @@
 				)
 			)
 		)
-		(symbol "LED_0603_G_2mA_APTD1608LCGCK _1_0"
+		(symbol "LED_0603_G_2mA_APTD1608LCGCK_1_0"
 			(text "G"
 				(at 1.524 0.635 0)
 				(effects
@@ -69509,7 +69509,7 @@
 				)
 			)
 		)
-		(symbol "LED_0603_G_2mA_APTD1608LCGCK _1_1"
+		(symbol "LED_0603_G_2mA_APTD1608LCGCK_1_1"
 			(polyline
 				(pts
 					(xy -0.6604 -1.0414) (xy -0.6604 0.9906)
