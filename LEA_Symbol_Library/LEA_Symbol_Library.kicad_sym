@@ -47876,7 +47876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/472/SMS392x_Series_200042AE-3364872.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/564/1/SMS392x%20Series_200042AE.pdf"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -47894,7 +47894,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "873-SMS3924-079LF"
+		(property "mouser#" "873-SMS3922-001LF"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -47903,7 +47903,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "SMS3924-079LF"
+		(property "manf#" "SMS3922-001LF"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -47977,7 +47977,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47995,7 +47995,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
