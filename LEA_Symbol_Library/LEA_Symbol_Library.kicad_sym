@@ -47841,7 +47841,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "D_SOT_SMS3924"
+	(symbol "D_SOT_SMS3922"
 		(pin_numbers
 			(hide yes)
 		)
@@ -47859,7 +47859,7 @@
 				)
 			)
 		)
-		(property "Value" "SMS3924"
+		(property "Value" "SMS3922"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47930,7 +47930,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "D_SOT_SMS3924_1_1"
+		(symbol "D_SOT_SMS3922_1_1"
 			(polyline
 				(pts
 					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
