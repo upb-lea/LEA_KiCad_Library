@@ -10978,7 +10978,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C2220C244KDRLAUTO "
+		(property "manf#" "C2220C244KDRLAUTO"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10987,7 +10987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10996,7 +10996,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C2220C244KDRLAUTO "
+		(property "mouser#" "80-C2220C244KDRLAUTO"
 			(at 1.27 15.24 0)
 			(effects
 				(font
@@ -11154,7 +11154,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C5750X7T2W684KKA "
+		(property "manf#" "C5750X7T2W684KKA"
 			(at 23.1902 6.1214 0)
 			(effects
 				(font
@@ -11163,7 +11163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11172,7 +11172,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C5750X7T2W684KKA "
+		(property "mouser#" "810-C5750X7T2W684KKA"
 			(at 1.27 15.24 0)
 			(effects
 				(font
@@ -28791,7 +28791,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "651-1731471 "
+		(property "mouser#" "651-1731471"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -53698,7 +53698,7 @@
 			)
 		)
 		(symbol "Fiducial_medium_1_1"
-			(pin input line
+			(pin free line
 				(at -7.62 0 0)
 				(length 2.54)
 				(name "NetLabel"
@@ -69407,7 +69407,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "LED_0603_G_2mA_APTD1608LCGCK "
+	(symbol "LED_0603_G_2mA_APTD1608LCGCK"
 		(pin_numbers
 			(hide yes)
 		)
@@ -69489,7 +69489,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LED_0603_G_2mA_APTD1608LCGCK _0_0"
+		(symbol "LED_0603_G_2mA_APTD1608LCGCK_0_0"
 			(text "0603"
 				(at -1.905 0.635 0)
 				(effects
@@ -69499,7 +69499,7 @@
 				)
 			)
 		)
-		(symbol "LED_0603_G_2mA_APTD1608LCGCK _1_0"
+		(symbol "LED_0603_G_2mA_APTD1608LCGCK_1_0"
 			(text "G"
 				(at 1.524 0.635 0)
 				(effects
@@ -69509,7 +69509,7 @@
 				)
 			)
 		)
-		(symbol "LED_0603_G_2mA_APTD1608LCGCK _1_1"
+		(symbol "LED_0603_G_2mA_APTD1608LCGCK_1_1"
 			(polyline
 				(pts
 					(xy -0.6604 -1.0414) (xy -0.6604 0.9906)
@@ -100366,6 +100366,100 @@
 		)
 		(property "Manufacturer" "Murata"
 			(at 10.16 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "GND_19V_S12_S14"
+		(extends "GND")
+		(property "Reference" "#PWR"
+			(at 2.54 -2.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_19V_S12_S14"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND_19V_S12_S14\" , ground"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "GND_19V_S22_S24"
+		(extends "GND")
+		(property "Reference" "#PWR"
+			(at 2.54 -2.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_19V_S22_S24"
+			(at -0.254 -4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND_19V_S22_S24\" , ground"
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
