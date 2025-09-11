@@ -97435,6 +97435,22 @@
 					(type none)
 				)
 			)
+			(text "max. 2 V"
+				(at -9.144 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "1:1"
+				(at 2.286 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin power_out line
 				(at -19.05 8.89 0)
 				(length 2.54)
