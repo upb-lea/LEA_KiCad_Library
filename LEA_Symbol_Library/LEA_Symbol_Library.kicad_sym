@@ -9089,7 +9089,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 8.89 7.62 180)
 				(length 2.54)
 				(name "VOC"
@@ -9161,7 +9161,7 @@
 					)
 				)
 			)
-			(pin output inverted
+			(pin passive inverted
 				(at 8.89 -7.62 180)
 				(length 2.54)
 				(name "ALERT"
@@ -97979,7 +97979,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at -19.05 -1.27 0)
 				(length 2.54)
 				(name "HLDO_OUT"
@@ -98105,7 +98105,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 19.05 1.27 180)
 				(length 2.54)
 				(name "LDO_OUT"
