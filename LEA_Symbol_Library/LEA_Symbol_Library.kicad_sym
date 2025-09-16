@@ -11435,7 +11435,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LEA_FootprintLibrary:C_1210"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11503,6 +11503,14 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(text "1210"
+				(at -1.778 0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
 				)
 			)
 			(pin passive line
