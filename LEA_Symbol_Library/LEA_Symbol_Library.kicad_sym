@@ -49306,19 +49306,26 @@
 		(embedded_fonts no)
 	)
 	(symbol "D_TVS_62V_SMB_50A_P6SMB62A-Q"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at -1.27 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "50A"
-			(at 0 0 0)
+		(property "Value" "62V"
+			(at 2.54 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
