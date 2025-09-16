@@ -101976,7 +101976,7 @@
 			)
 		)
 	)
-	(symbol "C_1210_10u_X7R_10P_100V"
+	(symbol "C_1210__10u_X7R_10P_100V"
 		(extends "C_1210")
 		(property "Reference" "C"
 			(at 0 4.572 0)
