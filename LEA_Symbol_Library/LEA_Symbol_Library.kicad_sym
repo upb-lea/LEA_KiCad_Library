@@ -99146,7 +99146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_0603"
+		(property "Value" "100n"
 			(at 0.254 -2.032 0)
 			(effects
 				(font
