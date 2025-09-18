@@ -1,0 +1,240 @@
+(footprint "Conn_Molex_10085021"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "10-08-5021")
+	(tags "10085021 ")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2319a3c3-43c0-4483-8f91-04f6cca9e124")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN_AE-2599M-02A_MOL"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2504bead-143e-4851-9e5a-be589ea3f92f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/10085021?display=pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b893949c-8460-463a-a9d3-3a77557a0a8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb1830d7-ccdc-4bcd-907c-94f16aad0d42")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.6256 -3.302)
+		(end -1.6256 3.302)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cd002cd-be17-4161-8fb1-f50e148e3f2f")
+	)
+	(fp_line
+		(start -1.6256 3.302)
+		(end 6.7056 3.302)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b939d49-f7dc-4c55-afb6-8aa052d6efc7")
+	)
+	(fp_line
+		(start 6.7056 -3.302)
+		(end -1.6256 -3.302)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a1cc2f1-cd29-4844-881e-878cdff5b0c3")
+	)
+	(fp_line
+		(start 6.7056 3.302)
+		(end 6.7056 -3.302)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24e2da6f-0e31-4e74-9041-f4fd7c0bce62")
+	)
+	(fp_circle
+		(center -3.6576 0)
+		(end -3.2766 0)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b3dc33cd-d98d-48ea-ab07-81dbe6341eee")
+	)
+	(fp_circle
+		(center -3.6576 0)
+		(end -3.2766 0)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "c95180b3-4415-4d5a-8dad-27b298732a9b")
+	)
+	(fp_line
+		(start -1.7526 -3.429)
+		(end -1.7526 3.429)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba7e9751-e850-40c4-aa44-ddff4ce364d3")
+	)
+	(fp_line
+		(start -1.7526 3.429)
+		(end 6.8326 3.429)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7d9833d3-6531-4dc1-ae6d-78fda7899a42")
+	)
+	(fp_line
+		(start 6.8326 -3.429)
+		(end -1.7526 -3.429)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86f38629-77fb-4deb-b8f8-3c8bdd8047e5")
+	)
+	(fp_line
+		(start 6.8326 3.429)
+		(end 6.8326 -3.429)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc9874ff-2b66-4d2d-8379-51670fb35610")
+	)
+	(fp_line
+		(start -1.4986 -3.175)
+		(end -1.4986 3.175)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f359f596-b3c8-4eca-8f47-1ca0e1179c65")
+	)
+	(fp_line
+		(start -1.4986 3.175)
+		(end 6.5786 3.175)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6cf079a2-7a6e-46d5-986a-f3346cb4d37d")
+	)
+	(fp_line
+		(start 6.5786 -3.175)
+		(end -1.4986 -3.175)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68cb936e-332f-4b03-9e59-6b95ccfe9c4b")
+	)
+	(fp_line
+		(start 6.5786 3.175)
+		(end 6.5786 -3.175)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a2e16d4-e0eb-4b65-8edd-23ae5266b38d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "21af2922-df89-48ec-ad16-e78380ad9bd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.0828 2.0828)
+		(drill 1.5748)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e6725dc0-24bc-4ee6-b8b4-7f273e910c94")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 2.0828 2.0828)
+		(drill 1.5748)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "749e7d7e-facb-4fdb-993f-3e99b40972f2")
+	)
+	(embedded_fonts no)
+	(model "${MODEL_3D}/Conn_Molex_10085021.stp"
+		(offset
+			(xyz 2.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
