@@ -85327,6 +85327,99 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "SYM_LEA_Logo_old"
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "O1"
+			(at -3.81 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_LEA_Logo"
+			(at -1.27 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:SYM_lea_logo_old"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SYM_LEA_Logo_old_0_0"
+			(text "LEA Logo"
+				(at 0 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "SYM_LEA_Logo_old_0_1"
+			(rectangle
+				(start -5.08 2.54)
+				(end 5.08 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "SYM_LEA_Logo_old_1_1"
+			(text "old"
+				(at -0.254 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "TL431BIDBZTG4"
 		(exclude_from_sim yes)
 		(in_bom yes)
