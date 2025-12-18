@@ -30302,7 +30302,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Conn_LCB"
+	(symbol "Conn_LCB-CCB-01"
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
@@ -30393,7 +30393,7 @@
 				)
 			)
 		)
-		(symbol "Conn_LCB_0_0"
+		(symbol "Conn_LCB-CCB-01_0_0"
 			(text ""
 				(at 10.795 14.605 0)
 				(effects
@@ -30411,7 +30411,7 @@
 				)
 			)
 		)
-		(symbol "Conn_LCB_1_1"
+		(symbol "Conn_LCB-CCB-01_1_1"
 			(rectangle
 				(start -93.98 54.61)
 				(end 93.98 -54.61)
@@ -30432,8 +30432,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 45.72 0)
-				(length 2.54)
+				(at -97.79 45.72 0)
+				(length 3.81)
 				(name "GPIO136"
 					(effects
 						(font
@@ -30450,8 +30450,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 43.18 0)
-				(length 2.54)
+				(at -97.79 43.18 0)
+				(length 3.81)
 				(name "GPIO137/EPWM13A"
 					(effects
 						(font
@@ -30468,8 +30468,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 40.64 0)
-				(length 2.54)
+				(at -97.79 40.64 0)
+				(length 3.81)
 				(name "GPIO138/EPWM13B"
 					(effects
 						(font
@@ -30486,8 +30486,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 38.1 0)
-				(length 2.54)
+				(at -97.79 38.1 0)
+				(length 3.81)
 				(name "GPIO139/EPWM14A"
 					(effects
 						(font
@@ -30504,8 +30504,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 35.56 0)
-				(length 2.54)
+				(at -97.79 35.56 0)
+				(length 3.81)
 				(name "GPIO140/EPWM14B"
 					(effects
 						(font
@@ -30522,8 +30522,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 33.02 0)
-				(length 2.54)
+				(at -97.79 33.02 0)
+				(length 3.81)
 				(name "GPIO141/EPWM15A"
 					(effects
 						(font
@@ -30540,8 +30540,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 30.48 0)
-				(length 2.54)
+				(at -97.79 30.48 0)
+				(length 3.81)
 				(name "GPIO142/EPWM15B"
 					(effects
 						(font
@@ -30558,8 +30558,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 27.94 0)
-				(length 2.54)
+				(at -97.79 27.94 0)
+				(length 3.81)
 				(name "GPIO143/EPWM16A"
 					(effects
 						(font
@@ -30576,8 +30576,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 25.4 0)
-				(length 2.54)
+				(at -97.79 25.4 0)
+				(length 3.81)
 				(name "GPIO144/EPWM16B"
 					(effects
 						(font
@@ -30594,8 +30594,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 22.86 0)
-				(length 2.54)
+				(at -97.79 22.86 0)
+				(length 3.81)
 				(name "GPIO145/EPWM1A"
 					(effects
 						(font
@@ -30612,8 +30612,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 20.32 0)
-				(length 2.54)
+				(at -97.79 20.32 0)
+				(length 3.81)
 				(name "GPIO146/EPWM1B"
 					(effects
 						(font
@@ -30630,8 +30630,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 17.78 0)
-				(length 2.54)
+				(at -97.79 17.78 0)
+				(length 3.81)
 				(name "GPIO147/EPWM2A"
 					(effects
 						(font
@@ -30648,8 +30648,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 15.24 0)
-				(length 2.54)
+				(at -97.79 15.24 0)
+				(length 3.81)
 				(name "GPIO148/EPWM2B"
 					(effects
 						(font
@@ -30666,8 +30666,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 12.7 0)
-				(length 2.54)
+				(at -97.79 12.7 0)
+				(length 3.81)
 				(name "GPIO149/EPWM3A"
 					(effects
 						(font
@@ -30684,8 +30684,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 10.16 0)
-				(length 2.54)
+				(at -97.79 10.16 0)
+				(length 3.81)
 				(name "GPIO150/EPWM3B"
 					(effects
 						(font
@@ -30702,8 +30702,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 7.62 0)
-				(length 2.54)
+				(at -97.79 7.62 0)
+				(length 3.81)
 				(name "GPIO151/EPWM4A"
 					(effects
 						(font
@@ -30720,8 +30720,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 5.08 0)
-				(length 2.54)
+				(at -97.79 5.08 0)
+				(length 3.81)
 				(name "GPIO152/EPWM4B"
 					(effects
 						(font
@@ -30738,8 +30738,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 2.54 0)
-				(length 2.54)
+				(at -97.79 2.54 0)
+				(length 3.81)
 				(name "GPIO153/EPWM5A"
 					(effects
 						(font
@@ -30756,8 +30756,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 0 0)
-				(length 2.54)
+				(at -97.79 0 0)
+				(length 3.81)
 				(name "GPIO154/EPWM5B"
 					(effects
 						(font
@@ -30774,8 +30774,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 -2.54 0)
-				(length 2.54)
+				(at -97.79 -2.54 0)
+				(length 3.81)
 				(name "GPIO155/EPWM6A"
 					(effects
 						(font
@@ -30792,8 +30792,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 -5.08 0)
-				(length 2.54)
+				(at -97.79 -5.08 0)
+				(length 3.81)
 				(name "GPIO156/EPWM6B"
 					(effects
 						(font
@@ -30810,8 +30810,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 -7.62 0)
-				(length 2.54)
+				(at -97.79 -7.62 0)
+				(length 3.81)
 				(name "GPIO157/EPWM7A"
 					(effects
 						(font
@@ -30828,8 +30828,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 -10.16 0)
-				(length 2.54)
+				(at -97.79 -10.16 0)
+				(length 3.81)
 				(name "GPIO158/EPWM7B"
 					(effects
 						(font
@@ -30846,8 +30846,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 -12.7 0)
-				(length 2.54)
+				(at -97.79 -12.7 0)
+				(length 3.81)
 				(name "GPIO159/EWPM8A"
 					(effects
 						(font
@@ -30864,8 +30864,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 -15.24 0)
-				(length 2.54)
+				(at -97.79 -15.24 0)
+				(length 3.81)
 				(name "GPIO160/EPWM8B"
 					(effects
 						(font
@@ -30882,8 +30882,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 -17.78 0)
-				(length 2.54)
+				(at -97.79 -17.78 0)
+				(length 3.81)
 				(name "GPIO161/EPWM9A"
 					(effects
 						(font
@@ -30900,8 +30900,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 -20.32 0)
-				(length 2.54)
+				(at -97.79 -20.32 0)
+				(length 3.81)
 				(name "GPIO162/EPWM9B"
 					(effects
 						(font
@@ -30918,8 +30918,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 -22.86 0)
-				(length 2.54)
+				(at -97.79 -22.86 0)
+				(length 3.81)
 				(name "GPIO163/EPWM10A"
 					(effects
 						(font
@@ -30936,8 +30936,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 -25.4 0)
-				(length 2.54)
+				(at -97.79 -25.4 0)
+				(length 3.81)
 				(name "GPIO164/EPWM10B"
 					(effects
 						(font
@@ -30954,8 +30954,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 -27.94 0)
-				(length 2.54)
+				(at -97.79 -27.94 0)
+				(length 3.81)
 				(name "GPIO165"
 					(effects
 						(font
@@ -30972,8 +30972,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 -30.48 0)
-				(length 2.54)
+				(at -97.79 -30.48 0)
+				(length 3.81)
 				(name "GPIO166"
 					(effects
 						(font
@@ -30990,8 +30990,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 -33.02 0)
-				(length 2.54)
+				(at -97.79 -33.02 0)
+				(length 3.81)
 				(name "GPIO167"
 					(effects
 						(font
@@ -31008,8 +31008,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 -35.56 0)
-				(length 2.54)
+				(at -97.79 -35.56 0)
+				(length 3.81)
 				(name "GPIO168"
 					(effects
 						(font
@@ -31026,8 +31026,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 -39.37 0)
-				(length 2.54)
+				(at -97.79 -39.37 0)
+				(length 3.81)
 				(name "25MHz_CLK_Q2"
 					(effects
 						(font
@@ -31044,8 +31044,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 -41.91 0)
-				(length 2.54)
+				(at -97.79 -41.91 0)
+				(length 3.81)
 				(name "25MHz_CLK_Q3"
 					(effects
 						(font
@@ -31062,8 +31062,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -96.52 -44.45 0)
-				(length 2.54)
+				(at -97.79 -44.45 0)
+				(length 3.81)
 				(name "25MHz_CLK_Q4"
 					(effects
 						(font
@@ -31080,8 +31080,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -77.47 57.15 270)
-				(length 2.54)
+				(at -77.47 58.42 270)
+				(length 3.81)
 				(name "GPIO134"
 					(effects
 						(font
@@ -31098,8 +31098,8 @@
 				)
 			)
 			(pin output line
-				(at -73.66 -57.15 90)
-				(length 2.54)
+				(at -73.66 -58.42 90)
+				(length 3.81)
 				(name "EDC_n_AND_OUTPUT"
 					(effects
 						(font
@@ -31116,8 +31116,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -71.12 57.15 270)
-				(length 2.54)
+				(at -71.12 58.42 270)
+				(length 3.81)
 				(name "GPIO132"
 					(effects
 						(font
@@ -31134,8 +31134,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -68.58 57.15 270)
-				(length 2.54)
+				(at -68.58 58.42 270)
+				(length 3.81)
 				(name "GPIO131"
 					(effects
 						(font
@@ -31152,8 +31152,8 @@
 				)
 			)
 			(pin input line
-				(at -67.31 -57.15 90)
-				(length 2.54)
+				(at -67.31 -58.42 90)
+				(length 3.81)
 				(name "ADCIN15/CMPIN4N"
 					(effects
 						(font
@@ -31170,8 +31170,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -66.04 57.15 270)
-				(length 2.54)
+				(at -66.04 58.42 270)
+				(length 3.81)
 				(name "GPIO130"
 					(effects
 						(font
@@ -31188,8 +31188,8 @@
 				)
 			)
 			(pin input line
-				(at -64.77 -57.15 90)
-				(length 2.54)
+				(at -64.77 -58.42 90)
+				(length 3.81)
 				(name "ADCIN14/CMPIN4P"
 					(effects
 						(font
@@ -31206,8 +31206,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -63.5 57.15 270)
-				(length 2.54)
+				(at -63.5 58.42 270)
+				(length 3.81)
 				(name "GPIO129"
 					(effects
 						(font
@@ -31224,8 +31224,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -60.96 57.15 270)
-				(length 2.54)
+				(at -60.96 58.42 270)
+				(length 3.81)
 				(name "GPIO128"
 					(effects
 						(font
@@ -31241,9 +31241,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -59.69 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at -59.69 -58.42 90)
+				(length 3.81)
 				(name "ADCINA0/DACOUTA/internal_50k_pull_down"
 					(effects
 						(font
@@ -31260,8 +31260,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -58.42 57.15 270)
-				(length 2.54)
+				(at -58.42 58.42 270)
+				(length 3.81)
 				(name "GPIO127"
 					(effects
 						(font
@@ -31277,9 +31277,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -57.15 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at -57.15 -58.42 90)
+				(length 3.81)
 				(name "ADCINA1/DACOUTB/internal_50k_pull_down"
 					(effects
 						(font
@@ -31296,8 +31296,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -55.88 57.15 270)
-				(length 2.54)
+				(at -55.88 58.42 270)
+				(length 3.81)
 				(name "GPIO126"
 					(effects
 						(font
@@ -31314,8 +31314,8 @@
 				)
 			)
 			(pin input line
-				(at -54.61 -57.15 90)
-				(length 2.54)
+				(at -54.61 -58.42 90)
+				(length 3.81)
 				(name "ADCINA2/CMPIN1P/LATCHIN3"
 					(effects
 						(font
@@ -31332,8 +31332,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -53.34 57.15 270)
-				(length 2.54)
+				(at -53.34 58.42 270)
+				(length 3.81)
 				(name "GPIO125"
 					(effects
 						(font
@@ -31350,8 +31350,8 @@
 				)
 			)
 			(pin input line
-				(at -52.07 -57.15 90)
-				(length 2.54)
+				(at -52.07 -58.42 90)
+				(length 3.81)
 				(name "ADCINA3/CMPIN1N"
 					(effects
 						(font
@@ -31368,8 +31368,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -50.8 57.15 270)
-				(length 2.54)
+				(at -50.8 58.42 270)
+				(length 3.81)
 				(name "GPIO124"
 					(effects
 						(font
@@ -31386,8 +31386,8 @@
 				)
 			)
 			(pin input line
-				(at -49.53 -57.15 90)
-				(length 2.54)
+				(at -49.53 -58.42 90)
+				(length 3.81)
 				(name "ADCINA4/CMPIN2P"
 					(effects
 						(font
@@ -31404,8 +31404,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -48.26 57.15 270)
-				(length 2.54)
+				(at -48.26 58.42 270)
+				(length 3.81)
 				(name "GPIO123"
 					(effects
 						(font
@@ -31422,8 +31422,8 @@
 				)
 			)
 			(pin input line
-				(at -46.99 -57.15 90)
-				(length 2.54)
+				(at -46.99 -58.42 90)
+				(length 3.81)
 				(name "ADCINA5/CMPIN2N"
 					(effects
 						(font
@@ -31440,8 +31440,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -45.72 57.15 270)
-				(length 2.54)
+				(at -45.72 58.42 270)
+				(length 3.81)
 				(name "GPIO122"
 					(effects
 						(font
@@ -31458,8 +31458,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -43.18 57.15 270)
-				(length 2.54)
+				(at -43.18 58.42 270)
+				(length 3.81)
 				(name "GPIO121"
 					(effects
 						(font
@@ -31476,8 +31476,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 57.15 270)
-				(length 2.54)
+				(at -40.64 58.42 270)
+				(length 3.81)
 				(name "GPIO120"
 					(effects
 						(font
@@ -31494,8 +31494,8 @@
 				)
 			)
 			(pin input line
-				(at -39.37 -57.15 90)
-				(length 2.54)
+				(at -39.37 -58.42 90)
+				(length 3.81)
 				(name "ADCINB0/VDAC/internal_100pF_to_Vss"
 					(effects
 						(font
@@ -31512,8 +31512,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -38.1 57.15 270)
-				(length 2.54)
+				(at -38.1 58.42 270)
+				(length 3.81)
 				(name "GPIO119"
 					(effects
 						(font
@@ -31529,9 +31529,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -36.83 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at -36.83 -58.42 90)
+				(length 3.81)
 				(name "ADCINB1/DACOUTC/internal_50k_pull_down"
 					(effects
 						(font
@@ -31548,8 +31548,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -35.56 57.15 270)
-				(length 2.54)
+				(at -35.56 58.42 270)
+				(length 3.81)
 				(name "GPIO118"
 					(effects
 						(font
@@ -31566,8 +31566,8 @@
 				)
 			)
 			(pin input line
-				(at -34.29 -57.15 90)
-				(length 2.54)
+				(at -34.29 -58.42 90)
+				(length 3.81)
 				(name "ADCINB2/CMPIN3P/LATCHIN1"
 					(effects
 						(font
@@ -31584,8 +31584,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 57.15 270)
-				(length 2.54)
+				(at -33.02 58.42 270)
+				(length 3.81)
 				(name "GPIO117"
 					(effects
 						(font
@@ -31602,8 +31602,8 @@
 				)
 			)
 			(pin input line
-				(at -31.75 -57.15 90)
-				(length 2.54)
+				(at -31.75 -58.42 90)
+				(length 3.81)
 				(name "ADCINB3/CMPIN3N"
 					(effects
 						(font
@@ -31620,8 +31620,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 57.15 270)
-				(length 2.54)
+				(at -30.48 58.42 270)
+				(length 3.81)
 				(name "GPIO116"
 					(effects
 						(font
@@ -31638,8 +31638,8 @@
 				)
 			)
 			(pin input line
-				(at -29.21 -57.15 90)
-				(length 2.54)
+				(at -29.21 -58.42 90)
+				(length 3.81)
 				(name "ADCINB4"
 					(effects
 						(font
@@ -31656,8 +31656,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -27.94 57.15 270)
-				(length 2.54)
+				(at -27.94 58.42 270)
+				(length 3.81)
 				(name "GPIO115"
 					(effects
 						(font
@@ -31674,8 +31674,8 @@
 				)
 			)
 			(pin input line
-				(at -26.67 -57.15 90)
-				(length 2.54)
+				(at -26.67 -58.42 90)
+				(length 3.81)
 				(name "ADCINB5"
 					(effects
 						(font
@@ -31692,8 +31692,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 57.15 270)
-				(length 2.54)
+				(at -25.4 58.42 270)
+				(length 3.81)
 				(name "GPIO114"
 					(effects
 						(font
@@ -31710,8 +31710,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 57.15 270)
-				(length 2.54)
+				(at -22.86 58.42 270)
+				(length 3.81)
 				(name "GPIO113"
 					(effects
 						(font
@@ -31728,8 +31728,8 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -57.15 90)
-				(length 2.54)
+				(at -21.59 -58.42 90)
+				(length 3.81)
 				(name "ADCINC2/CMPIN6P"
 					(effects
 						(font
@@ -31746,8 +31746,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 57.15 270)
-				(length 2.54)
+				(at -20.32 58.42 270)
+				(length 3.81)
 				(name "GPIO112"
 					(effects
 						(font
@@ -31764,8 +31764,8 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -57.15 90)
-				(length 2.54)
+				(at -19.05 -58.42 90)
+				(length 3.81)
 				(name "ADCINC3/CMPIN6N"
 					(effects
 						(font
@@ -31782,8 +31782,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 57.15 270)
-				(length 2.54)
+				(at -17.78 58.42 270)
+				(length 3.81)
 				(name "GPIO111"
 					(effects
 						(font
@@ -31800,8 +31800,8 @@
 				)
 			)
 			(pin input line
-				(at -16.51 -57.15 90)
-				(length 2.54)
+				(at -16.51 -58.42 90)
+				(length 3.81)
 				(name "ADCINC4/CMPIN5P/LATCHIN4"
 					(effects
 						(font
@@ -31818,8 +31818,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 57.15 270)
-				(length 2.54)
+				(at -15.24 58.42 270)
+				(length 3.81)
 				(name "GPIO110"
 					(effects
 						(font
@@ -31836,8 +31836,8 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -57.15 90)
-				(length 2.54)
+				(at -13.97 -58.42 90)
+				(length 3.81)
 				(name "ADCINC5/CMPIN5N"
 					(effects
 						(font
@@ -31854,8 +31854,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 57.15 270)
-				(length 2.54)
+				(at -12.7 58.42 270)
+				(length 3.81)
 				(name "GPIO109"
 					(effects
 						(font
@@ -31872,8 +31872,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 57.15 270)
-				(length 2.54)
+				(at -10.16 58.42 270)
+				(length 3.81)
 				(name "GPIO108"
 					(effects
 						(font
@@ -31890,8 +31890,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -7.62 57.15 270)
-				(length 2.54)
+				(at -7.62 58.42 270)
+				(length 3.81)
 				(name "GPIO107"
 					(effects
 						(font
@@ -31908,8 +31908,8 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -57.15 90)
-				(length 2.54)
+				(at -7.62 -58.42 90)
+				(length 3.81)
 				(name "ADCIND0/CMPIN7P/LATCHIN2"
 					(effects
 						(font
@@ -31926,8 +31926,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -5.08 57.15 270)
-				(length 2.54)
+				(at -5.08 58.42 270)
+				(length 3.81)
 				(name "GPIO106"
 					(effects
 						(font
@@ -31944,8 +31944,8 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -57.15 90)
-				(length 2.54)
+				(at -5.08 -58.42 90)
+				(length 3.81)
 				(name "ADCIND1/CMPIN7N"
 					(effects
 						(font
@@ -31962,8 +31962,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 57.15 270)
-				(length 2.54)
+				(at -2.54 58.42 270)
+				(length 3.81)
 				(name "GPIO105"
 					(effects
 						(font
@@ -31980,8 +31980,8 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -57.15 90)
-				(length 2.54)
+				(at -2.54 -58.42 90)
+				(length 3.81)
 				(name "ADCIND2/CMPIN8P"
 					(effects
 						(font
@@ -31997,9 +31997,9 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 0 57.15 270)
-				(length 2.54)
+			(pin output line
+				(at 0 58.42 270)
+				(length 3.81)
 				(name "nLATCHOUT3/GPIO104"
 					(effects
 						(font
@@ -32016,8 +32016,8 @@
 				)
 			)
 			(pin input line
-				(at 0 -57.15 90)
-				(length 2.54)
+				(at 0 -58.42 90)
+				(length 3.81)
 				(name "ADCIND3/CMPIN8N"
 					(effects
 						(font
@@ -32034,8 +32034,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 2.54 57.15 270)
-				(length 2.54)
+				(at 2.54 58.42 270)
+				(length 3.81)
 				(name "GPIO103"
 					(effects
 						(font
@@ -32052,8 +32052,8 @@
 				)
 			)
 			(pin input line
-				(at 2.54 -57.15 90)
-				(length 2.54)
+				(at 2.54 -58.42 90)
+				(length 3.81)
 				(name "ADCIND4"
 					(effects
 						(font
@@ -32070,8 +32070,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 5.08 57.15 270)
-				(length 2.54)
+				(at 5.08 58.42 270)
+				(length 3.81)
 				(name "GPIO102"
 					(effects
 						(font
@@ -32088,8 +32088,8 @@
 				)
 			)
 			(pin input line
-				(at 5.08 -57.15 90)
-				(length 2.54)
+				(at 5.08 -58.42 90)
+				(length 3.81)
 				(name "ADCIND5"
 					(effects
 						(font
@@ -32106,8 +32106,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 7.62 57.15 270)
-				(length 2.54)
+				(at 7.62 58.42 270)
+				(length 3.81)
 				(name "GPIO101"
 					(effects
 						(font
@@ -32124,8 +32124,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 57.15 270)
-				(length 2.54)
+				(at 10.16 58.42 270)
+				(length 3.81)
 				(name "GPIO100"
 					(effects
 						(font
@@ -32141,9 +32141,9 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 12.7 57.15 270)
-				(length 2.54)
+			(pin output line
+				(at 12.7 58.42 270)
+				(length 3.81)
 				(name "LATCHOUT3/GPIO99"
 					(effects
 						(font
@@ -32159,9 +32159,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 12.7 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 12.7 -58.42 90)
+				(length 3.81)
 				(name "GPIO0/EPWM1A"
 					(effects
 						(font
@@ -32177,9 +32177,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 15.24 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 15.24 -58.42 90)
+				(length 3.81)
 				(name "GPIO1/EPWM1B"
 					(effects
 						(font
@@ -32195,9 +32195,9 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 19.05 57.15 270)
-				(length 2.54)
+			(pin output line
+				(at 19.05 58.42 270)
+				(length 3.81)
 				(name "LATCHOUT4/GPIO96"
 					(effects
 						(font
@@ -32213,9 +32213,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 20.32 -58.42 90)
+				(length 3.81)
 				(name "GPIO4/EPWM3A"
 					(effects
 						(font
@@ -32231,9 +32231,9 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 21.59 57.15 270)
-				(length 2.54)
+			(pin output line
+				(at 21.59 58.42 270)
+				(length 3.81)
 				(name "LATCHOUT2/GPIO95"
 					(effects
 						(font
@@ -32249,9 +32249,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 26.67 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 26.67 -58.42 90)
+				(length 3.81)
 				(name "GPIO8/EPWM5A"
 					(effects
 						(font
@@ -32268,8 +32268,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 29.21 57.15 270)
-				(length 2.54)
+				(at 29.21 58.42 270)
+				(length 3.81)
 				(name "GPIO90"
 					(effects
 						(font
@@ -32285,9 +32285,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 29.21 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 29.21 -58.42 90)
+				(length 3.81)
 				(name "GPIO9/EPWM5B"
 					(effects
 						(font
@@ -32304,8 +32304,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 31.75 57.15 270)
-				(length 2.54)
+				(at 31.75 58.42 270)
+				(length 3.81)
 				(name "GPIO89"
 					(effects
 						(font
@@ -32322,8 +32322,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 34.29 57.15 270)
-				(length 2.54)
+				(at 34.29 58.42 270)
+				(length 3.81)
 				(name "GPIO88"
 					(effects
 						(font
@@ -32340,8 +32340,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 57.15 270)
-				(length 2.54)
+				(at 36.83 58.42 270)
+				(length 3.81)
 				(name "GPIO87"
 					(effects
 						(font
@@ -32358,8 +32358,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 39.37 57.15 270)
-				(length 2.54)
+				(at 39.37 58.42 270)
+				(length 3.81)
 				(name "GPIO86"
 					(effects
 						(font
@@ -32375,9 +32375,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 40.64 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 40.64 -58.42 90)
+				(length 3.81)
 				(name "GPIO12/EPWM7A"
 					(effects
 						(font
@@ -32394,8 +32394,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 41.91 57.15 270)
-				(length 2.54)
+				(at 41.91 58.42 270)
+				(length 3.81)
 				(name "GPIO85"
 					(effects
 						(font
@@ -32411,9 +32411,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 43.18 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 43.18 -58.42 90)
+				(length 3.81)
 				(name "GPIO13/EPWM7B"
 					(effects
 						(font
@@ -32430,8 +32430,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 57.15 270)
-				(length 2.54)
+				(at 44.45 58.42 270)
+				(length 3.81)
 				(name "GPIO84"
 					(effects
 						(font
@@ -32447,9 +32447,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 45.72 -57.15 90)
-				(length 2.54)
+			(pin output line
+				(at 45.72 -58.42 90)
+				(length 3.81)
 				(name "GPIO14/EPWM8A/nLATCHOUT4"
 					(effects
 						(font
@@ -32466,8 +32466,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 46.99 57.15 270)
-				(length 2.54)
+				(at 46.99 58.42 270)
+				(length 3.81)
 				(name "GPIO83"
 					(effects
 						(font
@@ -32483,9 +32483,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 48.26 -57.15 90)
-				(length 2.54)
+			(pin output line
+				(at 48.26 -58.42 90)
+				(length 3.81)
 				(name "GPIO15/EPWM8B/LATCHOUT1"
 					(effects
 						(font
@@ -32502,8 +32502,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 49.53 57.15 270)
-				(length 2.54)
+				(at 49.53 58.42 270)
+				(length 3.81)
 				(name "GPIO82"
 					(effects
 						(font
@@ -32519,9 +32519,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 50.8 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 50.8 -58.42 90)
+				(length 3.81)
 				(name "GPIO16/EPWM9A"
 					(effects
 						(font
@@ -32538,8 +32538,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 52.07 57.15 270)
-				(length 2.54)
+				(at 52.07 58.42 270)
+				(length 3.81)
 				(name "GPIO81"
 					(effects
 						(font
@@ -32555,9 +32555,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 53.34 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 53.34 -58.42 90)
+				(length 3.81)
 				(name "GPIO17/EPWM9B"
 					(effects
 						(font
@@ -32574,8 +32574,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 54.61 57.15 270)
-				(length 2.54)
+				(at 54.61 58.42 270)
+				(length 3.81)
 				(name "GPIO80"
 					(effects
 						(font
@@ -32591,9 +32591,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 55.88 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 55.88 -58.42 90)
+				(length 3.81)
 				(name "GPIO18/EPWM10A"
 					(effects
 						(font
@@ -32610,8 +32610,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 57.15 57.15 270)
-				(length 2.54)
+				(at 57.15 58.42 270)
+				(length 3.81)
 				(name "GPIO79"
 					(effects
 						(font
@@ -32627,9 +32627,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 58.42 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 58.42 -58.42 90)
+				(length 3.81)
 				(name "GPIO19/EPWM10B"
 					(effects
 						(font
@@ -32646,8 +32646,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 59.69 57.15 270)
-				(length 2.54)
+				(at 59.69 58.42 270)
+				(length 3.81)
 				(name "GPIO78"
 					(effects
 						(font
@@ -32663,9 +32663,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 60.96 -57.15 90)
-				(length 2.54)
+			(pin output line
+				(at 60.96 -58.42 90)
+				(length 3.81)
 				(name "GPIO20/EPWM11A/nLATCHOUT1"
 					(effects
 						(font
@@ -32682,8 +32682,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 62.23 57.15 270)
-				(length 2.54)
+				(at 62.23 58.42 270)
+				(length 3.81)
 				(name "GPIO77"
 					(effects
 						(font
@@ -32699,9 +32699,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 63.5 -57.15 90)
-				(length 2.54)
+			(pin output line
+				(at 63.5 -58.42 90)
+				(length 3.81)
 				(name "GPIO21/EPWM11B/nLATCHOUT2"
 					(effects
 						(font
@@ -32718,8 +32718,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 64.77 57.15 270)
-				(length 2.54)
+				(at 64.77 58.42 270)
+				(length 3.81)
 				(name "GPIO76"
 					(effects
 						(font
@@ -32735,9 +32735,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 66.04 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 66.04 -58.42 90)
+				(length 3.81)
 				(name "GPIO22/EPWM12A"
 					(effects
 						(font
@@ -32753,9 +32753,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 68.58 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 68.58 -58.42 90)
+				(length 3.81)
 				(name "GPIO23/EPWM12B"
 					(effects
 						(font
@@ -32772,8 +32772,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 71.12 57.15 270)
-				(length 2.54)
+				(at 71.12 58.42 270)
+				(length 3.81)
 				(name "GPIO73"
 					(effects
 						(font
@@ -32789,9 +32789,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 71.12 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 71.12 -58.42 90)
+				(length 3.81)
 				(name "GPIO24/EPWM13A"
 					(effects
 						(font
@@ -32808,8 +32808,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 73.66 57.15 270)
-				(length 2.54)
+				(at 73.66 58.42 270)
+				(length 3.81)
 				(name "GPIO72"
 					(effects
 						(font
@@ -32825,9 +32825,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 73.66 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 73.66 -58.42 90)
+				(length 3.81)
 				(name "GPIO25/EPWM13B"
 					(effects
 						(font
@@ -32844,8 +32844,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 57.15 270)
-				(length 2.54)
+				(at 76.2 58.42 270)
+				(length 3.81)
 				(name "GPIO71"
 					(effects
 						(font
@@ -32861,9 +32861,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 76.2 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 76.2 -58.42 90)
+				(length 3.81)
 				(name "GPIO26/EPWM14A"
 					(effects
 						(font
@@ -32880,8 +32880,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 78.74 57.15 270)
-				(length 2.54)
+				(at 78.74 58.42 270)
+				(length 3.81)
 				(name "GPIO70"
 					(effects
 						(font
@@ -32897,9 +32897,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 78.74 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 78.74 -58.42 90)
+				(length 3.81)
 				(name "GPIO27/EPWM14B"
 					(effects
 						(font
@@ -32916,8 +32916,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 81.28 57.15 270)
-				(length 2.54)
+				(at 81.28 58.42 270)
+				(length 3.81)
 				(name "GPIO69"
 					(effects
 						(font
@@ -32934,8 +32934,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 57.15 270)
-				(length 2.54)
+				(at 83.82 58.42 270)
+				(length 3.81)
 				(name "GPIO68"
 					(effects
 						(font
@@ -32951,9 +32951,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 83.82 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 83.82 -58.42 90)
+				(length 3.81)
 				(name "GPIO29/EPWM15B"
 					(effects
 						(font
@@ -32969,9 +32969,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 86.36 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 86.36 -58.42 90)
+				(length 3.81)
 				(name "GPIO30/EPWM16A"
 					(effects
 						(font
@@ -32987,9 +32987,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 88.9 -57.15 90)
-				(length 2.54)
+			(pin bidirectional line
+				(at 88.9 -58.42 90)
+				(length 3.81)
 				(name "GPIO31/EPWM16B"
 					(effects
 						(font
@@ -33006,8 +33006,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 52.07 180)
-				(length 2.54)
+				(at 97.79 52.07 180)
+				(length 3.81)
 				(name "GPIO66"
 					(effects
 						(font
@@ -33024,8 +33024,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 49.53 180)
-				(length 2.54)
+				(at 97.79 49.53 180)
+				(length 3.81)
 				(name "GPIO65"
 					(effects
 						(font
@@ -33042,8 +33042,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 46.99 180)
-				(length 2.54)
+				(at 97.79 46.99 180)
+				(length 3.81)
 				(name "GPIO64"
 					(effects
 						(font
@@ -33060,8 +33060,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 44.45 180)
-				(length 2.54)
+				(at 97.79 44.45 180)
+				(length 3.81)
 				(name "GPIO63"
 					(effects
 						(font
@@ -33078,8 +33078,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 41.91 180)
-				(length 2.54)
+				(at 97.79 41.91 180)
+				(length 3.81)
 				(name "GPIO62"
 					(effects
 						(font
@@ -33096,8 +33096,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 39.37 180)
-				(length 2.54)
+				(at 97.79 39.37 180)
+				(length 3.81)
 				(name "GPIO61"
 					(effects
 						(font
@@ -33114,8 +33114,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 36.83 180)
-				(length 2.54)
+				(at 97.79 36.83 180)
+				(length 3.81)
 				(name "GPIO60"
 					(effects
 						(font
@@ -33132,8 +33132,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 34.29 180)
-				(length 2.54)
+				(at 97.79 34.29 180)
+				(length 3.81)
 				(name "GPIO59"
 					(effects
 						(font
@@ -33150,8 +33150,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 31.75 180)
-				(length 2.54)
+				(at 97.79 31.75 180)
+				(length 3.81)
 				(name "GPIO58"
 					(effects
 						(font
@@ -33168,8 +33168,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 29.21 180)
-				(length 2.54)
+				(at 97.79 29.21 180)
+				(length 3.81)
 				(name "GPIO57"
 					(effects
 						(font
@@ -33186,8 +33186,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 26.67 180)
-				(length 2.54)
+				(at 97.79 26.67 180)
+				(length 3.81)
 				(name "GPIO56"
 					(effects
 						(font
@@ -33204,8 +33204,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 24.13 180)
-				(length 2.54)
+				(at 97.79 24.13 180)
+				(length 3.81)
 				(name "GPIO55"
 					(effects
 						(font
@@ -33222,8 +33222,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 21.59 180)
-				(length 2.54)
+				(at 97.79 21.59 180)
+				(length 3.81)
 				(name "GPIO54"
 					(effects
 						(font
@@ -33240,8 +33240,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 19.05 180)
-				(length 2.54)
+				(at 97.79 19.05 180)
+				(length 3.81)
 				(name "GPIO53"
 					(effects
 						(font
@@ -33258,8 +33258,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 16.51 180)
-				(length 2.54)
+				(at 97.79 16.51 180)
+				(length 3.81)
 				(name "GPIO52"
 					(effects
 						(font
@@ -33276,8 +33276,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 13.97 180)
-				(length 2.54)
+				(at 97.79 13.97 180)
+				(length 3.81)
 				(name "GPIO51"
 					(effects
 						(font
@@ -33294,8 +33294,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 11.43 180)
-				(length 2.54)
+				(at 97.79 11.43 180)
+				(length 3.81)
 				(name "GPIO50"
 					(effects
 						(font
@@ -33312,8 +33312,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 8.89 180)
-				(length 2.54)
+				(at 97.79 8.89 180)
+				(length 3.81)
 				(name "GPIO49"
 					(effects
 						(font
@@ -33330,8 +33330,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 6.35 180)
-				(length 2.54)
+				(at 97.79 6.35 180)
+				(length 3.81)
 				(name "GPIO48"
 					(effects
 						(font
@@ -33348,8 +33348,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 3.81 180)
-				(length 2.54)
+				(at 97.79 3.81 180)
+				(length 3.81)
 				(name "GPIO47"
 					(effects
 						(font
@@ -33366,8 +33366,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 1.27 180)
-				(length 2.54)
+				(at 97.79 1.27 180)
+				(length 3.81)
 				(name "GPIO46"
 					(effects
 						(font
@@ -33384,8 +33384,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -1.27 180)
-				(length 2.54)
+				(at 97.79 -1.27 180)
+				(length 3.81)
 				(name "GPIO45"
 					(effects
 						(font
@@ -33402,8 +33402,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -3.81 180)
-				(length 2.54)
+				(at 97.79 -3.81 180)
+				(length 3.81)
 				(name "GPIO44"
 					(effects
 						(font
@@ -33420,8 +33420,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -6.35 180)
-				(length 2.54)
+				(at 97.79 -6.35 180)
+				(length 3.81)
 				(name "GPIO43"
 					(effects
 						(font
@@ -33438,8 +33438,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -8.89 180)
-				(length 2.54)
+				(at 97.79 -8.89 180)
+				(length 3.81)
 				(name "GPIO42"
 					(effects
 						(font
@@ -33456,8 +33456,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -11.43 180)
-				(length 2.54)
+				(at 97.79 -11.43 180)
+				(length 3.81)
 				(name "GPIO41"
 					(effects
 						(font
@@ -33474,8 +33474,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -13.97 180)
-				(length 2.54)
+				(at 97.79 -13.97 180)
+				(length 3.81)
 				(name "GPIO40"
 					(effects
 						(font
@@ -33492,8 +33492,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -16.51 180)
-				(length 2.54)
+				(at 97.79 -16.51 180)
+				(length 3.81)
 				(name "GPIO39"
 					(effects
 						(font
@@ -33510,8 +33510,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -19.05 180)
-				(length 2.54)
+				(at 97.79 -19.05 180)
+				(length 3.81)
 				(name "GPIO38"
 					(effects
 						(font
@@ -33528,8 +33528,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -21.59 180)
-				(length 2.54)
+				(at 97.79 -21.59 180)
+				(length 3.81)
 				(name "GPIO37"
 					(effects
 						(font
@@ -33546,8 +33546,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -24.13 180)
-				(length 2.54)
+				(at 97.79 -24.13 180)
+				(length 3.81)
 				(name "GPIO36"
 					(effects
 						(font
@@ -33564,8 +33564,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -27.94 180)
-				(length 2.54)
+				(at 97.79 -27.94 180)
+				(length 3.81)
 				(name "GPIO34"
 					(effects
 						(font
@@ -33582,8 +33582,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -30.48 180)
-				(length 2.54)
+				(at 97.79 -30.48 180)
+				(length 3.81)
 				(name "GPIO33"
 					(effects
 						(font
@@ -33600,8 +33600,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -33.02 180)
-				(length 2.54)
+				(at 97.79 -33.02 180)
+				(length 3.81)
 				(name "GPIO32"
 					(effects
 						(font
@@ -33618,7 +33618,7 @@
 				)
 			)
 		)
-		(symbol "Conn_LCB_2_1"
+		(symbol "Conn_LCB-CCB-01_2_1"
 			(rectangle
 				(start -7.62 71.12)
 				(end 7.62 -73.66)
@@ -35619,7 +35619,7 @@
 				)
 			)
 		)
-		(symbol "Conn_LCB_3_1"
+		(symbol "Conn_LCB-CCB-01_3_1"
 			(rectangle
 				(start -8.89 17.78)
 				(end 8.89 -20.32)
