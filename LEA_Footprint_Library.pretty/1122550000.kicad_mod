@@ -1,0 +1,257 @@
+(footprint "1122550000"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1122550000-1")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 3.81 0.4 0)
+		(layer "F.SilkS")
+		(uuid "de22009e-f176-4949-92ba-06b81cbeff9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "1122550000"
+		(at 3.81 0.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "daf93cba-3f20-4e2e-b8d9-b407d7f44995")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://catalog.weidmueller.com/createDatasheetForMobile.do?ordernumber=1122550000&scope1=1&scope2=1&localeId=en"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b7058f7-0538-4296-bbe2-057eb4f2b403")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "PCB plug-in connector, male header, closed side, THT solder connection, 7.62 mm, Number of poles: 2, 180, Solder pin length: 3.2 mm, tinned, black, Box"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d16638ce-52e3-44ef-87af-12c4604913ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4 0)
+		(end -4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c2b6149-f5d6-4dbc-8f5a-4ef673884ea7")
+	)
+	(fp_line
+		(start -3.9 0)
+		(end -3.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1492950b-7acd-48e9-a7f4-623539069218")
+	)
+	(fp_line
+		(start -3.4 -3.8)
+		(end 11.02 -3.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36f2086c-8e8b-4b3a-887e-77937d2f8ba8")
+	)
+	(fp_line
+		(start -3.4 4.6)
+		(end -3.4 -3.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c78f133-c27d-45a9-aec1-fe6ed2fdd9fb")
+	)
+	(fp_line
+		(start 11.02 -3.8)
+		(end 11.02 4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa32d6c0-4420-4c3f-b88c-52d3df23a4b1")
+	)
+	(fp_line
+		(start 11.02 4.6)
+		(end -3.4 4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "702d9d67-6f2a-498d-a767-19ce235430cf")
+	)
+	(fp_arc
+		(start -4 0)
+		(mid -3.95 -0.05)
+		(end -3.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d9ef860-f775-4c6c-8c38-b22ebc3bee4e")
+	)
+	(fp_arc
+		(start -3.9 0)
+		(mid -3.95 0.05)
+		(end -4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "009be974-9f5a-42e3-83ee-9d5d5415123a")
+	)
+	(fp_line
+		(start -4.4 -4.8)
+		(end 12.02 -4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "84515d0f-ee10-4e75-832d-07ef71371d42")
+	)
+	(fp_line
+		(start -4.4 5.6)
+		(end -4.4 -4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d63c2860-365e-4cd0-963e-0b6f3d43b0f7")
+	)
+	(fp_line
+		(start 12.02 -4.8)
+		(end 12.02 5.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2b6b3135-5dea-417b-bbb7-c7bcb86ab07c")
+	)
+	(fp_line
+		(start 12.02 5.6)
+		(end -4.4 5.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3704de3c-d4a9-4f09-b4fb-962c8e284912")
+	)
+	(fp_line
+		(start -3.4 -3.8)
+		(end 11.02 -3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8011b01d-ad4d-4545-a141-b410d3e84623")
+	)
+	(fp_line
+		(start -3.4 4.6)
+		(end -3.4 -3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0754954f-e8b2-4c19-854f-745fcfa6c572")
+	)
+	(fp_line
+		(start 11.02 -3.8)
+		(end 11.02 4.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11b2e8fc-9d38-42a2-9270-d1bc7b5af74c")
+	)
+	(fp_line
+		(start 11.02 4.6)
+		(end -3.4 4.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3c128de-fb67-4035-ada0-d7a0ec6c9ba1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.5 7.5 0)
+		(layer "F.Fab")
+		(uuid "37d3ab7d-54cd-4a70-88dd-dde785713f7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "584c5a7f-c574-41f7-9a3b-c2eb64ed4569")
+	)
+	(pad "2" thru_hole circle
+		(at 7.62 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "296ea4b8-3a30-4957-a6d2-cdf2f66367f1")
+	)
+	(embedded_fonts no)
+	(model "1122550000.stp"
+		(offset
+			(xyz -3.390000054 -3.779999915 -3.099999858)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
