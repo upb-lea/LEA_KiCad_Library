@@ -44352,7 +44352,7 @@
 			)
 		)
 		(property "Description" "PCB plug-in connector, male header, closed side, THT solder connection, 7.62 mm, Number of poles: 2, 180, Solder pin length: 3.2 mm, tinned, black, Box"
-			(at 3.302 -14.478 0)
+			(at 3.81 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)

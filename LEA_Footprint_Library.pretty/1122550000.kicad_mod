@@ -212,20 +212,9 @@
 		(uuid "296ea4b8-3a30-4957-a6d2-cdf2f66367f1")
 	)
 	(embedded_fonts no)
-	(model "1122550000.stp"
+	(model "${MODEL_3D}/1122550000.stp"
 		(offset
-			(xyz -3.390000054 -3.779999915 -3.099999858)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "C:/Users/techa/Downloads/LIB_1122550000/1122550000/3D/1122550000.stp"
-		(offset
-			(xyz -7 -3.5 -4.5)
+			(xyz -7 -3 -3.5)
 		)
 		(scale
 			(xyz 1 1 1)
