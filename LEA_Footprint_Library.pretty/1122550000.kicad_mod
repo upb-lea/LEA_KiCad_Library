@@ -196,17 +196,17 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at -3.5 -0.5)
+		(at -3.62 0)
 		(size 1.95 1.95)
-		(drill 1.3)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "584c5a7f-c574-41f7-9a3b-c2eb64ed4569")
 	)
 	(pad "2" thru_hole circle
-		(at 4.12 -0.5)
-		(size 1.95 1.95)
-		(drill 1.3)
+		(at 4 0)
+		(size 2.220344 2.220344)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "296ea4b8-3a30-4957-a6d2-cdf2f66367f1")
@@ -214,7 +214,7 @@
 	(embedded_fonts no)
 	(model "${MODEL_3D}/1122550000.stp"
 		(offset
-			(xyz -7 -3 -3.5)
+			(xyz -7 -3.75 -3.2)
 		)
 		(scale
 			(xyz 1 1 1)
