@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "DIO_BZY55B6V2")
+	(descr "D_0805_BZY55B6V2")
 	(tags "Zener Diode")
 	(property "Reference" "REF**"
 		(at -0.118 -1.9064 0)
@@ -53,6 +53,46 @@
 	)
 	(attr smd)
 	(fp_line
+		(start -1.8 -1.1)
+		(end -1.8 1.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "347f3b97-962a-4113-8c09-666db36fb02f")
+	)
+	(fp_line
+		(start -1.8 1.1)
+		(end 1.5 1.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca34c0fc-a8ce-4293-a33c-8a69126b7855")
+	)
+	(fp_line
+		(start -1.7 -1.1)
+		(end -1.7 1.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0d750756-f5d1-4711-a824-451f0029a84b")
+	)
+	(fp_line
+		(start -1.6 -1.1)
+		(end -1.6 1.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cd3c8524-36eb-4be6-8a36-4e6780a5f190")
+	)
+	(fp_line
 		(start -1.506 -1.1)
 		(end -1.506 1.1)
 		(stroke
@@ -61,16 +101,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "4f31a6ee-2591-4b25-b2c8-9548a56e6486")
-	)
-	(fp_line
-		(start -1.483 1.1)
-		(end 1.5 1.1)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ca34c0fc-a8ce-4293-a33c-8a69126b7855")
 	)
 	(fp_line
 		(start -0.07 -0.625)
@@ -104,24 +134,13 @@
 	)
 	(fp_line
 		(start 1.5 -1.1)
-		(end -1.506 -1.1)
+		(end -1.8 -1.1)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "24bdbb51-9ef0-41cc-8c1c-6b4d704670d7")
-	)
-	(fp_circle
-		(center -1.9 0)
-		(end -1.8 0)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "d673802c-d86e-4625-af8a-59d4e40a12d1")
 	)
 	(fp_line
 		(start -1.4 -1.025)
@@ -202,17 +221,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "9743abf2-3f59-4c09-92d3-2f45b0c61413")
-	)
-	(fp_circle
-		(center -1.9 0)
-		(end -1.8 0)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "748dba26-b57f-40e5-aba8-ba4009465e74")
 	)
 	(pad "A" smd rect
 		(at 0.775 0)

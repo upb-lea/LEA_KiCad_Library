@@ -50160,7 +50160,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Z_6V2"
+		(property "Value" "D_Z"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -50213,7 +50213,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "zener diode"
+		(property "ki_keywords" "Zener diode"
 			(at 0 0 0)
 			(effects
 				(font
@@ -103200,7 +103200,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Z_6V2"
+		(property "Value" "6V2"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -103226,7 +103226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "6.2V, Zener diode"
 			(at 0 0 0)
 			(effects
 				(font
@@ -103246,6 +103246,15 @@
 		)
 		(property "manf#" "BZY55B6V2 RBG"
 			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiwan Semiconductor"
+			(at 0.254 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
