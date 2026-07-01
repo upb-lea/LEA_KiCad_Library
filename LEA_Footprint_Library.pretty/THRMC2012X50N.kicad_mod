@@ -1,0 +1,168 @@
+(footprint "THRMC2012X50N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.638685 -1.916085 0)
+		(layer "F.SilkS")
+		(uuid "96da6d88-4c9a-4960-bfe2-6936c2a053ec")
+		(effects
+			(font
+				(size 1.005819 1.005819)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "THRMC2012X50N"
+		(at 1.5 2 0)
+		(layer "F.Fab")
+		(uuid "e4e07e10-36ba-4223-bb40-e197fe89b8b2")
+		(effects
+			(font
+				(size 1.005315 1.005315)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1624365&DocType=Customer%20Drawing&DocLang=English&PartCntxt=1624365-1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb3b3ff3-e254-409d-90b8-57581fc57907")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "NTC_Temperature Sensor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce776428-d10a-439c-928c-570815ba1d23")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -0.86)
+		(end 1 -0.86)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a5c7dc0-f9f7-4490-83ed-2e757ec7a268")
+	)
+	(fp_line
+		(start -1 0.86)
+		(end 1 0.86)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e115ca51-1a6f-4375-a08a-5c8be60845cf")
+	)
+	(fp_line
+		(start -1.66 -0.93)
+		(end 1.66 -0.93)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "538b1215-cf60-4b4a-9fd9-0534aeccb51a")
+	)
+	(fp_line
+		(start -1.66 0.93)
+		(end -1.66 -0.93)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f68c9ba-861a-4cce-ac7c-0d4ff1f4b8c9")
+	)
+	(fp_line
+		(start 1.66 -0.93)
+		(end 1.66 0.93)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4f267e2-e6e9-4873-9df3-db19af5d6c31")
+	)
+	(fp_line
+		(start 1.66 0.93)
+		(end -1.66 0.93)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d1c0ca01-53d1-42a8-8516-a8880f4204bc")
+	)
+	(fp_line
+		(start -1 -0.63)
+		(end 1 -0.63)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5c9be64-1d15-48a6-a4e5-12a52d6f2cef")
+	)
+	(fp_line
+		(start -1 0.63)
+		(end -1 -0.63)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f4c2a34-d00b-4876-aff9-0ce5ea64eadf")
+	)
+	(fp_line
+		(start 1 -0.63)
+		(end 1 0.63)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "193425d2-a6c2-4a97-94a0-2faa56a1f0ea")
+	)
+	(fp_line
+		(start 1 0.63)
+		(end -1 0.63)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "998e55fc-61ec-461d-b3d6-73273ed098e0")
+	)
+	(pad "1" smd rect
+		(at -0.975 0)
+		(size 0.86 1.36)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "502274d1-68ae-4d0a-98d7-18b38408869c")
+	)
+	(pad "2" smd rect
+		(at 0.975 0)
+		(size 0.86 1.36)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "cb0c3e85-04b8-47ec-934e-0addb0c5fe49")
+	)
+	(embedded_fonts no)
+)
