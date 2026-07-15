@@ -48212,7 +48212,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "DCDC_24V_24V_DRM2-24-D12-S"
+	(symbol "DCDC_24V_24V_DRM2-S24-S24-S"
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
@@ -48275,7 +48275,7 @@
 				)
 			)
 		)
-		(property "mouser#" "490-DRM2-24-D12-S"
+		(property "digikey#" "179-PEM2-S24-S24-S-ND"
 			(at 17.78 -478.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48299,7 +48299,7 @@
 				(justify left top)
 			)
 		)
-		(property "manf#" "DRM2-24-D12-S"
+		(property "manf#" "DRM2-S24-S24-S"
 			(at 17.78 -778.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48333,7 +48333,7 @@
 				)
 			)
 		)
-		(symbol "DCDC_24V_24V_DRM2-24-D12-S_0_1"
+		(symbol "DCDC_24V_24V_DRM2-S24-S24-S_0_1"
 			(rectangle
 				(start -7.62 3.81)
 				(end 8.89 -3.81)
@@ -48358,7 +48358,7 @@
 				)
 			)
 		)
-		(symbol "DCDC_24V_24V_DRM2-24-D12-S_1_1"
+		(symbol "DCDC_24V_24V_DRM2-S24-S24-S_1_1"
 			(pin power_in line
 				(at -10.16 2.54 0)
 				(length 2.54)
