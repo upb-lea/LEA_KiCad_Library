@@ -100,9 +100,9 @@ Examples:
  * Voltage: `25V` / `100V` / `600V`
 
 Examples:
- * `C_SMD_0603_100V__1u0`
- * `C_SMD_0805__25V__10u`
- * `C_SMD_1206__16V__4u7`
+ * `C_0805_10p0_G0G_10P__50V`
+ * `C_0603__1u0_X5R_10P__50V`
+ * `C_1206_4u7_X7R_10P_100V`
 
 ### Diodes
  * Start with `D_`
