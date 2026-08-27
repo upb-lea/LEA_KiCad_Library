@@ -110519,7 +110519,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "C_1812_2000V_1n"
+	(symbol "C_1812__1n_X7R_10P_2000V"
 		(extends "C_1812")
 		(property "Reference" "C"
 			(at 0 4.064 0)
@@ -110531,7 +110531,7 @@
 				)
 			)
 		)
-		(property "Value" "C_1812_2000V_1n"
+		(property "Value" "1n_2000V"
 			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -110620,7 +110620,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "C_1812_2000V_2n2"
+	(symbol "C_1812__2n2_X7R_10P_2000V"
 		(extends "C_1812")
 		(property "Reference" "C"
 			(at 0 4.064 0)
@@ -110632,7 +110632,7 @@
 				)
 			)
 		)
-		(property "Value" "C_1812_2000V_2n2"
+		(property "Value" "2n2_2000V"
 			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
