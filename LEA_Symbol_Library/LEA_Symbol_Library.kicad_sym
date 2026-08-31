@@ -50927,7 +50927,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "D_D2PAK2L__20A_VS-E5TH2112S2L-M3"
+	(symbol "D_D2PAK2L_20A_VS-E5TH2112S2L-M3"
 		(pin_numbers
 			(hide yes)
 		)
@@ -51036,7 +51036,7 @@
 				)
 			)
 		)
-		(symbol "D_D2PAK2L__20A_VS-E5TH2112S2L-M3_0_1"
+		(symbol "D_D2PAK2L_20A_VS-E5TH2112S2L-M3_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -2.54 0)
@@ -51182,7 +51182,7 @@
 				)
 			)
 		)
-		(symbol "D_D2PAK2L__20A_VS-E5TH2112S2L-M3_1_1"
+		(symbol "D_D2PAK2L_20A_VS-E5TH2112S2L-M3_1_1"
 			(pin passive line
 				(at 3.81 0 180)
 				(length 2.54)
