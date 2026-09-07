@@ -112399,7 +112399,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "C_2225___100n_X7R_10P__1500V"
+	(symbol "C_2225_100n_X7R_10P_1500V"
 		(extends "C_2225")
 		(property "Reference" "C"
 			(at 1.016 2.54 0)
