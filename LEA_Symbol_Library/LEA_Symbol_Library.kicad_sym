@@ -7303,8 +7303,8 @@
 		)
 		(symbol "AMC1301QDWVQ1_1_1"
 			(rectangle
-				(start -11.176 11.684)
-				(end 11.176 -11.684)
+				(start -11.43 11.43)
+				(end 11.43 -11.43)
 				(stroke
 					(width 0)
 					(type solid)
@@ -7314,7 +7314,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.286 14.224 270)
+				(at -2.54 13.97 270)
 				(length 2.54)
 				(name "VDD1"
 					(effects
@@ -7332,7 +7332,7 @@
 				)
 			)
 			(pin input line
-				(at -13.716 3.81 0)
+				(at -13.97 3.81 0)
 				(length 2.54)
 				(name "INP"
 					(effects
@@ -7350,7 +7350,7 @@
 				)
 			)
 			(pin input line
-				(at -13.716 -3.81 0)
+				(at -13.97 -3.81 0)
 				(length 2.54)
 				(name "INN"
 					(effects
@@ -7368,7 +7368,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.286 -14.224 90)
+				(at -2.54 -13.97 90)
 				(length 2.54)
 				(name "GND1"
 					(effects
@@ -7386,7 +7386,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.794 -14.224 90)
+				(at 2.54 -13.97 90)
 				(length 2.54)
 				(name "GND2"
 					(effects
@@ -7404,7 +7404,7 @@
 				)
 			)
 			(pin output line
-				(at 13.716 -2.54 180)
+				(at 13.97 -2.54 180)
 				(length 2.54)
 				(name "OUTN"
 					(effects
@@ -7422,7 +7422,7 @@
 				)
 			)
 			(pin output line
-				(at 13.716 2.54 180)
+				(at 13.97 2.54 180)
 				(length 2.54)
 				(name "OUTP"
 					(effects
@@ -7440,7 +7440,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.794 14.224 270)
+				(at 2.54 13.97 270)
 				(length 2.54)
 				(name "VDD2"
 					(effects
