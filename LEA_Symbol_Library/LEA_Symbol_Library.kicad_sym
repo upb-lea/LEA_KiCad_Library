@@ -6957,16 +6957,13 @@
 		(embedded_fonts no)
 	)
 	(symbol "AMC1311DWVR"
-		(pin_names
-			(hide yes)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -6.35 10.16 0)
+			(at -6.858 12.954 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6976,7 +6973,7 @@
 			)
 		)
 		(property "Value" "AMC1311DWVR"
-			(at 10.414 10.16 0)
+			(at 10.414 13.208 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7065,7 +7062,7 @@
 		(symbol "AMC1311DWVR_0_1"
 			(polyline
 				(pts
-					(xy -6.35 3.81) (xy -5.334 3.81)
+					(xy -10.414 3.81) (xy -5.08 3.81)
 				)
 				(stroke
 					(width 0)
@@ -7077,7 +7074,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 -3.81) (xy -5.334 -3.81)
+					(xy -6.35 -3.81) (xy -5.08 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -7137,7 +7134,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 8.89) (xy -2.54 5.08)
+					(xy -2.54 6.35) (xy -2.54 5.08)
 				)
 				(stroke
 					(width 0)
@@ -7149,7 +7146,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -8.89) (xy -2.54 -5.08)
+					(xy -2.54 -6.35) (xy -2.54 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -7257,7 +7254,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 8.89) (xy 2.54 3.302)
+					(xy 2.54 6.35) (xy 2.54 3.302)
 				)
 				(stroke
 					(width 0)
@@ -7269,7 +7266,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -8.89) (xy 2.54 -3.302)
+					(xy 2.54 -6.096) (xy 2.54 -3.302)
 				)
 				(stroke
 					(width 0)
@@ -7306,8 +7303,8 @@
 		)
 		(symbol "AMC1311DWVR_1_1"
 			(rectangle
-				(start -6.35 8.89)
-				(end 6.35 -8.89)
+				(start -12.954 11.684)
+				(end 12.954 -11.684)
 				(stroke
 					(width 0)
 					(type solid)
@@ -7317,12 +7314,12 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 11.43 270)
+				(at -2.54 14.224 270)
 				(length 2.54)
 				(name "VDD1"
 					(effects
 						(font
-							(size 0.1 0.1)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7335,12 +7332,12 @@
 				)
 			)
 			(pin input line
-				(at -8.89 3.81 0)
+				(at -15.494 3.81 0)
 				(length 2.54)
 				(name "IN"
 					(effects
 						(font
-							(size 0.1 0.1)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7353,12 +7350,12 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -3.81 0)
+				(at -15.494 -3.81 0)
 				(length 2.54)
 				(name "SHTDN"
 					(effects
 						(font
-							(size 0.1 0.1)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7371,12 +7368,12 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -11.43 90)
+				(at -2.54 -14.224 90)
 				(length 2.54)
 				(name "GND1"
 					(effects
 						(font
-							(size 0.1 0.1)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7389,12 +7386,12 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -11.43 90)
+				(at 2.54 -14.224 90)
 				(length 2.54)
 				(name "GND2"
 					(effects
 						(font
-							(size 0.1 0.1)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7407,12 +7404,12 @@
 				)
 			)
 			(pin output line
-				(at 8.89 -2.54 180)
+				(at 15.494 -2.54 180)
 				(length 2.54)
 				(name "OUTN"
 					(effects
 						(font
-							(size 0.1 0.1)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7425,12 +7422,12 @@
 				)
 			)
 			(pin output line
-				(at 8.89 2.54 180)
+				(at 15.494 2.54 180)
 				(length 2.54)
 				(name "OUTP"
 					(effects
 						(font
-							(size 0.1 0.1)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7443,12 +7440,12 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 11.43 270)
+				(at 2.54 14.224 270)
 				(length 2.54)
 				(name "VDD2"
 					(effects
 						(font
-							(size 0.1 0.1)
+							(size 1.27 1.27)
 						)
 					)
 				)
