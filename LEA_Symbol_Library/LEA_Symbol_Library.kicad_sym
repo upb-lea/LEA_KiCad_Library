@@ -47484,7 +47484,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/3/85/1/ls2.pdf"
-			(at 0 0 0)
+			(at 0 -14.478 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -47495,7 +47495,7 @@
 			)
 		)
 		(property "Description" "10 pin, Board to Board & Mezzanine Connectors 2.00 mm Locking Hermaphroditic Terminal/Socket Strip"
-			(at 0 0 0)
+			(at 0 -18.288 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -47506,7 +47506,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 0 0 0)
+			(at 0 -16.256 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
