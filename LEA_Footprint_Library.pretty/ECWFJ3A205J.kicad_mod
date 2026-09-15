@@ -1,0 +1,214 @@
+(footprint "ECWFJ3A205J"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "ECW-FJ3A205J-2")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 13.75 -8.5 0)
+		(layer "F.SilkS")
+		(uuid "db8ad70e-1b14-4462-8ce7-e6033a8fe286")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ECWFJ3A205J"
+		(at 13.75 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dc3b62ad-c7c5-40c8-8a99-86941c07f9a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11dca169-5151-4249-a93c-573733dd9d75")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0095022d-2f5d-480f-ad33-c270760f5c3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.75 -6.5)
+		(end 29.25 -6.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28b49652-b8df-4d58-b49e-687e496a2ed0")
+	)
+	(fp_line
+		(start -1.75 6.5)
+		(end -1.75 -6.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e7306c3-6334-4a1a-b6fe-2648120a647d")
+	)
+	(fp_line
+		(start 29.25 -6.5)
+		(end 29.25 6.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "869653f2-484c-41b5-8c56-56c42b94583e")
+	)
+	(fp_line
+		(start 29.25 6.5)
+		(end -1.75 6.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8fc1ae0-651d-4dc1-b93c-785b6e9e71f6")
+	)
+	(fp_line
+		(start -2 -6.8)
+		(end 29.5 -6.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "082537e8-f6a1-4aea-8ec4-8349a50348ae")
+	)
+	(fp_line
+		(start -2 6.8)
+		(end -2 -6.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b1a6bbc-3bf4-4de6-af17-173419443cef")
+	)
+	(fp_line
+		(start 29.5 -6.8)
+		(end 29.5 6.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fcaea6cf-736d-4fb1-ab80-a342d599dcc8")
+	)
+	(fp_line
+		(start 29.5 6.8)
+		(end -2 6.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d38da801-3406-43f5-b99d-8936973d66e1")
+	)
+	(fp_line
+		(start -1.75 -6.5)
+		(end -1.75 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d5a3c61-d8c3-4306-bf84-f0f6d203fa10")
+	)
+	(fp_line
+		(start -1.75 6.5)
+		(end 29.25 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60fb0861-2ddc-4213-ae37-c86d8ee3c83d")
+	)
+	(fp_line
+		(start 29.25 -6.5)
+		(end -1.75 -6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54003f87-84b5-4911-9ad9-58c4f19e8073")
+	)
+	(fp_line
+		(start 29.25 6.5)
+		(end 29.25 -6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0ed686b-17f0-4b1c-aefe-96b5b1eaee86")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 13.75 0 0)
+		(layer "F.Fab")
+		(uuid "bea14f5c-04ca-4e46-ae96-552c9adc20bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "50cc5592-5198-4883-a477-23bcedc5d378")
+	)
+	(pad "2" thru_hole circle
+		(at 27.5 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8c0f4fdd-1eb4-4b21-ac00-5e7df287158e")
+	)
+	(embedded_fonts no)
+	(model "${MODEL_3D}/C_Film_ECW-FJ3A205J.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
