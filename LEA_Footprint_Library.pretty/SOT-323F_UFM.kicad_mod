@@ -1,0 +1,237 @@
+(footprint "SOT-323F_UFM"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOT-323F")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "Q**"
+		(at 0 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "aef12625-ac46-4ffd-a8bd-8ba215bb614e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOTFL65P210X75-3N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9bddcb78-7bb6-4610-9a3b-fe799af708c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53f1586a-b941-4af2-bf5e-b9e69d6c995b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25b8057e-93e6-4541-b099-9d10ab04b0f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.7 -1)
+		(end 0.7 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7707349-97e1-464f-97ef-a67702a7f194")
+	)
+	(fp_line
+		(start -0.7 1)
+		(end -0.7 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d293046-a21b-4605-853a-f92ec9f909db")
+	)
+	(fp_line
+		(start 0.7 -1)
+		(end 0.7 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09282d5b-423f-4fd0-9ae9-070d65056bee")
+	)
+	(fp_line
+		(start 0.7 1)
+		(end -0.7 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7dd6047-9025-4202-b23a-db6ca9756fad")
+	)
+	(fp_circle
+		(center -1.1 -1.2)
+		(end -1 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "bc01713f-d769-4ac3-8966-e9ceeca12606")
+	)
+	(fp_line
+		(start -1.475 -1.2)
+		(end 1.475 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "23976bcb-a043-45a7-b6ba-147320eabf9e")
+	)
+	(fp_line
+		(start -1.475 1.2)
+		(end -1.475 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "107403d0-1abe-495b-862d-6e974f215a8d")
+	)
+	(fp_line
+		(start 1.475 -1.2)
+		(end 1.475 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e2394b9-272b-401d-92ed-3f02f01517bc")
+	)
+	(fp_line
+		(start 1.475 1.2)
+		(end -1.475 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "709f974a-a539-446e-80ba-ebda24cd53b3")
+	)
+	(fp_line
+		(start -0.85 -1)
+		(end 0.85 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d003835f-8e36-48a0-a57a-65e6fb7a037f")
+	)
+	(fp_line
+		(start -0.85 -0.35)
+		(end -0.2 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54cb1c09-3fad-4a84-a7ca-d7f506033aa3")
+	)
+	(fp_line
+		(start -0.85 1)
+		(end -0.85 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "100218c9-e326-49f9-a25e-a7e65be72636")
+	)
+	(fp_line
+		(start 0.85 -1)
+		(end 0.85 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a724b6d8-9d97-4419-bd33-aeb7bdc3e84b")
+	)
+	(fp_line
+		(start 0.85 1)
+		(end -0.85 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c2daa82-e7a6-4037-b476-f1b4fdd0ceb8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f1ca9cfd-957a-47c4-892d-c34c5e149076")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.088 -0.65)
+		(size 0.475 0.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "da540674-ce62-4400-9d97-866524e20bf5")
+	)
+	(pad "2" smd rect
+		(at -1.088 0.65)
+		(size 0.475 0.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "111432d4-ae33-492f-bb28-2ed9f274a755")
+	)
+	(pad "3" smd rect
+		(at 1.088 0)
+		(size 0.475 0.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "deef79b4-8780-4f32-8e47-1d43c12efcc6")
+	)
+	(embedded_fonts no)
+	(model "${MODEL_3D}/SOT-323F_UFM.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
