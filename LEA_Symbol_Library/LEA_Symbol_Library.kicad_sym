@@ -45231,7 +45231,7 @@
 		(symbol "Conn_LEA_Half_Bridge_TI_LMG3422R030_GaN_0_1"
 			(polyline
 				(pts
-					(xy 10.16 8.89) (xy 2.54 8.89)
+					(xy 5.08 8.89) (xy 2.54 8.89)
 				)
 				(stroke
 					(width 0)
@@ -45243,7 +45243,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 0) (xy 2.54 0)
+					(xy 5.08 -8.89) (xy 2.54 -8.89)
 				)
 				(stroke
 					(width 0)
@@ -45255,7 +45255,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -8.89) (xy 2.54 -8.89)
+					(xy 6.35 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -45518,7 +45518,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -12.7 8.89 0)
 				(length 2.54)
 				(name "PWM_H"
@@ -45536,7 +45536,7 @@
 					)
 				)
 			)
-			(pin output inverted
+			(pin passive inverted
 				(at -12.7 6.35 0)
 				(length 2.54)
 				(name "FAULT"
@@ -45554,7 +45554,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -12.7 3.81 0)
 				(length 2.54)
 				(name "PWM_L"
@@ -45590,7 +45590,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -12.7 1.27 0)
 				(length 2.54)
 				(name "TEMP_HS"
@@ -45608,7 +45608,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -12.7 -1.27 0)
 				(length 2.54)
 				(name "TEMP_LS"
@@ -45626,7 +45626,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -12.7 -3.81 0)
 				(length 2.54)
 				(name "OCD_HS"
@@ -45644,7 +45644,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -12.7 -6.35 0)
 				(length 2.54)
 				(name "OCD_LS"
@@ -45698,7 +45698,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -12.7 -8.89 0)
 				(length 2.54)
 				(name "ERR_lATCH"
