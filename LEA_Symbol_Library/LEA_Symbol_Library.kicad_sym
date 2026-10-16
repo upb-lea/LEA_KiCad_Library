@@ -45626,7 +45626,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin passive inverted
 				(at -12.7 -3.81 0)
 				(length 2.54)
 				(name "OCD_HS"
@@ -45644,7 +45644,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin passive inverted
 				(at -12.7 -6.35 0)
 				(length 2.54)
 				(name "OCD_LS"
