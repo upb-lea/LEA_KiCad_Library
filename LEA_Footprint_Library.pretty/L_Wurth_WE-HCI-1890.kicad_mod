@@ -1,0 +1,224 @@
+(footprint "L_Wurth_WE-HCI-1890"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Flat Wire High Current Inductor Shieled, body 18.3x18.2x8.9mm, https://www.we-online.com/en/components/products/WE-HCI#/articles/WE-HCI-1890_MnZn")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 -10.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ae03f3eb-3f99-4b75-90e9-1f53d410f240")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Wurth_WE-HCI-1890"
+		(at 0 10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f35e7bc-a670-455b-90df-8073c4157915")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec5f9420-f34a-445d-87d1-f8318ec10110")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c937438-7a85-4266-9723-9fc69bdc2c96")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -9.26 3.26)
+		(end -9.26 9.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54e600d9-8d9c-4830-81d0-d3c7db971564")
+	)
+	(fp_line
+		(start -9.25 -5.13)
+		(end -9.25 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44db985f-df4c-4099-b0d1-6cac537748c8")
+	)
+	(fp_line
+		(start -5.16 -9.215)
+		(end -9.245 -5.13)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c9d16e9-d202-48e9-a735-7a4fcec4686f")
+	)
+	(fp_line
+		(start -5.16 -9.21)
+		(end 9.26 -9.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ed3b26b-34a9-45f0-8047-df60d6808bd8")
+	)
+	(fp_line
+		(start 9.26 -9.21)
+		(end 9.26 -3.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a1cb9d3-4558-40ea-80fb-60e21e14c1b6")
+	)
+	(fp_line
+		(start 9.26 3.26)
+		(end 9.26 9.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74bf7748-b55b-4cb4-a25b-a12f155aaf53")
+	)
+	(fp_line
+		(start 9.26 9.21)
+		(end -9.26 9.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5fea589-0ae0-40ad-a82c-6e80a723f522")
+	)
+	(fp_rect
+		(start -9.9 -9.35)
+		(end 9.9 9.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bd1834d6-3a79-4a1e-bfb9-18a820ea33de")
+	)
+	(fp_line
+		(start -9.15 -5.1)
+		(end -9.15 9.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e57411e-5666-4ea3-aafc-b3e8876d5473")
+	)
+	(fp_line
+		(start -9.15 -5.1)
+		(end -5.15 -9.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ceaf63a-94a1-4a99-97d9-fd6d9ad9214b")
+	)
+	(fp_line
+		(start -9.15 9.1)
+		(end 9.15 9.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9c28b19-4035-40d2-9347-23c6db21b64f")
+	)
+	(fp_line
+		(start -5.15 -9.1)
+		(end 9.15 -9.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "085c080c-ff5e-4c4b-8ea0-e3c78e6c58b4")
+	)
+	(fp_line
+		(start 9.15 -9.1)
+		(end 9.15 9.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "66c222e9-3469-4580-9695-f5de0a6adf7a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "09c2c591-2816-4dee-8596-44e05eb09cc7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -6.65 0)
+		(size 6 6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f56a6896-c0af-4b28-8d27-9aa65094d0d5")
+	)
+	(pad "2" smd rect
+		(at 6.65 0)
+		(size 6 6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "45726ee5-4d2b-4547-a2d3-feefc9f2d37f")
+	)
+	(embedded_fonts no)
+	(model "${MODEL_3D}/L_Wurth_WE-HCI-1890.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
