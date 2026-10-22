@@ -45151,7 +45151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:Half_Bridge_LMG3422R030"
+		(property "Footprint" "LEA_FootprintLibrary:Conn_LEA_Half_Bridge_TI_LMG3422R030_GaN"
 			(at 0 -32.512 0)
 			(show_name no)
 			(do_not_autoplace no)
