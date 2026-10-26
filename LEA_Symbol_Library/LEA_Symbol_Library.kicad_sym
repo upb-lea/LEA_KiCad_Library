@@ -45151,7 +45151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:Half_Bridge_LMG3422R030"
+		(property "Footprint" "LEA_FootprintLibrary:Conn_LEA_Half_Bridge_TI_LMG3422R030_GaN"
 			(at 0 -32.512 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -111634,6 +111634,96 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CS-Amp_TI_TMCS1133B4A"
+		(extends "CS-Amp_TI_TMCS1133")
+		(property "Reference" "U"
+			(at 0 11.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TMCS1133"
+			(at 0 -11.684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:SOIC-10_TI_DVG"
+			(at 0 -14.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmcs1133.pdf?ts=1792680927911&ref_url=https%253A%252F%252Fwww.mouser.de%252F"
+			(at -4.064 22.352 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Board Mount Current Sensors 80ARMS 1MHz Hall-eff ect current sensor"
+			(at 0 -14.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser#" "595-TMCS1133B4AQDVGR"
+			(at -6.858 20.574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "TMCS1133B4AQDVGR"
+			(at 0 13.716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "80 A RMS 1 MHz Hall-effect current sensor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
