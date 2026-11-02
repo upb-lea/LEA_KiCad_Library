@@ -13870,7 +13870,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:C_2225_5664Metric"
-			(at 0 0 0)
+			(at 0 -4.572 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -13892,7 +13892,7 @@
 			)
 		)
 		(property "Description" "unpolarized capacitor 2225_5664metric small symbol"
-			(at 0 0 0)
+			(at 0 -3.048 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -14027,7 +14027,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -14038,7 +14038,7 @@
 			(pin passive line
 				(at 2.54 0 180)
 				(length 1.905)
-				(name ""
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
