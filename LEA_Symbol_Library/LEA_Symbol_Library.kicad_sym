@@ -33015,7 +33015,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Conn_Header_10.16mm_76A_1000V_2Position_Side "
+	(symbol "Conn_Header_10.16mm_76A_1000V_2Position_Side"
 		(pin_names
 			(hide yes)
 		)
@@ -33088,7 +33088,7 @@
 				)
 			)
 		)
-		(property "mouser#" "651-1998933"
+		(property "mouser#" "651-1998933|651-1967375"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33099,7 +33099,7 @@
 				)
 			)
 		)
-		(property "manf#" "1998933"
+		(property "manf#" "1998933|1967375"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33121,7 +33121,57 @@
 				)
 			)
 		)
-		(symbol "Conn_Header_10.16mm_76A_1000V_2Position_Side _1_1"
+		(symbol "Conn_Header_10.16mm_76A_1000V_2Position_Side_0_1"
+			(polyline
+				(pts
+					(xy 3.81 6.35) (xy 1.27 6.35) (xy 1.27 1.27) (xy 3.81 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 3.81) (xy 1.27 3.81) (xy 0 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -1.27) (xy 1.27 -1.27) (xy 1.27 -6.35) (xy 3.81 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -3.81) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Conn_Header_10.16mm_76A_1000V_2Position_Side_1_1"
 			(rectangle
 				(start -2.54 8.89)
 				(end 3.81 -8.89)
@@ -33131,6 +33181,54 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(arc
+				(start -0.254 4.318)
+				(mid -0.0436 3.81)
+				(end -0.254 3.302)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.254 -3.302)
+				(mid -0.0436 -3.81)
+				(end -0.254 -4.318)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.27 3.81)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 132 0 0 1)
+				)
+			)
+			(circle
+				(center 1.27 -3.81)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 132 0 0 1)
 				)
 			)
 			(pin passive line
@@ -33360,6 +33458,102 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(arc
+				(start -0.254 4.318)
+				(mid -0.0436 3.81)
+				(end -0.254 3.302)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.254 -3.302)
+				(mid -0.0436 -3.81)
+				(end -0.254 -4.318)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.27 3.81)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 132 0 0 1)
+				)
+			)
+			(circle
+				(center 1.27 -3.81)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 132 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 6.35) (xy 1.27 6.35) (xy 1.27 1.27) (xy 3.81 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 3.81) (xy 0 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -1.27) (xy 1.27 -1.27) (xy 1.27 -6.35) (xy 3.81 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -3.81) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin passive line
