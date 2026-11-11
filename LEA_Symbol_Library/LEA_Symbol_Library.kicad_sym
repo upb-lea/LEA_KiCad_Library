@@ -58660,7 +58660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:TO-263-2_TabPin1"
+		(property "Footprint" "LEA_FootprintLibrary:TO-263-2_increased_distance"
 			(at -0.508 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
