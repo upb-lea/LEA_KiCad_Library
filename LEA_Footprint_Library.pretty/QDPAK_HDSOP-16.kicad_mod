@@ -1,0 +1,213 @@
+(footprint "QDPAK_HDSOP-16"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "HDSOP-16-infineon")
+	(property "Reference" "REF**"
+		(at 0 -12.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "66f8117a-5ac6-4256-91de-1b80e0392a62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HDSOP-16"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2d0e096-735f-46b7-a8c1-12d291a9c082")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22bb7410-ea93-4714-896c-fbed0bae5116")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f79ff868-32c9-4215-961b-3efc98dbc559")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -7.55 -7.75)
+		(end 7.55 7.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6bdc68fd-1d0e-4a18-9a05-1078842e9677")
+	)
+	(fp_circle
+		(center -7.8 9.75)
+		(end -7.6 9.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "1f344d6e-b7cb-4f8f-848c-9ec20be1d76a")
+	)
+	(fp_rect
+		(start -7.55 -11.5)
+		(end 7.55 11.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c8272b70-4ff6-4d02-b072-dd191e8c361b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fe3f243e-28a0-4a43-b310-aab767a22b05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -6.65 9.85)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d558d7b7-d723-401e-bd18-7f9c9024282f")
+	)
+	(pad "2" smd rect
+		(at -5.51 9.85)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4913db37-6388-4193-bc85-fe4f45fe6d3f")
+	)
+	(pad "3" smd rect
+		(at -4.37 9.85)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f0e45257-486d-4bec-ae17-a678d62d2282")
+	)
+	(pad "4" smd rect
+		(at -3.23 9.85)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "65085bea-893c-4445-b2be-4b0503254b13")
+	)
+	(pad "5" smd rect
+		(at 3.23 9.85)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "64ad8f56-fced-4d52-9793-5d7da684cdcf")
+	)
+	(pad "6" smd rect
+		(at 4.37 9.85)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bcab2dbc-a7da-41a4-8f9b-fcf103933f28")
+	)
+	(pad "7" smd rect
+		(at 5.51 9.85)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2f01c683-138c-4ecf-ac68-4f5673a4bcc6")
+	)
+	(pad "8" smd rect
+		(at 6.65 9.85)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "56c9dd66-d7c4-4e7b-bfa7-083e5cc4654e")
+	)
+	(pad "9" smd rect
+		(at 6.65 -9.85)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ad3c828b-a469-4121-a2b7-da2fc4c677dd")
+	)
+	(pad "10" smd rect
+		(at 5.51 -9.85)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0b99f06c-1a65-4f90-9ed0-5cae7fb44bc3")
+	)
+	(pad "11" smd rect
+		(at 4.37 -9.85)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "60f5e7ca-1c72-4682-9c84-26384d709e48")
+	)
+	(pad "12" smd rect
+		(at 3.23 -9.85)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0d190737-eee0-462a-b2d0-779d774670b1")
+	)
+	(pad "13" smd rect
+		(at -3.23 -9.85)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5e8bdf9b-2832-45a3-a969-23745a3b8fc8")
+	)
+	(pad "14" smd rect
+		(at -4.37 -9.85)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aba3a887-e0d9-43ad-a172-808e0c1069df")
+	)
+	(pad "15" smd rect
+		(at -5.51 -9.85)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "014e98e9-5b64-4886-a747-f6b25f14bd28")
+	)
+	(pad "16" smd rect
+		(at -6.65 -9.85)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6c06dace-8214-413c-a462-bc1ced9846b9")
+	)
+	(embedded_fonts no)
+	(model "${MODEL_3D}/infineon-pg-hdsop-16-221-3d-stp-package-en.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
